@@ -1,0 +1,31 @@
+format: jb-book
+root: index
+parts:
+  - caption: Course Overview
+    #numbered: True  # Only applies to chapters in Part 1.
+    chapters:
+    - file: syllabus
+    - file: schedule
+  - caption: Course Materials 
+    maxdepth: 2
+    chapters:
+    - file: lectures/week1/week1
+      sections:
+      - file: lectures/week1/day_0
+      - file: lectures/week1/day_1
+  - caption: Assignments
+    maxdepth: 1
+    chapters:
+    - file: assignments/pcas
+      sections:
+        - file: assignments/pca1
+    - file: assignments/icas
+      sections:
+        - file: assignments/ica1
+    - file: assignments/hws
+      sections:
+        - file: assignments/hw1
+    - file: assignments/project
+      sections:
+        - file: assignments/project_proposal
+        - file: assignments/final_project
