@@ -46,7 +46,7 @@ By the end of the course, students will be able to:
 These learning outcomes will be met through attendance at lectures,
 in-class activities, homework and writing assignments, and a final
 literature review project made of written and oral presentation on a
-selected topic. See [Projects](./assignments/projects.org) for more information,
+selected topic. See [Projects](./assignments/projects.md) for more information,
 including a list of possible topics.
 
 # Course format and teaching methods
@@ -136,7 +136,7 @@ oral presentation. The written text will be evaluated both by the
 instructor and two randomly selected peers, the oral presentation will
 be evaluated by all the student present plus the instructors. For more
 information on the literature review project/presentation and how it
-will be graded, see [here](./assignments/projects.org).
+will be graded, see [here](./assignments/projects.md).
 
 # Statement on Generative AI
 In this course any and all uses of generative artificial intelligence (AI)/large language model tools such as ChatGPT, Dall-e, Google Bard, Microsoft Bing, etc. will be considered a violation of the Code of Academic Integrity, specifically the prohibition against submitting work that is not your own. This applies to all assessments in the course, including case studies, written assignments, discussions, quizzes, exams, and problem sets. This course policy is driven by the learning goals and desired learning outcomes for the course described above. 
