@@ -11,14 +11,13 @@ parts:
     chapters:
     - file: lectures/week1/week1
       sections:
-      - file: lectures/week1/day_0
-      - file: lectures/week1/day_1
+        - file: lectures/week1/day_0
   - caption: Assignments
     maxdepth: 1
     chapters:
     - file: assignments/pcas
       sections:
-        - file: assignments/pca1
+         - file: assignments/pca1
     - file: assignments/icas
       sections:
         - file: assignments/ica1
@@ -27,5 +26,4 @@ parts:
         - file: assignments/hw1
     - file: assignments/project
       sections:
-        - file: assignments/project_proposal
-        - file: assignments/final_project
+        - file: assignments/projects
