@@ -1,7 +1,11 @@
-#ASTR 400A: Theoretical Astrophysics - Fall 2025
+# ASTR 400A: Theoretical Astrophysics - Fall 2025
+-
 
+_The theory of stellar structure and evolution, star formation, and planet formation._
 
-# Description of the course 
+-
+
+## Description of the course 
 
 The main topic of the course is stellar structure, a field of astronomy
 that brings together many different branches of physics (hydrodynamics,
