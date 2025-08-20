@@ -27,3 +27,4 @@ parts:
     - file: assignments/project
       sections:
         - file: assignments/projects
+        - file: assignments/honors

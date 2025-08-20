@@ -31,6 +31,14 @@ Steward Observatory Room **204** (SO 204), Tuesday and Thursday 12:30pm-1:45pm.
 -   Office hours: by appointment via email or the following [link](https://outlook.office.com/bookwithme/user/833d4a6f20774482afc3f8650b401684@arizona.edu/meetingtype/TDuAWBI7FUGjb949-MyYHw2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile) that works most of the time
 -   Communication also available as part of the Slack workspace [link](https://join.slack.com/t/astr400afall2-vud3452/shared_invite/zt-3bxxe8zgg-MphbdLItnLtZviWzj0ZXqg).
 
+## Teaching Assistant [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)
+
+- Office: SO 201 (next to class location!)
+- Email: [mahdinaseri@arizona.edu](mailto::mahdinaseri@arizona.edu)
+- Office hours: 1 hour/weekly, by appointment, or fixed time at later date
+- Communication also available as part of the Slack workspace and help channel.
+
+
 # Expected learning outcomes
 
 By the end of the course, students will be able to:
@@ -59,7 +67,7 @@ This course relies on frontal lectures, homework, and in-class problem
 solving activities (individual and in group), and student presentations.
 Some problem solving activities will be of computational nature.
 
-This is also a class with \"writing emphasis\", which will be included
+This is also a class with "writing emphasis", which will be included
 as part of homework and the final presentation.
 
 # Recommended textbooks and resources
@@ -73,7 +81,7 @@ follow these:
     lecture notes are freely available, accessible, and thorough, making
     them an excellent starting point. I strongly suggest downloading a
     copy for yourself early in the course.
--   [Kippenhahn, Weigert, & Weiss
+-   (Optional) [Kippenhahn, Weigert, & Weiss
     2012](https://link.springer.com/book/10.1007/978-3-642-30304-3).
     This is a classic textbook that you may continue to consult even as
     a seasoned researcher with emphasis on the physical processes in

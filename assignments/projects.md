@@ -148,4 +148,4 @@ above, you will do a stellar evolution theory project using the
 [MESA](https://docs.mesastar.org/en/latest/) code on your own laptop to
 investigate in more depth some aspect that we will only barely mention
 in class. [Follow this link to see an example honors
-project](./honors.org).
+project](./honors.md).
