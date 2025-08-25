@@ -33,9 +33,9 @@ Steward Observatory Room **204** (SO 204), Tuesday and Thursday 12:30pm-1:45pm.
 
 ## Teaching Assistant [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)
 
-- Office: SO 201 (next to class location!)
+- Office: SO 341 
 - Email: [mahdinaseri@arizona.edu](mailto::mahdinaseri@arizona.edu)
-- Office hours: 1 hour/weekly, by appointment, or fixed time at later date
+- Office hours: 1 hour/weekly, by appointment, or fixed time at later date, in [Parker Library](https://plso.arizona.edu/)
 - Communication also available as part of the Slack workspace and help channel.
 
 
