@@ -4,7 +4,7 @@
 ## Tuesday, August 26, 2025
 
 
-Slides are viewable. [here](day_0.html).
+Slides are viewable [HTML, preferred](day_0.html) and [PDF](day_0.pdf).
 
 
 ## Thursday, August 28, 2025
