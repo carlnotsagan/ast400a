@@ -3,6 +3,7 @@
 
 ## Tuesday, August 26, 2025
 
+
 Slides are viewable. [here](day_0.html).
 
 
