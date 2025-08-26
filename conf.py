@@ -33,3 +33,4 @@ pygments_style = 'sphinx'
 suppress_warnings = ['myst.domains']
 use_jupyterbook_latex = True
 use_multitoc_numbering = True
+numpydoc_show_class_members = False
