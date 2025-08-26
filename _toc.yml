@@ -9,9 +9,9 @@ parts:
   - caption: Course Materials 
     maxdepth: 2
     chapters:
-    - file: lectures/week1/week1.md
+    - file: lectures/week1/week1
       sections:
-        - file: lectures/week1/day_0
+        - file: day_0
   - caption: Assignments
     maxdepth: 1
     chapters:
