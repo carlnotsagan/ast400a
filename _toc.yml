@@ -11,7 +11,7 @@ parts:
     chapters:
     - file: lectures/week1/week1
       sections:
-        - file: lectures/week1/day_0_md
+        - file: lectures/week1/day_0
   - caption: Assignments
     maxdepth: 1
     chapters:
