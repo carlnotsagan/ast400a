@@ -5,7 +5,7 @@ title: Theoretical Astrophysics - ASTR "400A" F25 "001"
 author: Carl E. Fields
 copyright                   : "2025"
 logo: logo.png
-exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints","converted_lectures"]
+exclude_patterns            : [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints","converted_lectures","assignments/*-solutions.ipynb"]
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
