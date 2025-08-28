@@ -10,7 +10,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 26 Aug | Intro & orders of magnitude                          |                                                                  |
-| 28 Aug | An Overview of Stellar Evolution                     |                                                                  |
+| 28 Aug | An Overview of Stellar Evolution                     |    ICA 1, Due: End of day, August 28, 2025                       |
         
 
 ## Week 2
