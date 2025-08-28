@@ -35,7 +35,7 @@ Steward Observatory Room **204** (SO 204), Tuesday and Thursday 12:30pm-1:45pm.
 
 - Office: SO 341 
 - Email: [mahdinaseri@arizona.edu](mailto::mahdinaseri@arizona.edu)
-- Office hours: 1 hour/weekly, by appointment, or fixed time at later date, in [Parker Library](https://plso.arizona.edu/)
+- Office hours: 1 hour/weekly, **Mondays 1p-2pm** and by appointment in [Parker Library](https://plso.arizona.edu/).
 - Communication also available as part of the Slack workspace and help channel.
 
 
