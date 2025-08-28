@@ -3,3 +3,5 @@ _build/*
 .ipynb_checkpoints/
 converted_lectures/*
 images/*
+assignments/.DS_Store
+assignments/*-solutions.ipynb

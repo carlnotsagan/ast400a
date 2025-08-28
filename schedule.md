@@ -10,7 +10,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 26 Aug | Intro & orders of magnitude                          |                                                                  |
-| 28 Aug | Color-magnitude and Hertzsprung-Russell diagram      |                                                                  |
+| 28 Aug | An Overview of Stellar Evolution                     |                                                                  |
         
 
 ## Week 2
