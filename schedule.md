@@ -10,14 +10,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 26 Aug | Intro & orders of magnitude                          |                                                                  |
-| 28 Aug | An Overview of Stellar Evolution                     |    ICA 1, Due: End of day, August 28, 2025                       |
+| 28 Aug | An Overview of Stellar Evolution                     |[ICA 1](assignments/ica1.ipynb), Due: End of day, August 28, 2025 |
         
 
 ## Week 2
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 2 Sep | Hydrostatic equilibrium                               |                                                                  |
+| 2 Sep | Mechanical and thermal equilibrium                    | [ICA 2](assignments/ica2.ipynb), Due: End of day, Sept. 2, 2025 |
 | 4 Sep | Equations of State                                    |                                                                  |
 
 ## Week 3
@@ -25,7 +25,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 9 Sep  | Virial theorem                                       |                                                                  |
-| 11 Sep | Equations of State 2                                  |                                                                  |
+| 11 Sep | Equations of State 2                                 |                                                                  |
 
 
 ## Week 4
