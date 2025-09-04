@@ -81,12 +81,15 @@ follow these:
     lecture notes are freely available, accessible, and thorough, making
     them an excellent starting point. I strongly suggest downloading a
     copy for yourself early in the course.
+-   (Optional) [An Introduction to Stellar Astrophysics, 2nd Edition, Francis LeBlanc](https://www.wiley.com/en-us/An+Introduction+to+Stellar+Astrophysics%2C+2nd+Edition-p-9781394251797)
 -   (Optional) [Kippenhahn, Weigert, & Weiss
     2012](https://link.springer.com/book/10.1007/978-3-642-30304-3).
     This is a classic textbook that you may continue to consult even as
     a seasoned researcher with emphasis on the physical processes in
     stars. If you are an enrolled student and have troubles accessing
     this book, please come talk to me.
+-   (Optional) [Stellar Interiors : Physical Principles, Structure, and Evolution
+, Available Online](https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843)
 
 We will also use
 [MESA-web](http://user.astro.wisc.edu/~townsend/static.php?ref=mesa-web-submit),
