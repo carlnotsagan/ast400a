@@ -17,8 +17,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 2 Sep | Mechanical and thermal equilibrium                    | [ICA 2](assignments/ica2.ipynb), Due: End of day, Sept. 2, 2025 |
-| 4 Sep | Equations of State                                    |                                                                  |
+| 2 Sep  | Mechanical and thermal equilibrium                   | [ICA 2](assignments/ica2.ipynb), Due: End of day, Sept. 2, 2025  |
+| 4 Sep  | Equations of State I                                 |                                                                  |
 
 ## Week 3
 
@@ -91,7 +91,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 11 Nov | Pre-supernova evolution of massive stars             |                                                                  |
-| 13 Nov | Stellar Spectra II                                   |                                                                  |
+| 13 Nov | Guest Lecture: PhD Candidate, [Maria Mutz](https://w3.physics.arizona.edu/person/maria-mutz) Topic: TBD |                                                                  |
 
 ## Week 13
 
