@@ -24,23 +24,23 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 9 Sep  | Radiative energy transport & conduction              |                                                                  |
-| 11 Sep | Opacities                                            |                                                                  |
+| 9 Sep  | Equations of State II                                |                                                                  |
+| 11 Sep | Radiative energy transport & conduction              |                                                                  |
 
 
 ## Week 4
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 16 Sep | Convection                                           |                                                                  |
-| 18 Sep | Nuclear energy generation                            |                                                                  |
+| 16 Sep | Opacities                                            |                                                                  |
+| 18 Sep | Convection                                           |                                                                  |
 
 
 ## Week 5
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 23 Sep | Convection                                           |                                                                  |
+| 23 Sep | Magnetic Fields                                      |                                                                  |
 | 25 Sep | Stellar Energy Sources I                             |                                                                  |
 
 ## Week 6
