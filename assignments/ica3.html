@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>In-Class Assignment 2 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
+    <title>In-Class Assignment 3 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
   
   
   
@@ -61,12 +61,12 @@
     <script async="async" src="../_static/sphinx-thebe.js"></script>
     <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
     <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/ica2';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/ica3';</script>
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="In-Class Assignment 3" href="ica3.html" />
-    <link rel="prev" title="In-Class Assignment 1" href="ica1.html" />
+    <link rel="next" title="Homeworks" href="hws.html" />
+    <link rel="prev" title="In-Class Assignment 2" href="ica2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -226,8 +226,8 @@
 <li class="toctree-l2"><a class="reference internal" href="ica1.html">In-Class Assignment 1</a></li>
 
 
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 2</a></li>
-<li class="toctree-l2"><a class="reference internal" href="ica3.html">In-Class Assignment 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 3</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -295,7 +295,7 @@
       
       
       
-      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast400a/master?urlpath=tree/assignments/ica2.ipynb" target="_blank"
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast400a/master?urlpath=tree/assignments/ica3.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Binder"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -313,7 +313,7 @@
       
       
       
-      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast400a/blob/master/assignments/ica2.ipynb" target="_blank"
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast400a/blob/master/assignments/ica3.ipynb" target="_blank"
    class="btn btn-sm dropdown-item"
    title="Launch on Colab"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -333,7 +333,7 @@
 
 
 
-<a href="https://github.com/carlnotsagan/ast400a/issues/new?title=Issue%20on%20page%20%2Fassignments/ica2.html&body=Your%20issue%20content%20here." target="_blank"
+<a href="https://github.com/carlnotsagan/ast400a/issues/new?title=Issue%20on%20page%20%2Fassignments/ica3.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button"
    title="Open an issue"
    data-bs-placement="bottom" data-bs-toggle="tooltip"
@@ -359,7 +359,7 @@
       
       
       
-      <li><a href="../_sources/assignments/ica2.ipynb" target="_blank"
+      <li><a href="../_sources/assignments/ica3.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -443,7 +443,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>In-Class Assignment 2</h1>
+    <h1>In-Class Assignment 3</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -454,7 +454,12 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stellar-density-profile">1. Stellar density profile</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eos-regimes">EOS regimes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#degeneracy-vs-ideal-gas">Degeneracy vs. Ideal gas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-vs-radiation">Ideal gas vs. radiation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-the-boundaries">a. Plotting the boundaries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-plotting-the-boundaries-mesa">b. Plotting the boundaries + MESA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-stellar-density-profile">c. Stellar density profile</a></li>
 </ul>
             </nav>
         </div>
@@ -466,169 +471,285 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-2">
-<h1>In-Class Assignment 2<a class="headerlink" href="#in-class-assignment-2" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-3">
+<h1>In-Class Assignment 3<a class="headerlink" href="#in-class-assignment-3" title="Permalink to this heading">#</a></h1>
 <p><strong>Credit: These exercises follow from work by Mike Zingale’s computational lectures.</strong></p>
-<p>Following Exercise 1.3 from <a class="reference external" href="https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843">HKT, Chapter 1, Available Online</a>.</p>
 <p><strong>Work in groups of 2</strong></p>
 <section id="learning-objectives">
 <h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
-<li><p>familiarize with symbolic python tools</p></li>
-<li><p>use sympy to compute properties of stellar structure</p></li>
-<li><p>make estimates of stellar density and comparisons to the Sun</p></li>
+<li><p>explore EOS regimes</p></li>
+<li><p>label various EOS regimes</p></li>
+<li><p>plot stellar models on EOS regimes</p></li>
+<li><p>compare density profiles esimtates to stellar models</p></li>
 </ul>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Install sympy via conda using</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">conda</span> <span class="n">install</span> <span class="n">sympy</span>
-</pre></div>
-</div>
-</div>
-<p>Documentation is available <a class="reference external" href="https://docs.sympy.org/latest/install.html">here</a></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">sympy</span> <span class="kn">import</span> <span class="n">init_session</span>
-<span class="n">init_session</span><span class="p">(</span><span class="n">use_latex</span><span class="o">=</span><span class="s2">&quot;mathjax&quot;</span><span class="p">)</span>
-<span class="o">%</span><span class="k">matplotlib</span> inline
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>IPython console for SymPy 1.13.3 (Python 3.11.8-64-bit) (ground types: python)
+</div>
+<p>Physical constants, all in CGS</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">m_e</span> <span class="o">=</span> <span class="mf">9.11e-28</span>
+<span class="n">m_u</span> <span class="o">=</span> <span class="mf">1.66e-24</span>
+<span class="n">c</span> <span class="o">=</span> <span class="mf">3.e10</span>
+<span class="n">k</span> <span class="o">=</span> <span class="mf">1.38e-16</span>
+<span class="n">h</span> <span class="o">=</span> <span class="mf">6.63e-27</span>
+<span class="n">a</span> <span class="o">=</span> <span class="mf">5.67e-15</span>
+<span class="n">e</span> <span class="o">=</span> <span class="mf">4.8e-10</span> <span class="c1"># esu</span>
 
-These commands were executed:
-&gt;&gt;&gt; from sympy import *
-&gt;&gt;&gt; x, y, z, t = symbols(&#39;x y z t&#39;)
-&gt;&gt;&gt; k, m, n = symbols(&#39;k m n&#39;, integer=True)
-&gt;&gt;&gt; f, g, h = symbols(&#39;f g h&#39;, cls=Function)
-&gt;&gt;&gt; init_printing()
-
-Documentation can be found at https://docs.sympy.org/1.13.3/
+<span class="c1"># crystallization</span>
+<span class="n">Gamma_C</span> <span class="o">=</span> <span class="mi">170</span>
 </pre></div>
 </div>
 </div>
 </div>
 </section>
-<section id="stellar-density-profile">
-<h2>1. Stellar density profile<a class="headerlink" href="#stellar-density-profile" title="Permalink to this heading">#</a></h2>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rho</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;rho&#39;</span><span class="p">,</span> <span class="bp">cls</span><span class="o">=</span><span class="n">Function</span><span class="p">)</span>
-<span class="n">rhoc</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;rho_c&#39;</span><span class="p">)</span>
-<span class="n">qc</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;q_c&#39;</span><span class="p">)</span>
-<span class="n">Pc</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;P_c&#39;</span><span class="p">)</span>
-<span class="n">G</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;G&#39;</span><span class="p">)</span>
-<span class="n">Mstar</span><span class="p">,</span> <span class="n">Rstar</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;M_\star R_\star&#39;</span><span class="p">)</span>
-<span class="n">r</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;r&#39;</span><span class="p">)</span>
-<span class="n">xi</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;xi&#39;</span><span class="p">)</span>
-<span class="n">mu</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;mu&#39;</span><span class="p">)</span>
-<span class="n">k</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;k&#39;</span><span class="p">)</span>
-<span class="n">m_u</span> <span class="o">=</span> <span class="n">symbols</span><span class="p">(</span><span class="s1">&#39;m_u&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>Imagine a star has a density profile of the form:</p>
+<section id="eos-regimes">
+<h2>EOS regimes<a class="headerlink" href="#eos-regimes" title="Permalink to this heading">#</a></h2>
+<p>We can look at the <span class="math notranslate nohighlight">\(\rho\)</span>-<span class="math notranslate nohighlight">\(T\)</span> plane to understand where each of the components of the EOS
+dominate.</p>
+<p>Some composition info.  We’ll specify</p>
 <div class="math notranslate nohighlight">
-\[\rho(r) = \rho_c \left [ 1 - \left (\frac{r}{R_\star} \right )^3 \right ]\]</div>
-<p>where <span class="math notranslate nohighlight">\(\rho_c\)</span> is the central density.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># using the variables above, define this function for density and very its form by outputting the eqn</span>
-<span class="c1">#rho = #</span>
-</pre></div>
-</div>
-</div>
-</div>
-<blockquote>
-<div><p>Find an expression for the central density in terms of <span class="math notranslate nohighlight">\(R_\star\)</span> and <span class="math notranslate nohighlight">\(M_\star\)</span>.</p>
-</div></blockquote>
-<p>Recall the formulation for the mass equation</p>
+\[\mu_e = \left [ \sum_k \frac{Z_k X_k}{A_k} \right ]^{-1}\]</div>
 <div class="math notranslate nohighlight">
-\[
-M(r) = \int^{r}_{0} 4 \pi r^2 \rho dr
-\]</div>
-<ol class="arabic simple">
-<li><p>First, integrate the mass equation to <strong>find <span class="math notranslate nohighlight">\(M(r)\)</span></strong> using <a class="reference external" href="https://docs.sympy.org/latest/modules/integrals/integrals.html">sympys integrate function</a> evaluated from 0 to <span class="math notranslate nohighlight">\(R_\star\)</span> (defined above).</p></li>
-</ol>
+\[\mu_I = \left [ \sum_k \frac{X_k}{A_k} \right ]^{-1}\]</div>
+<p>and <span class="math notranslate nohighlight">\(\mu\)</span> such that</p>
+<div class="math notranslate nohighlight">
+\[\frac{1}{\mu} = \frac{1}{\mu_e} + \frac{1}{\mu_I}\]</div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1. solution here for M</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mu_e</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">mu_I</span> <span class="o">=</span> <span class="mf">1.0</span>
 
-<span class="c1"># M = </span>
+<span class="n">mu</span> <span class="o">=</span> <span class="mf">1.0</span> <span class="o">/</span> <span class="p">(</span><span class="mf">1.0</span><span class="o">/</span><span class="n">mu_e</span> <span class="o">+</span> <span class="mf">1.0</span><span class="o">/</span><span class="n">mu_I</span><span class="p">)</span>
+
+<span class="n">Z</span> <span class="o">=</span> <span class="mf">1.0</span>
 </pre></div>
 </div>
 </div>
 </div>
-<ol class="arabic" start="2">
-<li><p>Next, we want to <strong>solve for <span class="math notranslate nohighlight">\(\rho_{c}\)</span> by setting <span class="math notranslate nohighlight">\(M_\star\)</span> to the <span class="math notranslate nohighlight">\(M\)</span> we computed in 1</strong> using sympys <a class="reference external" href="https://docs.sympy.org/latest/modules/solvers/solvers.html#sympy.solvers.solvers.solve">Solve function</a>.</p>
-<blockquote>
-<div><p>Hint: in sympy you can set define an equality using <a class="reference external" href="https://docs.sympy.org/latest/modules/core.html#sympy.core.relational.Eq"><code class="docutils literal notranslate"><span class="pre">Eq</span></code> relation function</a>.
-For example to set the LHS of an equation to the RHS, you would write <code class="docutils literal notranslate"><span class="pre">Eq(LHS,RHS)</span></code>.</p>
-</div></blockquote>
-</li>
-</ol>
+</section>
+<section id="degeneracy-vs-ideal-gas">
+<h2>Degeneracy vs. Ideal gas<a class="headerlink" href="#degeneracy-vs-ideal-gas" title="Permalink to this heading">#</a></h2>
+<p>We find the (dimensionless) Fermi momentum (<span class="math notranslate nohighlight">\(x_F = p_F / (mc)\)</span>) via</p>
+<div class="math notranslate nohighlight">
+\[n_e = \frac{\rho}{\mu_e m_u} = \int_0^{x_F} x^2 dx\]</div>
+<p>where we assume complete degeneracy (so the distribution function is just a step-function).  This gives</p>
+<div class="math notranslate nohighlight">
+\[x_F = \left ( \frac{\rho}{\mu_e B} \right )^{1/3}\]</div>
+<p>where the constant <span class="math notranslate nohighlight">\(B\)</span> is:</p>
+<div class="math notranslate nohighlight">
+\[B = \frac{8\pi}{3} m_u \left (\frac{m_e c}{h} \right )^3\]</div>
+<p>We then define the transition to degeracy by comparing to the thermal energy, <span class="math notranslate nohighlight">\(k T\)</span></p>
+<div class="math notranslate nohighlight">
+\[E_F = m_e c^2 \left ( \sqrt{1 + x_F^2} - 1 \right ) \sim k T\]</div>
+<p>Here’s a function that computes this line</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># solve the equation M = Mstar for rhoc, we will need to name this variable different than we defined above,</span>
-<span class="c1"># such as rhoc_value to distinguish it from the symbolic definition above. </span>
-<span class="n">rhoc_value</span> <span class="o">=</span> <span class="c1">#solve(Eq(# finish here</span>
-<span class="c1">#rhoc_value</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fermi momentum constant (from number density integral)</span>
+<span class="n">B</span> <span class="o">=</span> <span class="c1"># </span>
+
+<span class="k">def</span> <span class="nf">deg_ideal</span><span class="p">(</span><span class="n">rho</span><span class="p">,</span> <span class="n">mu_e</span><span class="o">=</span><span class="mf">2.0</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;temperature on the line separating degeneracy and ideal gas as a function</span>
+<span class="sd"> of rho&quot;&quot;&quot;</span>
+
+    <span class="c1"># dimensionless Fermi momentum</span>
+    <span class="n">x_F</span> <span class="o">=</span> <span class="p">(</span><span class="n">rho</span> <span class="o">/</span> <span class="n">mu_e</span> <span class="o">/</span> <span class="n">B</span><span class="p">)</span><span class="o">**</span><span class="p">(</span><span class="mf">1.</span><span class="o">/</span><span class="mf">3.</span><span class="p">)</span>
+
+    <span class="c1"># set E_F = k T</span>
+    <span class="n">T</span> <span class="o">=</span> <span class="p">(</span><span class="mf">1.</span><span class="o">/</span><span class="n">k</span><span class="p">)</span> <span class="o">*</span> <span class="n">m_e</span> <span class="o">*</span> <span class="n">c</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">(</span><span class="mi">1</span> <span class="o">+</span> <span class="n">x_F</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span> <span class="o">-</span> <span class="mi">1</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">T</span>
 </pre></div>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
-    <span class="n">rhoc_value</span> <span class="o">=</span> <span class="c1">#solve(Eq(# finish here</span>
-                 <span class="o">^</span>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+    <span class="n">B</span> <span class="o">=</span> <span class="c1">#</span>
+        <span class="o">^</span>
 <span class="ne">SyntaxError</span>: invalid syntax
 </pre></div>
 </div>
 </div>
 </div>
-<ol class="arabic simple" start="3">
-<li><p>Next, confirm that the average density of this star is <span class="math notranslate nohighlight">\(\bar{\rho}=0.4\rho_{c}\)</span>, assuming <span class="math notranslate nohighlight">\(\bar{\rho}=M/V\)</span>.</p></li>
+</section>
+<section id="ideal-gas-vs-radiation">
+<h2>Ideal gas vs. radiation<a class="headerlink" href="#ideal-gas-vs-radiation" title="Permalink to this heading">#</a></h2>
+<p>A simple way to determine whether an ideal case or radiation dominates is to set their energy densities equal.
+At the temperatures where we expect this to occur, we will assume that the electrons are not degenerate,
+so we will use the full <span class="math notranslate nohighlight">\(\mu\)</span> for the composition in the ideal gas instead of <span class="math notranslate nohighlight">\(\mu_I\)</span>.</p>
+<p>Our line is:</p>
+<div class="math notranslate nohighlight">
+\[\frac{\rho k T}{\mu m_u} \sim \frac{1}{3}a T^4\]</div>
+<p>Here’s a function that computes this</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">rad_ideal</span><span class="p">(</span><span class="n">rho</span><span class="p">,</span> <span class="n">mu</span><span class="o">=</span><span class="mf">0.5</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;temperature on the line separating radiation and ideal gas as a function </span>
+<span class="sd">of rho&quot;&quot;&quot;</span>
+
+    <span class="c1"># T = complete here</span>
+    <span class="k">return</span> <span class="n">T</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Finally, at low temperatures and high densities, the ions can crystalize.  The comparison where is the thermal energy to the Coulomb energy:</p>
+<div class="math notranslate nohighlight">
+\[\Gamma = \frac{kT}{Z^2 e^2 / a}\]</div>
+<p>where we take <span class="math notranslate nohighlight">\(\Gamma = 170\)</span> as the point where crystalization sets in.</p>
+<p>The separation between ions, <span class="math notranslate nohighlight">\(a\)</span> is found via:</p>
+<div class="math notranslate nohighlight">
+\[V = n_I^{-1} = \frac{\mu_I m_u}{\rho} = \frac{4\pi}{3} a^3\]</div>
+<p>Putting this together, the expression for the boundary of crystalization is computed below</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">crystallization</span><span class="p">(</span><span class="n">rho</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;temperature where crystallization of ions sets in&quot;&quot;&quot;</span>
+
+    <span class="n">T</span> <span class="o">=</span> <span class="p">((</span><span class="n">rho</span> <span class="o">/</span> <span class="n">mu_I</span><span class="p">)</span> <span class="o">*</span> <span class="p">(</span><span class="n">Z</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="n">e</span><span class="o">**</span><span class="mi">2</span> <span class="o">/</span> <span class="p">(</span><span class="n">Gamma_C</span> <span class="o">*</span> <span class="n">k</span><span class="p">))</span><span class="o">**</span><span class="mi">3</span> <span class="o">*</span> <span class="p">(</span><span class="mf">4.0</span> <span class="o">*</span> <span class="n">np</span><span class="o">.</span><span class="n">pi</span> <span class="o">/</span> <span class="mf">3.0</span> <span class="o">/</span> 
+<span class="n">m_u</span><span class="p">))</span><span class="o">**</span><span class="p">(</span><span class="mf">1.</span><span class="o">/</span><span class="mf">3.</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">T</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="a-plotting-the-boundaries">
+<h2>a. Plotting the boundaries<a class="headerlink" href="#a-plotting-the-boundaries" title="Permalink to this heading">#</a></h2>
+<p>Download the following model files (or reuse them from last time!):</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(1 M_\odot\)</span> history data <a class="reference download internal" download="" href="../_downloads/37ec98734aaf9904d6cfe1bcb1f724b7/M1_default_trimmed_history.data"><span class="xref download myst">M1_default_trimmed_history.data</span></a></p></li>
+<li><p><span class="math notranslate nohighlight">\(1 M_\odot\)</span> - main sequence profile data <a class="reference download internal" download="" href="../_downloads/1db8be2af3a201848afe3c268232e999/M1_default_profile8.data"><span class="xref download myst">M1_default_profile8.data</span></a></p>
+<ol class="arabic simple">
+<li><p>Plot and label the three lines defined above. Label the <em>radiation dominated</em>, <em>ideal gas</em>, the electron degenerate regime (including a line denoting the density from non-relativistic to relativistic regimes), and lastly, label the crystallization regime.</p></li>
+</ol>
+</li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#rho = np.logspace(-5, 10, 2000)</span>
+
+<span class="c1">#fig = plt.figure()</span>
+<span class="c1">#ax = fig.add_subplot(111)</span>
+
+<span class="c1">#ax.plot(rho,##</span>
+
+<span class="c1"># annotate NR vs ER degeneracy line here</span>
+<span class="c1">#ax.vlines(*</span>
+
+
+<span class="c1">#ax.text(1.e-2, 1.e9, </span>
+
+<span class="c1"># label the location of the Sun here</span>
+<span class="c1">#ax.text(150,#)</span>
+
+<span class="c1">#ax.set_xscale(&quot;log&quot;)</span>
+<span class="c1">#ax.set_yscale(&quot;log&quot;)</span>
+
+<span class="c1">#ax.set_xlabel(r&quot;$\rho$ (g/cc)&quot;)</span>
+<span class="c1">#ax.set_ylabel(&quot;$T$ (K)&quot;)</span>
+<span class="c1">#ax.grid(ls=&quot;:&quot;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="b-plotting-the-boundaries-mesa">
+<h2>b. Plotting the boundaries + MESA<a class="headerlink" href="#b-plotting-the-boundaries-mesa" title="Permalink to this heading">#</a></h2>
+<p>Here, produce the same plot but overlay the results of the 1M MESA stellar model history data from ICA1.</p>
+<ol class="arabic simple">
+<li><p>load the MESA data using pandas,</p></li>
+<li><p>copy the above labelled plot below and plot the 1Msun MESA model on the same plot</p></li>
 </ol>
 <blockquote>
-<div><p>Hint: for fractions in sympy you would use the <a class="reference external" href="https://docs.sympy.org/latest/modules/core.html#sympy.core.numbers.Rational">Rational function</a>.</p>
+<div><p>Descirbe in a few sentences to trajectory of the 1M stellar model in the diagram.</p>
 </div></blockquote>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># substitute our found rhoc_value expression into our original rho expression here, </span>
-<span class="c1"># then output the function to verify</span>
-<span class="c1">#rhobar = symbols(r&quot;\bar{\rho}&quot;)</span>
-<span class="c1">#rhobar = #</span>
-<span class="c1">#rhobar</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#one_m_sun_history = pd.read_csv(&#39;data/M1_default_trimmed_history.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#one_m_sun.columns</span>
 </pre></div>
 </div>
 </div>
 </div>
-<ol class="arabic simple" start="4">
-<li><p>Next, use substition again to plug in the solar radius and mass in cgs and evaluate <span class="math notranslate nohighlight">\(\rho_{c}\)</span> using <a class="reference external" href="https://docs.sympy.org/latest/modules/core.html#module-sympy.core.evalf">evalf</a> to make an estimate for the central density with the equation we found in 2.</p></li>
-</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">msun</span> <span class="o">=</span> <span class="mf">2e33</span>    <span class="c1"># g</span>
-<span class="n">rsun</span> <span class="o">=</span> <span class="mf">6.96e10</span> <span class="c1"># cm</span>
-
-<span class="c1"># compute a numerical value here by substituting in solar radius and mass, then evaluate</span>
-<span class="c1">#rhoc_value = rhoc_value.subs(###).evalf()</span>
-<span class="c1">#rhoc_value</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain density and temperature data here</span>
 </pre></div>
 </div>
 </div>
 </div>
-<ol class="arabic simple" start="6">
-<li><p>Confirm that <span class="math notranslate nohighlight">\(\bar{\rho}\approx 1.4 \ (\rm{g \ cm}^{-3})\)</span> for this density profile using the numerical value found in 4. and Subs. Similar to the <a class="reference external" href="https://en.wikipedia.org/wiki/Sun">Sun</a>.</p></li>
-</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># compute a numerical value for rhobar here for this density profile and the rhoc found above</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># combined plot here</span>
 </pre></div>
 </div>
 </div>
 </div>
+</section>
+<section id="c-stellar-density-profile">
+<h2>c. Stellar density profile<a class="headerlink" href="#c-stellar-density-profile" title="Permalink to this heading">#</a></h2>
+<p>In ICA2, we made an a stellar density profile of the form:</p>
+<div class="math notranslate nohighlight">
+\[\rho(r) = \rho_c \left [ 1 - \left (\frac{r}{R_\star} \right )^3 \right ]\]</div>
+<p>where <span class="math notranslate nohighlight">\(\rho_c\)</span> is the central density.</p>
+<p>Below we will test if this profile is an appropriate for a 1 solar mass model on the main-sequence.</p>
+<ol class="arabic simple">
+<li><p>load the MESA <strong>profile</strong> data using pandas <code class="docutils literal notranslate"><span class="pre">M1_default_profile8.data</span></code> this is the stellar structure profile on the main-sequence</p></li>
+<li><p>next, produce an equation density profile above using the central density from the profile data as well as the max radius for <span class="math notranslate nohighlight">\(\rho_c\)</span> and <span class="math notranslate nohighlight">\(R_\star\)</span>.</p></li>
+<li><p>Plot both on the same plot then answer the following below.</p></li>
+</ol>
+<blockquote>
+<div><p>Descirbe in a few sentences if the analytical profile is appropriate for this stellar model?</p>
+</div></blockquote>
+<blockquote>
+<div><p>Hint: Such analytical or polytropic EOS can be great approximations for stellar structure but typically not for the <em>entire</em> star except for in the cases of fully convective or white dwarf stars - not a star on the MS!</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#load `M1_default_profile8.data` profile data here with pandas</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># set the radius and density variables here, we only have log rho so youll need to convert!</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># compute max / central density here and Rstar or maximum radius here</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># use these above rho_central and Rstar values to define our rho(r) profile from the analytical equation</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># finally, plot both on the same plot</span>
+</pre></div>
+</div>
+</div>
+</div>
+<blockquote>
+<div><p>Descirbe in a few sentences if the analytical profile is appropriate for this stellar model?</p>
+</div></blockquote>
 </section>
 </section>
 
@@ -663,20 +784,20 @@ For example to set the LHS of an equation to the RHS, you would write <code clas
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="ica1.html"
+       href="ica2.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">In-Class Assignment 1</p>
+        <p class="prev-next-title">In-Class Assignment 2</p>
       </div>
     </a>
     <a class="right-next"
-       href="ica3.html"
+       href="hws.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">In-Class Assignment 3</p>
+        <p class="prev-next-title">Homeworks</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -697,7 +818,12 @@ For example to set the LHS of an equation to the RHS, you would write <code clas
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#stellar-density-profile">1. Stellar density profile</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eos-regimes">EOS regimes</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#degeneracy-vs-ideal-gas">Degeneracy vs. Ideal gas</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-vs-radiation">Ideal gas vs. radiation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-the-boundaries">a. Plotting the boundaries</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-plotting-the-boundaries-mesa">b. Plotting the boundaries + MESA</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-stellar-density-profile">c. Stellar density profile</a></li>
 </ul>
   </nav></div>
 
