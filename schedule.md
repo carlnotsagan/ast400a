@@ -18,22 +18,22 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 2 Sep  | Mechanical and thermal equilibrium                   | [ICA 2](assignments/ica2.ipynb), Due: End of day, Sept. 2, 2025  |
-| 4 Sep  | Equations of State I                                 |                                                                  |
+| 4 Sep  | Equations of State I                                 | [ICA 3](assignments/ica3.ipynb), Due: End of day, Sept. 4, 2025  |
 
 ## Week 3
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 9 Sep  | Virial theorem                                       |                                                                  |
-| 11 Sep | Equations of State 2                                 |                                                                  |
+| 9 Sep  | Radiative energy transport & conduction              |                                                                  |
+| 11 Sep | Opacities                                            |                                                                  |
 
 
 ## Week 4
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 16 Sep | Radiative energy transport & conduction              |                                                                  |
-| 18 Sep | Opacities                                            |                                                                  |
+| 16 Sep | Convection                                           |                                                                  |
+| 18 Sep | Nuclear energy generation                            |                                                                  |
 
 
 ## Week 5
@@ -41,14 +41,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 23 Sep | Convection                                           |                                                                  |
-| 25 Sep | Nuclear energy generation                            |                                                                  |
+| 25 Sep | Stellar Energy Sources I                             |                                                                  |
 
 ## Week 6
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 30 Sep | Nuclear reaction chains                              |                                                                  |
-| 2 Oct  | Neutrino cooling + stellar evolution codes           |                                                                  |
+| 30 Sep | Stellar Energy Sources II                            |                                                                  |
+| 2 Oct  | Stellar Modeling                                     |                                                                  |
 
 ## Week 7
 
