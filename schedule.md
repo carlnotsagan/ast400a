@@ -10,7 +10,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 26 Aug | Intro & orders of magnitude                          |                                                                  |
-| 28 Aug | An Overview of Stellar Evolution                     |[ICA 1](assignments/ica1.ipynb), Due: End of day, August 28, 2025 |
+| 28 Aug | An Overview of Stellar Evolution                     | [ICA 1](assignments/ica1.ipynb), Due: End of day, August 28, 2025|
         
 
 ## Week 2
@@ -24,7 +24,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 9 Sep  | Equations of State II                                |                                                                  |
+| 9 Sep  | Equations of State II                                | [HW 1](assignments/hw1.md), Due: **Before class, Sept. 18, 2025**|
 | 11 Sep | Radiative energy transport & conduction              |                                                                  |
 
 
