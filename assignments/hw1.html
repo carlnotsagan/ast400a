@@ -59,6 +59,8 @@
     <script src="../_static/design-tabs.js"></script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/hw1';</script>
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../genindex.html" />
@@ -208,6 +210,15 @@
 <li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_1.html">An Overview of Stellar Evolution</a></li>
 </ul>
 </details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_2.html">Mechanical and thermal equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_3.html">Equations of State I</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week3/week3.html">Week 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week3/day_4.html">Equations of State II</a></li>
+</ul>
+</details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
 <ul class="current nav bd-sidenav">
@@ -219,6 +230,8 @@
 <li class="toctree-l2"><a class="reference internal" href="ica1.html">In-Class Assignment 1</a></li>
 
 
+<li class="toctree-l2"><a class="reference internal" href="ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica3.html">In-Class Assignment 3</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 current active has-children"><a class="reference internal" href="hws.html">Homeworks</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
@@ -395,7 +408,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#due-before-class-tbd">Due Before Class TBD</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ast400a-theoretical-astrophysics-fall-2025-steward-observatory-due-thur-sept-18-12-30p-before-class"><em>AST400A - Theoretical Astrophysics - Fall 2025, Steward Observatory</em>
+<strong>Due Thur. Sept. 18, 12:30p (before class)</strong></a></li>
 </ul>
             </nav>
         </div>
@@ -409,10 +423,38 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="homework-1">
 <h1>Homework 1<a class="headerlink" href="#homework-1" title="Permalink to this heading">#</a></h1>
-<p><strong>Total: (80 points)</strong> - Each sub question worth 10 points.</p>
-<p><strong>Submitting your work:</strong> Turn into D2L as a PDF. In most cases, solutions will be found by hand, then written up in LaTeX or Markdown and exported as a final PDF.</p>
-<section id="due-before-class-tbd">
-<h2>Due Before Class TBD<a class="headerlink" href="#due-before-class-tbd" title="Permalink to this heading">#</a></h2>
+<section id="ast400a-theoretical-astrophysics-fall-2025-steward-observatory-due-thur-sept-18-12-30p-before-class">
+<h2><em>AST400A - Theoretical Astrophysics - Fall 2025, Steward Observatory</em>
+<strong>Due Thur. Sept. 18, 12:30p (before class)</strong><a class="headerlink" href="#ast400a-theoretical-astrophysics-fall-2025-steward-observatory-due-thur-sept-18-12-30p-before-class" title="Permalink to this heading">#</a></h2>
+<p>Relevant Chapters: <a class="reference external" href="https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843">HKT</a> Ch. 3,4; Pols Lectures Ch. 2,3 <a class="reference external" href="https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf">here</a>. Not a complete list of the topics covered in the problem set. You are encouraged to work together on the problem sets but you must submit your own work.</p>
+<p><strong>Submitting your work:</strong> Turn into D2L as a PDF. In most cases, solutions will be found by hand, then written up in LaTeX/Markdown/Word and exported as a final PDF. If you have not worked with LaTeX before consider starting from one of the Overleaf Homework Templates <a class="reference external" href="https://tr.overleaf.com/gallery/tagged/homework">here</a>.</p>
+<p><strong>Extra credit:</strong> HW assignments submitted that were prepared using LaTeX will earn 10 points extra credit.</p>
+<p><strong>Total: (90 points)</strong></p>
+<p>–</p>
+<ol class="arabic simple">
+<li><p>A binary star system is observed, and since the separation between the two stars is
+much smaller than the distance of the system from the observer, it can be supposed that
+both stars are found at the same distance from Earth. The absolute magnitude in a given
+photometric band of the first star is determined to be -0.5, while its apparent magnitude
+is 3.5. <strong>Total: (20 points)</strong></p>
+<ul class="simple">
+<li><p>(<strong>a</strong>) - If the apparent magnitude of the second star is 4.5, what is its absolute
+magnitude? (<strong>10 points</strong>)</p></li>
+<li><p>(<strong>b</strong>) - At what distance (in light-years) is the binary system from the observer? (<strong>10 points</strong>)</p></li>
+</ul>
+</li>
+<li><p>Two stars have the same <span class="math notranslate nohighlight">\(T_{\rm{eff}}\)</span> but one of these stars is in the giant phase and has a radius of 15 times larger than the other star, which is on the main-sequence. <strong>Total: (10 points)</strong></p>
+<ul class="simple">
+<li><p>(<strong>a</strong>) - What is the numerical difference between the absolute magnitudes of these stars <strong>(10 points)</strong></p></li>
+</ul>
+</li>
+<li><p>At what distance would the Sun have to be to have the same apparent magnitude as a
+100 W light bulb found at 100 m away? Express your answer in lightyear (ly). <strong>Total: (20 points)</strong></p></li>
+<li><p>Calculate <span class="math notranslate nohighlight">\(P( r)\)</span> inside a sphere of radius <span class="math notranslate nohighlight">\(R_\star\)</span> with a <strong>constant</strong> density <span class="math notranslate nohighlight">\(\rho\)</span> assuming hydrostatic equilibrium is valid for this sphere. <strong>Total: (20 points)</strong>
+<em>For this problem, you may solve by hand or using <a class="reference external" href="https://www.sympy.org/en/index.html">SymPy</a>. If using sympy, upload the PDF output of your notebook as part of the solution.</em></p></li>
+<li><p>Calculate the total gravitational potential energy of a fictitious star with mass <span class="math notranslate nohighlight">\(M_\star\)</span> and radius <span class="math notranslate nohighlight">\(R_\star\)</span> that has a density profile <span class="math notranslate nohighlight">\(\rho( r) = \rho_{0}(1 - r/ R_\star)\)</span>. Give your answer in terms of <span class="math notranslate nohighlight">\(M_\star\)</span> and <span class="math notranslate nohighlight">\(R_\star\)</span>. <strong>Total: (20 points)</strong>
+<em>For this problem, you may solve by hand or using <a class="reference external" href="https://www.sympy.org/en/index.html">SymPy</a>. If using sympy, upload the PDF output of your notebook as part of the solution.</em></p></li>
+</ol>
 </section>
 </section>
 
@@ -480,7 +522,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#due-before-class-tbd">Due Before Class TBD</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ast400a-theoretical-astrophysics-fall-2025-steward-observatory-due-thur-sept-18-12-30p-before-class"><em>AST400A - Theoretical Astrophysics - Fall 2025, Steward Observatory</em>
+<strong>Due Thur. Sept. 18, 12:30p (before class)</strong></a></li>
 </ul>
   </nav></div>
 
