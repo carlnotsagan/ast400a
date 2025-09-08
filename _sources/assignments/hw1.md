@@ -1,6 +1,9 @@
 # Homework 1
+
 _AST400A - Theoretical Astrophysics - Fall 2025, Steward Observatory_
+
 **Due Thur. Sept. 18, 12:30p (before class)**
+
 -
 
 Relevant Chapters: [HKT](https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843) Ch. 3,4; Pols Lectures Ch. 2,3 [here](https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf). Not a complete list of the topics covered in the problem set. You are encouraged to work together on the problem sets but you must submit your own work. 
