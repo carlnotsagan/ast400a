@@ -24,31 +24,31 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 9 Sep  | Equations of State II                                | [HW 1](assignments/hw1.md), Due: **Before class, Sept. 18, 2025**|
-| 11 Sep | Radiative energy transport & conduction              |                                                                  |
+| 9 Sep  | Equations of State II                                | [ICA 4](assignments/ica4.ipynb); [HW 1](assignments/hw1.md), Due: **Before class, Sept. 18, 2025**|
+| 11 Sep | Polytropic stellar models                            | [ICA 5](assignments/ica5.ipynb),  Not for credit                 |
 
 
 ## Week 4
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 16 Sep | Opacities                                            |                                                                  |
-| 18 Sep | Convection                                           |                                                                  |
+| 16 Sep | Radiative energy transport & conduction              |                                                                  |
+| 18 Sep | Opacities                                            |                                                                  |
 
 
 ## Week 5
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 23 Sep | Magnetic Fields                                      |                                                                  |
-| 25 Sep | Stellar Energy Sources I                             |                                                                  |
+| 23 Sep | Convection                                           |                                                                  |
+| 25 Sep | Magnetic Fields                                      |                                                                  |
 
 ## Week 6
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 30 Sep | Stellar Energy Sources II                            |                                                                  |
-| 2 Oct  | Stellar Modeling                                     |                                                                  |
+| 30 Sep | Stellar Energy Sources I                            |                                                                  |
+| 2 Oct  | Stellar Energy Sources II                            |                                                                  |
 
 ## Week 7
 
@@ -97,8 +97,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 18 Nov | Student Presentations                                |                                                                  |
-| 20 Nov | Student Presentations                                |                                                                  |
+| 18 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)                          |                                                                  |
+| 20 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)                          |                                                                  |
 
 ## Week 14
 
