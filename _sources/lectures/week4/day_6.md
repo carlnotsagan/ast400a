@@ -1,7 +1,7 @@
-# Polytropic stellar models
+# Radiative energy transport & conduction
 -
 
-## September, 11, 2025
+## September, 16, 2025
 
 
 Slides are viewable [HTML](day_6.html).
