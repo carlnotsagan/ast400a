@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>In-Class Assignment 5 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
+    <title>In-Class Assignment 6 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
   
   
   
@@ -221,7 +221,7 @@
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
-<li class="toctree-l2"><a class="reference internal" href="../lectures/week4/day_6.html">Polytropic stellar models</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week4/day_6.html">Radiative energy transport &amp; conduction</a></li>
 </ul>
 </details></li>
 </ul>
@@ -239,7 +239,7 @@
 <li class="toctree-l2"><a class="reference internal" href="ica3.html">In-Class Assignment 3</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica4.html">In-Class Assignment 4</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica5.html">In-Class Assignment 5</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 5</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 6</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -455,7 +455,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>In-Class Assignment 5</h1>
+    <h1>In-Class Assignment 6</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -465,13 +465,17 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-polytropes-to-mesa-models">Comparing Polytropes to MESA models</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifying-different-regimes-in-solar-like-stellar-model">Identifying Different Regimes in Solar-like Stellar Model</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation">Implementation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-an-n-1-polytrope">a. Plotting an <span class="math notranslate nohighlight">\(n=1\)</span> Polytrope</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model">b. Using Polytrope to determine the degeneracy regine of a WD MESA model</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#result-here-in-words">3 result here in words</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">b. Locating the Non-Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-4-result-here-in-words">b 4 result here in words</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-defining-a-core-boundary-in-a-solar-like-star">c. Defining a Core-Boundary in a Solar-Like star</a></li>
 </ul>
             </nav>
         </div>
@@ -483,23 +487,19 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-5">
-<h1>In-Class Assignment 5<a class="headerlink" href="#in-class-assignment-5" title="Permalink to this heading">#</a></h1>
-<p><strong>Credit: <a class="reference external" href="https://github.com/zingale">Mike Zingale</a></strong> for the Polytrope Routines and Notes.</p>
-<section id="comparing-polytropes-to-mesa-models">
-<h2>Comparing Polytropes to MESA models<a class="headerlink" href="#comparing-polytropes-to-mesa-models" title="Permalink to this heading">#</a></h2>
+  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-6">
+<h1>In-Class Assignment 6<a class="headerlink" href="#in-class-assignment-6" title="Permalink to this heading">#</a></h1>
+<section id="identifying-different-regimes-in-solar-like-stellar-model">
+<h2>Identifying Different Regimes in Solar-like Stellar Model<a class="headerlink" href="#identifying-different-regimes-in-solar-like-stellar-model" title="Permalink to this heading">#</a></h2>
 <section id="learning-objectives">
 <h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>explore the relationship between lane-emden solutions and physical variables</p></li>
-<li><p>identify physics informed polytrope profiles for models of massive stars and white dwarfs</p></li>
+<li><p>explore the stellar structure of a solar-like star on the main-sequence</p></li>
+<li><p>determine the radiative diffusion dominated regions</p></li>
+<li><p>determine where convection dominates</p></li>
+<li><p>explore opacity profiles in solar models</p></li>
+<li><p>define core structure in stellar models</p></li>
 </ul>
-</section>
-</section>
-<section id="implementation">
-<h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this heading">#</a></h2>
-<p>This is our main class that does the integration.  We initialize it with the polytopic index, and then it will integrate the system for us.  We can then plot it or get
-the parameters <span class="math notranslate nohighlight">\(\xi_1\)</span> and <span class="math notranslate nohighlight">\(-\xi_1^2 d\theta/d\xi |_{\xi_1}\)</span></p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -509,206 +509,186 @@ the parameters <span class="math notranslate nohighlight">\(\xi_1\)</span> and <
 </div>
 </div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">class</span> <span class="nc">Polytrope</span><span class="p">:</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;a polytrope of index n&quot;&quot;&quot;</span>
-    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">n</span><span class="p">,</span> <span class="n">h0</span><span class="o">=</span><span class="mf">1.e-2</span><span class="p">,</span> <span class="n">tol</span><span class="o">=</span><span class="mf">1.e-12</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">n</span> <span class="o">=</span> <span class="n">n</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">xi</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">theta</span> <span class="o">=</span> <span class="p">[]</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">dtheta_dxi</span> <span class="o">=</span> <span class="p">[]</span>
-        
-        <span class="bp">self</span><span class="o">.</span><span class="n">_integrate</span><span class="p">(</span><span class="n">h0</span><span class="p">,</span> <span class="n">tol</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="nf">_integrate</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">h0</span><span class="p">,</span> <span class="n">tol</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot;integrate the Lane-Emden system&quot;&quot;&quot;</span>
-
-        <span class="c1"># our solution vector q = (y, z)</span>
-        <span class="n">q</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">dtype</span><span class="o">=</span><span class="n">np</span><span class="o">.</span><span class="n">float64</span><span class="p">)</span>
-        <span class="n">xi</span> <span class="o">=</span> <span class="mf">0.0</span>
-
-        <span class="n">h</span> <span class="o">=</span> <span class="n">h0</span>
-
-        <span class="c1"># initial conditions</span>
-        <span class="n">q</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.0</span>
-        <span class="n">q</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.0</span>
-
-        <span class="k">while</span> <span class="n">h</span> <span class="o">&gt;</span> <span class="n">tol</span><span class="p">:</span>
-            <span class="c1"># 4th order RK integration -- first find the slopes</span>
-            <span class="n">k1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_rhs</span><span class="p">(</span><span class="n">xi</span><span class="p">,</span> <span class="n">q</span><span class="p">)</span>
-            <span class="n">k2</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_rhs</span><span class="p">(</span><span class="n">xi</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">h</span><span class="p">,</span> <span class="n">q</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">h</span><span class="o">*</span><span class="n">k1</span><span class="p">)</span>
-            <span class="n">k3</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_rhs</span><span class="p">(</span><span class="n">xi</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">h</span><span class="p">,</span> <span class="n">q</span><span class="o">+</span><span class="mf">0.5</span><span class="o">*</span><span class="n">h</span><span class="o">*</span><span class="n">k2</span><span class="p">)</span>
-            <span class="n">k4</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_rhs</span><span class="p">(</span><span class="n">xi</span><span class="o">+</span><span class="n">h</span><span class="p">,</span> <span class="n">q</span><span class="o">+</span><span class="n">h</span><span class="o">*</span><span class="n">k3</span><span class="p">)</span>
-
-            <span class="c1"># now update the solution to the new xi</span>
-            <span class="n">q</span> <span class="o">+=</span> <span class="p">(</span><span class="n">h</span><span class="o">/</span><span class="mf">6.0</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">k1</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">k2</span> <span class="o">+</span> <span class="mi">2</span><span class="o">*</span><span class="n">k3</span> <span class="o">+</span> <span class="n">k4</span><span class="p">)</span>
-            <span class="n">xi</span> <span class="o">+=</span> <span class="n">h</span>
-
-            <span class="c1"># set the new stepsize--our systems is always convex</span>
-            <span class="c1"># (theta&#39;&#39; &lt; 0), so the intersection of theta&#39; with the</span>
-            <span class="c1"># x-axis will always be a conservative estimate of the</span>
-            <span class="c1"># radius of the star.  Make sure that the stepsize does</span>
-            <span class="c1"># not take us past that.</span>
-            <span class="n">R_est</span> <span class="o">=</span> <span class="n">xi</span> <span class="o">-</span> <span class="n">q</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="n">q</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-
-            <span class="k">if</span> <span class="n">xi</span> <span class="o">+</span> <span class="n">h</span> <span class="o">&gt;</span> <span class="n">R_est</span><span class="p">:</span>
-                <span class="n">h</span> <span class="o">=</span> <span class="o">-</span><span class="n">q</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">/</span><span class="n">q</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-
-            <span class="c1"># store the solution:</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">xi</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">xi</span><span class="p">)</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">theta</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">q</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
-            <span class="bp">self</span><span class="o">.</span><span class="n">dtheta_dxi</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">q</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
-
-        <span class="bp">self</span><span class="o">.</span><span class="n">xi</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">xi</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">theta</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">theta</span><span class="p">)</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">dtheta_dxi</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">dtheta_dxi</span><span class="p">)</span>
-
-    <span class="k">def</span> <span class="nf">_rhs</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">xi</span><span class="p">,</span> <span class="n">q</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot; the righthand side of the LE system, q&#39; = f&quot;&quot;&quot;</span>
-
-        <span class="n">f</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">q</span><span class="p">)</span>
-
-        <span class="c1"># y&#39; = z</span>
-        <span class="n">f</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span> <span class="n">q</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
-        
-        <span class="c1"># for z&#39;, we need to use the expansion if we are at xi = 0,</span>
-        <span class="c1"># to avoid dividing by 0</span>
-        <span class="k">if</span> <span class="n">xi</span> <span class="o">==</span> <span class="mf">0.0</span><span class="p">:</span>
-            <span class="n">f</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="p">(</span><span class="mf">2.0</span><span class="o">/</span><span class="mf">3.0</span><span class="p">)</span> <span class="o">-</span> <span class="n">q</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">**</span><span class="bp">self</span><span class="o">.</span><span class="n">n</span>
-        <span class="k">else</span><span class="p">:</span>
-            <span class="n">f</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="o">-</span><span class="mf">2.0</span><span class="o">*</span><span class="n">q</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">/</span><span class="n">xi</span> <span class="o">-</span> <span class="n">q</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">**</span><span class="bp">self</span><span class="o">.</span><span class="n">n</span>
-
-        <span class="k">return</span> <span class="n">f</span>
-
-    <span class="k">def</span> <span class="nf">get_params</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
-<span class="w">        </span><span class="sd">&quot;&quot;&quot; return the standard polytrope parameters xi_1,</span>
-<span class="sd">        and [-xi**2 theta&#39;]_{xi_1} &quot;&quot;&quot;</span>
-        <span class="n">xi1</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">xi</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="n">p2</span> <span class="o">=</span> <span class="o">-</span><span class="n">xi1</span><span class="o">**</span><span class="mi">2</span> <span class="o">*</span> <span class="bp">self</span><span class="o">.</span><span class="n">dtheta_dxi</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
-        <span class="k">return</span> <span class="n">xi1</span><span class="p">,</span> <span class="n">p2</span>
-</pre></div>
-</div>
-</div>
-</div>
 </section>
-<section id="a-plotting-an-n-1-polytrope">
-<h2>a. Plotting an <span class="math notranslate nohighlight">\(n=1\)</span> Polytrope<a class="headerlink" href="#a-plotting-an-n-1-polytrope" title="Permalink to this heading">#</a></h2>
+</section>
+<section id="a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">
+<h2>a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star<a class="headerlink" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star" title="Permalink to this heading">#</a></h2>
+<p>Download the following model files locally. These data were produced using the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/1m_pre_ms_to_wd.html"><code class="docutils literal notranslate"><span class="pre">1m_pre_ms_to_wd</span></code></a> test suite.</p>
+<ul class="simple">
+<li><p><strong>New</strong> <span class="math notranslate nohighlight">\(1.0 M_{\odot}\)</span> Main-Sequence <em>profile</em> data: <a class="reference internal" href="#data/1m_pre_ms_to_wd.data"><span class="xref myst">1m_pre_ms_to_wd.data</span></a>;</p></li>
+</ul>
 <ol class="arabic simple">
-<li><p>Call the <code class="docutils literal notranslate"><span class="pre">Polytrope</span></code> <a class="reference external" href="https://docs.python.org/3/tutorial/classes.html">Class</a> and obtain the results.</p></li>
-<li><p>Plot results for <span class="math notranslate nohighlight">\(\theta_{n}(\xi)\)</span> (<span class="math notranslate nohighlight">\(\rho(r)/\rho_{\rm{c}}\)</span>) as a function of the dimensionless radial coordinate <span class="math notranslate nohighlight">\(\xi\)</span>.</p></li>
+<li><p>Plot the radius (in units of Rsun) versus the radiative luminosity <code class="docutils literal notranslate"><span class="pre">lum_rad</span></code> divided by the <em>total</em> luminosity <code class="docutils literal notranslate"><span class="pre">luminosity</span></code> using the MESA data.</p></li>
+<li><p>Locate the approximate fractional radius and annotate where the <span class="math notranslate nohighlight">\(L_{\rm{rad}}/L&lt;1\)</span> using <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.pyplot.axvline.html"><code class="docutils literal notranslate"><span class="pre">plt.axvline</span></code></a> with a black dashed or dotted line.</p></li>
 </ol>
 <blockquote>
-<div><p>Hint: You can access the varible of the class by calling the class object followed by <code class="docutils literal notranslate"><span class="pre">.variable</span></code>. For obtaining <span class="math notranslate nohighlight">\(\xi\)</span> that would be <code class="docutils literal notranslate"><span class="pre">p.xi</span></code>.</p>
+<div><p>Hint: this value in the Sun is about 72% in <a class="reference external" href="https://iopscience.iop.org/article/10.3847/1538-4357/ad4355">Solar calibration models</a></p>
 </div></blockquote>
-<p>Plot the results of an <span class="math notranslate nohighlight">\(n=1\)</span> polytrope.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1 result here</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 2 result here</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>From the readings in HKT 7.1-7.2. We found some of the following relations:</p>
-<p>Equation 7.20-7.22:</p>
-<div class="math notranslate nohighlight">
-\[
-\Large
-\rho(r) = \rho_{\rm{c}}\theta^{n}(r) 
-\]</div>
-<div class="math notranslate nohighlight">
-\[
-\Large
-P(r) =  P_{\rm{c}} \theta^{1+n}(r)
-\]</div>
-<div class="math notranslate nohighlight">
-\[
-\Large
-P_{\rm{c}} =  K \rho^{1+1/n}_{\rm{c}} 
-\]</div>
-<p>and</p>
-<p>Equation 7.25:</p>
-<div class="math notranslate nohighlight">
-\[
-\Large
-r^{2}_{n} = \frac{(n+1)P_{c}}{4\pi G \rho^{2}_{c}}
-\]</div>
-<p>and</p>
-<div class="math notranslate nohighlight">
-\[
-\Large
-r = r_{n} \xi
-\]</div>
-</section>
-<section id="b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model">
-<h2>b. Using Polytrope to determine the degeneracy regine of a WD MESA model<a class="headerlink" href="#b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model" title="Permalink to this heading">#</a></h2>
-<p>Download the following model files locally. These data were produced using the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/make_co_wd.html"><code class="docutils literal notranslate"><span class="pre">make_co_wd</span></code></a> test suite.</p>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(0.6 M_{\odot}\)</span> WD <em>profile</em> data: <a class="reference download internal" download="" href="../_downloads/8f9a53a7b5f28f46e50633b3f160a41a/co_wd_profile.data"><span class="xref download myst">co_wd_profile.data</span></a>;</p></li>
-</ul>
-<p>Then,</p>
-<ol class="arabic simple">
-<li><p>produce a polytrope of index <code class="docutils literal notranslate"><span class="pre">n</span></code> between 1 to 4.</p></li>
-<li><p>Load the MESA profile data for analysis.</p></li>
-<li><p>compute <span class="math notranslate nohighlight">\(P_{\rm{c}}\)</span> and <span class="math notranslate nohighlight">\(\rho_{\rm{c}}\)</span> using the central/max values from the MESA model.</p></li>
-<li><p>compute <code class="docutils literal notranslate"><span class="pre">r_n</span></code> using the central values from the MESA model</p></li>
-<li><p>use <code class="docutils literal notranslate"><span class="pre">r_n</span></code> to compute the physical radius (<span class="math notranslate nohighlight">\(r=r_n \xi\)</span>) of the polytrope</p></li>
-<li><p>Use <span class="math notranslate nohighlight">\(\rho_{\rm{c}}\)</span> from the MESA data to compute the density (<span class="math notranslate nohighlight">\(\rho=\theta_{n}\rho_{\rm{c}}\)</span>)</p></li>
-<li><p>Load the radius <span class="math notranslate nohighlight">\(r\)</span> and density <span class="math notranslate nohighlight">\(\rho\)</span> from the MESA data</p></li>
-<li><p>plot (and label) them on the same plot as the MESA model from 0 to <span class="math notranslate nohighlight">\(r\approx 1\times 10^9\)</span> cm.</p></li>
-<li><p>try different values of <span class="math notranslate nohighlight">\(n\)</span> to determine if the WD is in the <em>non-relativstic</em> or <em>relativistic</em> region.</p></li>
-<li><p>Describe in a few sentences your results.</p></li>
+<ol class="arabic simple" start="3">
+<li><p><strong>Describe</strong> in a few sentences the results of your plot and what could be happening in the region where radiation luminosity is non-dominant.</p></li>
 </ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1 results here</span>
-<span class="c1"># produce a polytrope here</span>
-<span class="n">G</span> <span class="o">=</span> <span class="mf">6.67e-8</span>
-<span class="n">msun</span> <span class="o">=</span> <span class="mf">2e33</span>    <span class="c1"># g</span>
-<span class="n">rsun</span> <span class="o">=</span> <span class="mf">6.96e10</span> <span class="c1"># cm</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## load MESA data here</span>
+<span class="n">one_msun_ms_profile</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/1m_ms_profile.data&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\s+&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">one_msun_ms_profile</span><span class="o">.</span><span class="n">columns</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Index([&#39;zone&#39;, &#39;mass&#39;, &#39;logR&#39;, &#39;logT&#39;, &#39;logRho&#39;, &#39;logP&#39;, &#39;x_mass_fraction_H&#39;,
+       &#39;y_mass_fraction_He&#39;, &#39;z_mass_fraction_metals&#39;, &#39;logdq&#39;,
+       ...
+       &#39;brunt_N2_dimensionless&#39;, &#39;brunt_N_dimensionless&#39;, &#39;brunt_frequency&#39;,
+       &#39;brunt_B&#39;, &#39;brunt_nu&#39;, &#39;log_brunt_nu&#39;, &#39;log_lamb_Sl1&#39;, &#39;log_lamb_Sl2&#39;,
+       &#39;log_lamb_Sl3&#39;, &#39;log_lamb_Sl10&#39;],
+      dtype=&#39;object&#39;, length=162)
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 2-3 results here</span>
-<span class="c1">#co_wd_profile = pd.read_csv(&#39;data/co_wd_profile.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
-<span class="c1">#co_wd_profile.columns</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">lsun_cgs</span> <span class="o">=</span> <span class="mf">3.826e33</span> <span class="c1"># erg / sec (1 Lsun)</span>
+<span class="n">rsun_cgs</span> <span class="o">=</span> <span class="mf">6.96e10</span>  <span class="c1"># cm</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 4-6 results here - compute r_n here HKT 7.25, given above for reference</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain mesa variables here</span>
+<span class="c1">#one_msun_ms_radius_cm = one_msun_ms_profile[&#39;###</span>
+<span class="c1">#one_msun_ms_lum_cgs = one_msun_ms_profile[&#39;##</span>
+<span class="c1">#one_msun_ms_lum_rad_cgs = one_msun_ms_profile[&#39;###</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 7 results here - it will be in units of Rsun so you will need to convert to cm !</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1-2 result here</span>
+<span class="c1">#plt.plot(##,label=r&#39;$L_{rad}/L$&#39;)</span>
+<span class="c1">#plt.axvline(###,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(##)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="result-here-in-words">
+<h2>3 result here in words<a class="headerlink" href="#result-here-in-words" title="Permalink to this heading">#</a></h2>
+<p><span class="math notranslate nohighlight">\(\ldots\)</span></p>
+</section>
+<section id="b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">
+<h2>b. Locating the Non-Diffusion Dominated Regime in a Solar-like star<a class="headerlink" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star" title="Permalink to this heading">#</a></h2>
+<p>Using the same MESA data:</p>
+<ol class="arabic simple">
+<li><p>Next, compute the radial radiative flux (<span class="math notranslate nohighlight">\(F_{\rm{rad}}\)</span>) and the total convective flux (<span class="math notranslate nohighlight">\(F_{\rm{conv}}\)</span>) as a function of radius (in units of Rsun) and plot them on the same plot and <a class="reference external" href="https://www.w3schools.com/python/matplotlib_labels.asp"><strong>label</strong></a>. Normalize both fluxes by their maximum values for comparison using <code class="docutils literal notranslate"><span class="pre">max()</span></code>. Make sure to use cgs!</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Use our relation for the Flux where <span class="math notranslate nohighlight">\(F=l~/4\pi r^2\)</span>,</p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>On this same plot, again label the approximate location where <span class="math notranslate nohighlight">\(F_{\rm{rad}}\)</span> &lt; <span class="math notranslate nohighlight">\(F_{\rm{conv}}\)</span> in this case.</p></li>
+</ol>
+<p>This plot suggests we transition from radiation diffusion dominated to convection dominated in the outer region.</p>
+<ol class="arabic simple" start="3">
+<li><p>Confirm this result by plotting our opacity <span class="math notranslate nohighlight">\(\kappa\)</span> as a function of radius on a seperate. Due to the large range of this value limit of <code class="docutils literal notranslate"><span class="pre">plt.ylim(0,30)</span></code>.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: From the terminal you can open mesa data using the command <code class="docutils literal notranslate"><span class="pre">less</span> <span class="pre">-S</span> <span class="pre">1m_ms_profile.data</span></code> then you can tab left and right to see which variables are available. <span class="math notranslate nohighlight">\(\kappa\)</span> is <code class="docutils literal notranslate"><span class="pre">opacity</span></code> in this case.</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p><strong>Describe</strong> in a few words what this change in opacity might suggest to help or hurt the onset of convective energy transfer?</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1 result here - be sure to convert to CGS before computing the Flux!</span>
+<span class="c1">#one_msun_ms_lum_conv_cgs =##</span>
+<span class="c1">#one_msun_ms_flux = one_msun_ms_lum_cgs ##</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 8 results here - plot the converted polytrope data and the raw MESA data</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot the fluxes here </span>
+<span class="c1">#plt.plot(##,label=r&#39;$F_{rad}$&#39;)</span>
+<span class="c1">#plt.plot(##,label=r&#39;$F_{conv}$&#39;)</span>
+<span class="c1">#plt.axvline(##,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.legend()</span>
 </pre></div>
 </div>
 </div>
 </div>
-<p>Explain in words, which index you found to match best, what this states about the material, and why does the profile differ near the surface?</p>
-<p>c results here.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain opacity here</span>
+<span class="c1">#one_msun_ms_kappa =# </span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot kappa here </span>
+<span class="c1">#plt.plot(#,label=&#39;$\kappa$&#39;)</span>
+<span class="c1">#plt.ylim(#)</span>
+<span class="c1">#plt.axvline(##,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.axvline(##,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.legend()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="b-4-result-here-in-words">
+<h3>b 4 result here in words<a class="headerlink" href="#b-4-result-here-in-words" title="Permalink to this heading">#</a></h3>
+<p><span class="math notranslate nohighlight">\(\ldots\)</span></p>
+</section>
+</section>
+<section id="c-defining-a-core-boundary-in-a-solar-like-star">
+<h2>c. Defining a Core-Boundary in a Solar-Like star<a class="headerlink" href="#c-defining-a-core-boundary-in-a-solar-like-star" title="Permalink to this heading">#</a></h2>
+<p>Using the same MESA data:</p>
+<ol class="arabic simple">
+<li><p>Reproduce your Flux plots from part B.2.</p></li>
+</ol>
+<p>Our goal is to add a few more things to this plot.</p>
+<ol class="arabic simple" start="2">
+<li><p>Plot the normalized nuclear energy generation as a function of radius (in units of Rsun) on the same plot and label.</p></li>
+<li><p>Then, use that to determine the approximate location where <span class="math notranslate nohighlight">\(\epsilon_{\rm{nuc,normalized}}\rightarrow0\)</span>, we will define this as the edge of the hydrogen burning core.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: In the sun, this is at about a <a class="reference external" href="https://en.wikipedia.org/wiki/Solar_core">fractional radius of 20%</a></p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Lastly, annotate the three regions on the same plot, ‘core’, ‘radiative’, and ‘convective’ using annotate.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain eps nuc</span>
+<span class="c1">#one_msun_ms_eps_nuc = #</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot everything combined and annotated</span>
+<span class="c1">#plt.plot(#,label=r&#39;$F_{rad}$&#39;)</span>
+<span class="c1">#plt.plot(#,label=r&#39;$F_{conv}$&#39;)</span>
+<span class="c1">#plt.plot(#,label=r&#39;$\epsilon_{\rm{nuc}}$&#39;)</span>
+<span class="c1">#plt.axvline(#,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.axvline(#,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.annotate(&#39;core&#39;,xy=(#,#)) ## (x,y) data pair of the x and y variable</span>
+<span class="c1">#plt.ylabel(&#39;Normalized Variable&#39;)</span>
+<span class="c1">#plt.xlabel(&#39;r/Rsun&#39;)</span>
+<span class="c1">#plt.legend()</span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
 </section>
 
@@ -776,13 +756,17 @@ r = r_{n} \xi
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-polytropes-to-mesa-models">Comparing Polytropes to MESA models</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifying-different-regimes-in-solar-like-stellar-model">Identifying Different Regimes in Solar-like Stellar Model</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation">Implementation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-an-n-1-polytrope">a. Plotting an <span class="math notranslate nohighlight">\(n=1\)</span> Polytrope</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model">b. Using Polytrope to determine the degeneracy regine of a WD MESA model</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#result-here-in-words">3 result here in words</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">b. Locating the Non-Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-4-result-here-in-words">b 4 result here in words</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-defining-a-core-boundary-in-a-solar-like-star">c. Defining a Core-Boundary in a Solar-Like star</a></li>
 </ul>
   </nav></div>
 
