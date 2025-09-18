@@ -32,8 +32,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 16 Sep | Radiative energy transport & conduction              | [ICA 6](assignments/ica6.ipynb), Due: End of day, Sept. 16, 2025  |
-| 18 Sep | Opacities                                            |                                                                  |
+| 16 Sep | Radiative energy transport & conduction              | [ICA 6](assignments/ica6.ipynb), Due: End of day, Sept. 16, 2025 |
+| 18 Sep | Opacities                                            | [ICA 7](assignments/ica7.ipynb),  Not for credit                 |
 
 
 ## Week 5
