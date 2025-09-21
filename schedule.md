@@ -41,7 +41,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 23 Sep | Convection                                           |                                                                  |
-| 25 Sep | Magnetic Fields                                      |                                                                  |
+| 25 Sep | Convection II                                        |                                                                  |
 
 ## Week 6
 
