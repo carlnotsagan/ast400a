@@ -9,9 +9,7 @@ Each presentation should be **10 minutes** long.
 
 We will have **5 minutes** after for the referees to ask their assigned questions.
 
---
-
-### Rolling Deadline, Last Day is Dec 9. to Submit
+## Rolling Deadline, Last Day is Dec 9. to Submit
 
 Submit as a PDF your responses for 1. and 2. once you have been able to ask all of your questions and provide all of your feedback. 
 
