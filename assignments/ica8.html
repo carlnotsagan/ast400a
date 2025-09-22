@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>In-Class Assignment 10 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
+    <title>In-Class Assignment 8 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
   
   
   
@@ -246,7 +246,7 @@
 <li class="toctree-l2"><a class="reference internal" href="ica5.html">In-Class Assignment 5</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica6.html">In-Class Assignment 6</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica7.html">In-Class Assignment 7</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 10</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 8</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -462,7 +462,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>In-Class Assignment 10</h1>
+    <h1>In-Class Assignment 8</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -476,13 +476,12 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convection-in-massive-stars">Convection in Massive Stars</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a">a.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b">b.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#c">c.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#d">d.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-convection-in-massive-stars">a. Convection in Massive Stars</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#result-here">4. result here</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-convection-in-a-solar-like-star">b. Convection in a Solar-Like Star</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-convection-in-an-advanced-massive-star">c. Convection in an Advanced Massive Star</a></li>
 </ul>
             </nav>
         </div>
@@ -494,15 +493,15 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-10">
-<h1>In-Class Assignment 10<a class="headerlink" href="#in-class-assignment-10" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-8">
+<h1>In-Class Assignment 8<a class="headerlink" href="#in-class-assignment-8" title="Permalink to this heading">#</a></h1>
 <section id="exploring-heat-transfer-via-convection-with-mesa">
 <h2>Exploring Heat Transfer via Convection with MESA<a class="headerlink" href="#exploring-heat-transfer-via-convection-with-mesa" title="Permalink to this heading">#</a></h2>
 <section id="learning-objectives">
 <h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>identify convective and radiative regions using MESA models and analytical expressions</p></li>
-<li><p>explain convective behavior in advanced burning massive stars</p></li>
+<li><p>explain convective behavior in advanced burning massive stars and Solar-like stars</p></li>
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -513,15 +512,49 @@ document.write(`
 </div>
 </div>
 </div>
-<p>Download the following model files locally. These data were produced using the <code class="docutils literal notranslate"><span class="pre">20M_pre_ms_to_core_collapse</span></code> test suite.</p>
+</section>
+</section>
+<section id="a-convection-in-massive-stars">
+<h2>a. Convection in Massive Stars<a class="headerlink" href="#a-convection-in-massive-stars" title="Permalink to this heading">#</a></h2>
+<p>Download the following model files locally. These data were produced using the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/20M_pre_ms_to_core_collapse.html"><code class="docutils literal notranslate"><span class="pre">20m_ms_convection_profile.data</span></code></a> test suite.</p>
 <ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(15 M_{\odot}\)</span>: <a class="reference internal" href="#data/week5/15m_ms_profile.data"><span class="xref myst">15m_ms_profile.data</span></a>; <a class="reference internal" href="#data/week5/15m_core_O_burning_profile.data"><span class="xref myst">15m_core_O_burning_profile.data</span></a>;</p></li>
+<li><p><strong>New</strong> <span class="math notranslate nohighlight">\(20.0 M_{\odot}\)</span> Main-Sequence <em>profile</em> data: <a class="reference download internal" download="" href="../_downloads/992d2397e3df10042d4a9756cfa251e7/20m_ms_convection_profile.data"><span class="xref download myst">20m_ms_convection_profile.data</span></a>;</p></li>
 </ul>
+<ol class="arabic simple">
+<li><p>Plot the adiabatic gradient <code class="docutils literal notranslate"><span class="pre">grada</span></code>, the radiative gradient <code class="docutils literal notranslate"><span class="pre">gradr</span></code>, and the <em>Ledoux</em> term (<code class="docutils literal notranslate"><span class="pre">gradL</span></code>) as a function of radius (in units of Rsun) using the MESA data.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: You may want to set your ylim to <code class="docutils literal notranslate"><span class="pre">0.2,1</span></code></p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Locate the approximate fractional radius and annotate where the Schwarzchild Criterion
+$<span class="math notranslate nohighlight">\(
+\nabla &lt; \nabla_{\rm{ad}}
+\)</span>$
+is volated and fill in the convective region of the star using <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.fill_betweenx.html"><code class="docutils literal notranslate"><span class="pre">plt.fill_betweenx()</span></code></a>.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: You may want to set your yrange to <code class="docutils literal notranslate"><span class="pre">(0,1)</span></code></p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>We found that the limiting cases for <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> is: 0.4 for an ideal gas without radiation and 0.25 for a radiation-dominated gas. Label these two limits on the same plot using <code class="docutils literal notranslate"><span class="pre">plt.axhline</span></code></p></li>
+<li><p><strong>Describe</strong> in a few sentences where is the model convective and way? Also, describe where <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> is closer to one limit or the other and why? What does it mean when <span class="math notranslate nohighlight">\(\nabla_{\rm{L}}=0\)</span>?</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Compare with Pols Fig. 5.4.</p>
+</div></blockquote>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load data and see which variables are available</span>
-<span class="c1">##ms = pd.read_csv(&#39;15m_ms_profile.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
-<span class="c1">##ms.columns</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## load MESA data here</span>
+<span class="c1">#massive_star_ms_profile = pd.read_csv(&#39;data/20m_ms_convection_profile.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#list(massive_star_ms_profile)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">rsun_cgs</span> <span class="o">=</span> <span class="mf">6.96e10</span>  <span class="c1"># cm</span>
 </pre></div>
 </div>
 </div>
@@ -529,72 +562,163 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># example reading a variable from the profile data</span>
-<span class="c1">##ms_gradT = ms[&#39;gradT&#39;]</span>
-<span class="c1">##ms_gradT</span>
+<span class="c1">#massive_star_ms_profile_gradrad = massive_star_ms_profile[&#39;###</span>
+<span class="c1">#massive_star_ms_profile_radius_cm = massive_star_ms_profile[&#39;##</span>
+<span class="c1">#massive_star_ms_profile_gradad = ##</span>
+<span class="c1">#massive_star_ms_profile_gradL = ##</span>
 </pre></div>
 </div>
 </div>
 </div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1-3 result here</span>
+<span class="c1">#plt.title(&#39;20$M_\odot$ Main-Sequence MESA Model&#39;)</span>
+
+<span class="c1">#plt.plot(##</span>
+<span class="c1">#         ##,label=r&#39;$\nabla_{\rm{ad}}$&#39;)</span>
+
+
+<span class="c1">#plt.axhline(##,ls=&#39;--&#39;,lw=1,color=&#39;cyan&#39;) # ideal gas nabla ad</span>
+<span class="c1">#plt.axhline(##,ls=&#39;--&#39;,lw=1,color=&#39;cyan&#39;) # radiation dominated gas nabla ad</span>
+
+<span class="c1">#plt.fill_betweenx((0,1),#,##,color=&#39;dodgerblue&#39;,alpha=0.5) # fill in convective zone</span>
+
+<span class="c1">#plt.axvline(##,color=&#39;k&#39;,ls=&#39;--&#39;,lw=1) # convective zone boundary</span>
+
+<span class="c1">#plt.ylim(</span>
+<span class="c1">#plt.xlim(</span>
+
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(r&#39;$r/R_{\odot}$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\nabla$&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<section id="result-here">
+<h3>4. result here<a class="headerlink" href="#result-here" title="Permalink to this heading">#</a></h3>
+<p>Radiation dominated, lower <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> in the atmosphere and it is in fact convective. When <span class="math notranslate nohighlight">\(\nabla_{\rm{L}}=0\)</span>, the composition is uniform.</p>
 </section>
 </section>
-<section id="convection-in-massive-stars">
-<h2>Convection in Massive Stars<a class="headerlink" href="#convection-in-massive-stars" title="Permalink to this heading">#</a></h2>
-<p>Using the 15<span class="math notranslate nohighlight">\(M_\odot\)</span> model MESA profile:</p>
-<section id="a">
-<h3>a.<a class="headerlink" href="#a" title="Permalink to this heading">#</a></h3>
-<p>Using the <code class="docutils literal notranslate"><span class="pre">15m_ms_profile.data</span></code> profile.</p>
+<section id="b-convection-in-a-solar-like-star">
+<h2>b. Convection in a Solar-Like Star<a class="headerlink" href="#b-convection-in-a-solar-like-star" title="Permalink to this heading">#</a></h2>
+<p>Download the following model files locally. These data were produced using the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/1m_pre_ms_to_wd.html"><code class="docutils literal notranslate"><span class="pre">1m_pre_ms_to_wd.data</span></code></a> test suite.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(1.0 M_{\odot}\)</span> Main-Sequence <em>profile</em> data: <a class="reference download internal" download="" href="../_downloads/54cdcd8866375f1d822bb16cc3e29dc0/1m_pre_ms_to_wd.data"><span class="xref download myst">1m_pre_ms_to_wd.data</span></a>;</p></li>
+</ul>
 <ol class="arabic simple">
-<li><p>Compute the adiabatic temperature gradient using HKT 3.99 for <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> and the profile plot data.</p></li>
-<li><p>Plot the computed <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> and <span class="math notranslate nohighlight">\(\nabla_{\rm{actual}}\)</span> from the MESA profile <code class="docutils literal notranslate"><span class="pre">gradT</span></code> as a function of mass.</p></li>
+<li><p>Plot the adiabatic gradient <code class="docutils literal notranslate"><span class="pre">grada</span></code> and the radiative gradient <code class="docutils literal notranslate"><span class="pre">gradr</span></code> as a function of radius (in units of Rsun) using the MESA data.</p></li>
+<li><p>Locate the approximate fractional radius and annotate where the Schwarzchild Criterion
+$<span class="math notranslate nohighlight">\(
+\nabla &lt; \nabla_{\rm{ad}}
+\)</span>$
+is volated and fill in the convective region of the star using <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.fill_betweenx.html"><code class="docutils literal notranslate"><span class="pre">plt.fill_betweenx()</span></code></a>.</p></li>
 </ol>
-<p>Where is the model convective?</p>
-<p>Compare with Pols Fig. 5.4.</p>
+<blockquote>
+<div><p>Hint: You may want to set your yrange to <code class="docutils literal notranslate"><span class="pre">(0,1)</span></code></p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>We found that the limiting cases for <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> is: 0.4 for an ideal gas without radiation and 0.25 for a radiation-dominated gas. Label these two limits on the same plot using <code class="docutils literal notranslate"><span class="pre">plt.axhline</span></code></p></li>
+<li><p><strong>Describe</strong> in a few sentences where is the model convective and way? Also, describe where <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> is closer to one limit or the other and why?</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Compare with Pols Fig. 5.4.</p>
+</div></blockquote>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## b results here</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## load b data here</span>
+<span class="c1">#massive_star_ms_profile = pd.read_csv(&#39;data/1m_pre_ms_to_wd.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#massive_star_ms_profile_gradrad = massive_star_ms_profile[&#39;##</span>
+<span class="c1">#massive_star_ms_profile_radius_cm = massive_star_ms_profile[&#39;##</span>
+<span class="c1">#massive_star_ms_profile_gradad = massive_star_ms_profile[&#39;##</span>
+<span class="c1"># this data set doesnt have gradL :(                                                        </span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1-3 result here</span>
+<span class="c1">#plt.plot(##,label=r&#39;$\nabla_{\rm{ad}}$&#39;)</span>
+
+<span class="c1">#plt.plot(##,label=r&#39;$\nabla_{\rm{rad}}$&#39;)</span>
+
+<span class="c1">#plt.title(&#39;1$M_\odot$ Main-Sequence MESA Model&#39;)</span>
+
+<span class="c1">#plt.fill_betweenx(#</span>
+
+<span class="c1">#plt.axvline(#</span>
+
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(r&#39;$r/R_{\odot}$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\nabla$&#39;)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </section>
-<section id="b">
-<h3>b.<a class="headerlink" href="#b" title="Permalink to this heading">#</a></h3>
-<p>Add the radiative gradient <span class="math notranslate nohighlight">\(\nabla_{\rm{rad}}\)</span> (<code class="docutils literal notranslate"><span class="pre">gradr</span></code>) and the <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> (<code class="docutils literal notranslate"><span class="pre">grada</span></code>) computed by MESA on the same plot.</p>
-<p>Do they agree with your computed <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span>?</p>
+<section id="c-convection-in-an-advanced-massive-star">
+<h2>c. Convection in an Advanced Massive Star<a class="headerlink" href="#c-convection-in-an-advanced-massive-star" title="Permalink to this heading">#</a></h2>
+<p>Download the following model files locally. These data were produced using the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/1m_pre_ms_to_wd.html"><code class="docutils literal notranslate"><span class="pre">15m_core_O_burning_profile.data</span></code></a> test suite.</p>
+<ul class="simple">
+<li><p><strong>New</strong> <span class="math notranslate nohighlight">\(15 M_{\odot}\)</span> Core O-Burning <em>profile</em> data: <a class="reference download internal" download="" href="../_downloads/3668b948f6a96d477f88faa8f39b835f/15m_core_O_burning_profile.data"><span class="xref download myst">15m_core_O_burning_profile.data</span></a>;</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>Plot the adiabatic gradient <code class="docutils literal notranslate"><span class="pre">grada</span></code> and the radiative gradient <code class="docutils literal notranslate"><span class="pre">gradr</span></code> as a function of <strong>mass</strong> <code class="docutils literal notranslate"><span class="pre">mass</span></code> (in units of Msun) using the MESA data from 0 to 7 Msun.</p></li>
+<li><p>On the same plot, plot the normalized nuclear energy generation rate <code class="docutils literal notranslate"><span class="pre">eps_nuc</span></code> and the non-normalized mean molecular weight. Set the ylim to 0,2.</p></li>
+<li><p>Locate the approximate fractional radius and annotate where the Schwarzchild Criterion
+$<span class="math notranslate nohighlight">\(
+\nabla &lt; \nabla_{\rm{ad}}
+\)</span>$
+is volated and fill in the convective region of the star using <a class="reference external" href="https://matplotlib.org/stable/api/_as_gen/matplotlib.axes.Axes.fill_betweenx.html"><code class="docutils literal notranslate"><span class="pre">plt.fill_betweenx()</span></code></a>.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: There are at least two in this model.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Hint: You may want to set your yrange to <code class="docutils literal notranslate"><span class="pre">(0,2)</span></code></p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p><strong>Describe</strong> in a few sentences where is the model convective and way? Also, describe where <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> is closer to one limit or the other and why?</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Compare with <a class="reference external" href="https://content.cld.iop.org/journals/0067-0049/227/2/22/revision1/apjsaa4c33f15_hr.jpg">Farmer et al. 2016</a></p>
+</div></blockquote>
+<p>Stars might be like onions after all?? Not parfaits..</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## b results here</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## load c data</span>
+<span class="c1">#massive_star_ms_profile = pd.read_csv(&#39;data/15m_core_O_burning_profile.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#massive_star_ms_profile_gradrad = massive_star_ms_profile[&#39;##</span>
+<span class="c1">#massive_star_ms_profile_mass = massive_star_ms_profile[&#39;##</span>
+<span class="c1">#massive_star_ms_profile_gradad = massive_star_ms_profile[&#39;##</span>
+<span class="c1">#massive_star_ms_profile_eps_nuc = ##</span>
+<span class="c1">#massive_star_ms_profile_mu = ##</span>
 </pre></div>
 </div>
 </div>
 </div>
-</section>
-<section id="c">
-<h3>c.<a class="headerlink" href="#c" title="Permalink to this heading">#</a></h3>
-<p>Using the <code class="docutils literal notranslate"><span class="pre">15m_core_O_burning_profile.data</span></code> profile.</p>
-<p>Plot <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span>, <span class="math notranslate nohighlight">\(\nabla_{\rm{actual}}\)</span>, and <span class="math notranslate nohighlight">\(\nabla_{\rm{rad}}\)</span> from the MESA profile.</p>
-<p>Where is the model convective?</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## c results here</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1 - 3 result here</span>
+<span class="c1">#plt.plot(##,label=r&#39;$\nabla_{\rm{ad}}$&#39;)</span>
+
+<span class="c1">#plt.plot(##,label=r&#39;$\nabla_{\rm{rad}}$&#39;)</span>
+
+<span class="c1">#plt.plot(##,label=r&#39;$\epsilon_{\rm{nuc}}$&#39;) # dont forget to normalize by max</span>
+
+<span class="c1">#plt.plot(##,label=r&#39;$\mu$&#39;)</span>
+
+<span class="c1">#plt.title(&#39;15$M_\odot$ Core O-Burning MESA Model&#39;)</span>
+
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(r&#39;$m/M_{\odot}$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\nabla,\mu,\epsilon_{\rm{nuc,normalized}}$&#39;)</span>
 </pre></div>
 </div>
 </div>
 </div>
-</section>
-<section id="d">
-<h3>d.<a class="headerlink" href="#d" title="Permalink to this heading">#</a></h3>
-<p>Using the <code class="docutils literal notranslate"><span class="pre">15m_core_O_burning_profile.data</span></code> profile.</p>
-<p>Plot <code class="docutils literal notranslate"><span class="pre">mu</span></code> from the MESA profile.</p>
-<p>Comment briefly on the behavior of <code class="docutils literal notranslate"><span class="pre">mu</span></code> inside and outside of convective regions.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## d results here</span>
-</pre></div>
-</div>
-</div>
-</div>
-</section>
 </section>
 </section>
 
@@ -666,13 +790,12 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#convection-in-massive-stars">Convection in Massive Stars</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#a">a.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b">b.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#c">c.</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#d">d.</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-convection-in-massive-stars">a. Convection in Massive Stars</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#result-here">4. result here</a></li>
 </ul>
 </li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-convection-in-a-solar-like-star">b. Convection in a Solar-Like Star</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-convection-in-an-advanced-massive-star">c. Convection in an Advanced Massive Star</a></li>
 </ul>
   </nav></div>
 
