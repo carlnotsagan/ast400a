@@ -51,3 +51,4 @@ parts:
       sections:
         - file: assignments/projects
         - file: assignments/honors
+        - file: assignments/feedback_on_final_presentations

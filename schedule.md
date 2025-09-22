@@ -40,8 +40,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 23 Sep | Convection                                           |                                                                  |
-| 25 Sep | Convection II                                        |                                                                  |
+| 23 Sep | Convection                                           | [ICA 8](assignments/ica8.ipynb), Due: End of day, Sept. 23, 2025 |
+| 25 Sep | Convection II                                        | HW1 Review                                                       |
 
 ## Week 6
 
@@ -90,14 +90,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 11 Nov | Pre-supernova evolution of massive stars             |                                                                  |
+| 11 Nov | Pre-supernova evolution of massive stars             |  Draft Proposal Due to Referees, End of Day                      |
 | 13 Nov | Guest Lecture: PhD Candidate, [Maria Mutz](https://w3.physics.arizona.edu/person/maria-mutz) Topic: TBD |                                                                  |
 
 ## Week 13
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 18 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)                          |                                                                  |
+| 18 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri) | Draft Proposal Feedback Due to D2L and via Email End of Day                        |                                                                  |
 | 20 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)                          |                                                                  |
 
 ## Week 14
@@ -112,7 +112,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 2 Dec  | Student Presentations                                |                                                                  |
-| 4 Dec  | Student Presentations                                |                                                                  |
+| 4 Dec  | Student Presentations                                |  Final Project Report Due to D2L, End of Day                     |
 
 ## Week 16
 
