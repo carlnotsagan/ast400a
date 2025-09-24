@@ -28,6 +28,7 @@ parts:
     - file: lectures/week5/week5
       sections:
         - file: lectures/week5/day_8
+        - file: lectures/week5/day_9
   - caption: Assignments
     maxdepth: 1
     chapters:
