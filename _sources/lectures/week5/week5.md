@@ -15,4 +15,4 @@ Right click to open in a new tab instead of downloading slides!
 
 
 
-
+Slides are viewable [HTML](day_9.html). 
