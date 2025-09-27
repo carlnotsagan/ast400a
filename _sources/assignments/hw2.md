@@ -4,6 +4,15 @@ _AST400A - Theoretical Astrophysics - Fall 2025, Steward Observatory_
 
 **Due Thur. Oct. 9, 12:30p (before class)**
 
+
+5.5 Leblanc
+5.7 of Leblanc?
+5.3 Leblanc - sympy or by hand - add for solar values and compare
+6.1 Leblanc
+3,1 conceptual from pols
+MESA - download a MESA model with Xc(h1) set to 1e-6, from 0.5-40Msun, or retry. then, plot a profile of the nablas and label where the model is convective, and radiative and in a few sentences why. 20pts extra credit for downloading and installing MESA and running a test_suite model to answer this question
+
+
 -
 
 Relevant Chapters: [HKT](https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843) Ch. 3,4; Pols Lectures Ch. 2,3 [here](https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf). Not a complete list of the topics covered in the problem set. You are encouraged to work together on the problem sets but you must submit your own work. 
