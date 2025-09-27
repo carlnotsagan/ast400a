@@ -47,7 +47,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 30 Sep | Stellar Energy Sources I                            |                                                                  |
+| 30 Sep | Stellar Energy Sources                               |   [ICA 9](assignments/ica9.ipynb),  Not for credit               |
 | 2 Oct  | Stellar Energy Sources II                            |                                                                  |
 
 ## Week 7
