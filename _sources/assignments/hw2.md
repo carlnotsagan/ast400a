@@ -18,27 +18,15 @@ Relevant Chapters: [HKT](https://arizona-ua.primo.exlibrisgroup.com/permalink/01
 
 1. **Total: (30 points)** - The [Planck](https://en.wikipedia.org/wiki/Planck%27s_law) function 
 
-    * (**a**) - Show that
-$$
-\frac{dB_{\nu}}{dT} = \frac{2 k_{\rm{B}}^3 T^2}{h^2 c^2} \left [ \frac{x^4 e^x}{(e^x-1)^2} \right ]~.
-$$ (**10 points**)
+    * (**a**) - Show that $
+\frac{dB_{\nu}}{dT} = \frac{2 k_{\rm{B}}^3 T^2}{h^2 c^2} \left [ \frac{x^4 e^x}{(e^x-1)^2} \right ]~.$ (**10 points**)
 
     * (**b**) - Compute the maximum of the bracketed term using derivatives. This will require a numerical solution. (**10 points**)
     * (**c**) - Plug the maximum back into your variable substitution to compute the favored photon energy. In a few sentences compare your result to that from Pols 5.24 and what this suggests for the Rosseland mean opacity. (**10 points**)
 
 
 2. **Total: (35 points)** - Assume a star of radius $R_\star$ having a density profile equal to 
-$$
-\rho( r)=\rho_{c} \left ( 1 - \frac{r}{R_\star} \right )
-$$
-and a nuclear production rate per unit mass equal to 
-$$
-\epsilon( r) = \epsilon_{c} \left (1 - \frac{r}{0.2 R_\star} \right ) \ \  \textrm{for} \ r~\leq 0.2~R_\star
-$$
-and 
-$$
-\epsilon( r) = 0 \ \  \textrm{for} \ r~\gt 0.2~R_\star~.
-$$
+$\rho( r)=\rho_{c} \left ( 1 - \frac{r}{R_\star} \right )$ and a nuclear production rate per unit mass equal to $\epsilon( r) = \epsilon_{c} \left (1 - \frac{r}{0.2 R_\star} \right ) \ \  \textrm{for} \ r~\leq 0.2~R_\star$ and $\epsilon( r) = 0 \ \  \textrm{for} \ r~\gt 0.2~R_\star~.$
     * (**a**) - Compute the luminosity of the star at its surface in terms $R_\star$, $\rho_{c},$ and $\epsilon_{c}$ **(15 points)** 
     * (**b**) - Plug in present day solar values, you can use HKT 9.2.3, and compute a numerical value for the luminosity. **(10 points)**
     * (**c**) - Compute the nuclear timescale for this star and compare it to the nuclear timescale of the Sun. **(10 points)** 
