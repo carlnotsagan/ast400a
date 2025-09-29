@@ -257,6 +257,7 @@
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="hw1.html">Homework 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hw2.html">Homework 2</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -559,10 +560,10 @@ document.write(`
 </ul>
 <p>Then, using the <span class="math notranslate nohighlight">\(1 M_\odot\)</span> and <span class="math notranslate nohighlight">\(3M_\odot\)</span> model MESA history data:</p>
 <ol class="arabic simple">
-<li><p>Plot the log nuclear energy generation rate (<span class="math notranslate nohighlight">\(\epsilon_{\rm{nuc}}\)</span>) for the <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> burning categories as a function of the <code class="docutils literal notranslate"><span class="pre">model_number</span></code> (x-axis) to determine which dominates in each model.</p></li>
+<li><p>Plot the log luminosity (<span class="math notranslate nohighlight">\(L_{\rm{nuc}}\)</span>) for the <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> burning categories as a function of the <code class="docutils literal notranslate"><span class="pre">model_number</span></code> (x-axis) to determine which dominates in each model.</p></li>
 </ol>
 <blockquote>
-<div><p>Note: The variables <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> are <span class="math notranslate nohighlight">\(\rm{log}_{10}(\epsilon_{\rm{nuc,pp}})\)</span> etc.</p>
+<div><p>Note: The variables <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> are <span class="math notranslate nohighlight">\(\rm{log}_{10}(L_{\rm{nuc,pp}})\)</span> etc.</p>
 </div></blockquote>
 <ol class="arabic simple" start="2">
 <li><p>To help guide follow the temporal evolution, also plot the <code class="docutils literal notranslate"><span class="pre">center_h1</span></code> as a function of model number for both models on the same plot and <em>label</em>.</p></li>
@@ -572,7 +573,7 @@ document.write(`
 </div></blockquote>
 <ol class="arabic simple" start="3">
 <li><p>Identify the approximate <code class="docutils literal notranslate"><span class="pre">model_number</span></code> where the dominant burning crossover occurs for the <span class="math notranslate nohighlight">\(3M_{\odot}\)</span> model and plot a vertical line (<code class="docutils literal notranslate"><span class="pre">plt.axvline</span></code>) denoting this on the same plot.</p></li>
-<li><p>On a <strong>new</strong> plot, plot <span class="math notranslate nohighlight">\(\textrm{log}~(\epsilon_{\rm{nuc}}/\rho X^2)\)</span> as a function of the central <span class="math notranslate nohighlight">\(T_{6,c}\)</span> (<span class="math notranslate nohighlight">\(T_{c}/T^{6}\rm{K}\)</span>).</p></li>
+<li><p>On a <strong>new</strong> plot, plot <span class="math notranslate nohighlight">\(\textrm{log}~(L_{\rm{nuc}}/\rho X^2)\)</span> as a function of the central <span class="math notranslate nohighlight">\(T_{6,c}\)</span> (<span class="math notranslate nohighlight">\(T_{c}/T^{6}\rm{K}\)</span>).</p></li>
 </ol>
 <blockquote>
 <div><p>Hint: Set xlim to (5,30) and ylim to (-6,6)</p>
@@ -599,8 +600,8 @@ document.write(`
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load one m burning info here</span>
 <span class="c1">#one_m_ms_model_number = one_m_ms_history[&#39;###  # model number</span>
-<span class="c1">#one_m_ms_pp = ### eps_nuc due to pp chains</span>
-<span class="c1">#one_m_ms_cno = # eps_nuc due to cno chains</span>
+<span class="c1">#one_m_ms_pp = ### L_nuc due to pp chains</span>
+<span class="c1">#one_m_ms_cno = # L_nuc due to cno chains</span>
 <span class="c1">#one_m_ms_center_h1 = one_m_ms_history[&#39;##</span>
 
 <span class="c1"># load three m burning info here</span>
@@ -630,7 +631,7 @@ document.write(`
 
 <span class="c1">#plt.legend()</span>
 <span class="c1">#plt.xlabel(r&#39;$\rm{Model \ Number}$&#39;)</span>
-<span class="c1">#plt.ylabel(r&#39;$\rm{log}_{10} (\epsilon_{\rm{nuc}}) \ (\rm{erg \ g}^{-1} \ \rm{s}^{-1})$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\rm{log}_{10} (L_{\rm{nuc}}) \ (\rm{erg \ g}^{-1} \ \rm{s}^{-1})$&#39;)</span>
 </pre></div>
 </div>
 </div>
@@ -667,7 +668,7 @@ document.write(`
 <span class="c1">#plt.xlim(</span>
 
 <span class="c1">#plt.legend()</span>
-<span class="c1">#plt.ylabel(r&#39;$\rm{log}~\epsilon_{\rm{nuc}}/\rho X^2$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\rm{log}~L_{\rm{nuc}}/\rho X^2$&#39;)</span>
 <span class="c1">#plt.xlabel(r&#39;$T_{6,\rm{central}}$&#39;)</span>
 </pre></div>
 </div>
@@ -691,7 +692,7 @@ document.write(`
 <h2>b. Thermonuclear Burning In a Massive Star<a class="headerlink" href="#b-thermonuclear-burning-in-a-massive-star" title="Permalink to this heading">#</a></h2>
 <p>Using the <span class="math notranslate nohighlight">\(20M_\odot\)</span> model MESA history data (<code class="docutils literal notranslate"><span class="pre">20m_he_dep_history.data</span></code>):</p>
 <ol class="arabic simple">
-<li><p>Plot the log nuclear energy generation rate (<span class="math notranslate nohighlight">\(\epsilon_{\rm{nuc}}\)</span>) for the <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> burning categories as a function of the <code class="docutils literal notranslate"><span class="pre">model_number</span></code> (x-axis) to determine which dominates in each model.</p></li>
+<li><p>Plot the log luminosity (<span class="math notranslate nohighlight">\(L_{\rm{nuc}}\)</span>) for the <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> burning categories as a function of the <code class="docutils literal notranslate"><span class="pre">model_number</span></code> (x-axis) to determine which dominates in each model.</p></li>
 </ol>
 <blockquote>
 <div><p>Set your xlim to (370,600) to focus on the main-sequency</p>
@@ -703,7 +704,7 @@ document.write(`
 <div><p>Are there any crossover points observed in this model between dominant burning categories?</p>
 </div></blockquote>
 <ol class="arabic simple" start="3">
-<li><p>Plot <span class="math notranslate nohighlight">\(\textrm{log}~(\epsilon_{\rm{nuc}}/\rho X^2)\)</span> as a function of the central <span class="math notranslate nohighlight">\(T_{6,c}\)</span> (<span class="math notranslate nohighlight">\(T_{c}/T^{6}\rm{K}\)</span>) for both categories.</p></li>
+<li><p>Plot <span class="math notranslate nohighlight">\(\textrm{log}~(L_{\rm{nuc}}/\rho X^2)\)</span> as a function of the central <span class="math notranslate nohighlight">\(T_{6,c}\)</span> (<span class="math notranslate nohighlight">\(T_{c}/T^{6}\rm{K}\)</span>) for both categories.</p></li>
 </ol>
 <blockquote>
 <div><p>Hint: set xlim to (30,100)</p>
@@ -716,7 +717,7 @@ document.write(`
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load 20m data</span>
 <span class="c1">#twenty_m_ms_history = pd.read_csv(&#39;###&#39;,sep=r&#39;\s+&#39;,header=4)</span>
 <span class="c1">#twenty_m_ms_model_number = twenty_m_ms_history[&#39;### model number</span>
-<span class="c1">#twenty_m_ms_pp = ### eps_nuc due to pp chains</span>
+<span class="c1">#twenty_m_ms_pp = ### L_nuc due to pp chains</span>
 </pre></div>
 </div>
 </div>
@@ -737,7 +738,7 @@ document.write(`
 
 <span class="c1">#plt.legend()</span>
 <span class="c1">#plt.xlabel(r&#39;$\rm{Model \ Number}$&#39;)</span>
-<span class="c1">#plt.ylabel(r&#39;$\epsilon_{\rm{nuc}} \ (\rm{erg \ g}^{-1} \ \rm{s}^{-1})$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$L_{\rm{nuc}} \ (\rm{erg \ g}^{-1} \ \rm{s}^{-1})$&#39;)</span>
 </pre></div>
 </div>
 </div>
@@ -765,7 +766,7 @@ document.write(`
 <span class="c1">#plt.xlim(30,</span>
 
 <span class="c1">#plt.legend()</span>
-<span class="c1">#plt.ylabel(r&#39;$\rm{log}~\epsilon_{\rm{nuc}}/\rho X^2$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\rm{log}~L_{\rm{nuc}}/\rho X^2$&#39;)</span>
 <span class="c1">#plt.xlabel(r&#39;$T_{6,\rm{central}}$&#39;)</span>
 </pre></div>
 </div>
