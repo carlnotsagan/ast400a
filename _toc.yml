@@ -52,6 +52,7 @@ parts:
     - file: assignments/hws
       sections:
         - file: assignments/hw1
+        - file: assignments/hw2
     - file: assignments/project
       sections:
         - file: assignments/projects
