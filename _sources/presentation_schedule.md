@@ -71,6 +71,6 @@ We will have **5 minutes** after for the referees to ask their assigned question
 | ------------- | ----------------------------------- | ------------------------------- |
 | 12:30p-12:45p | Kari S.                             |  Formation of stars             |
 | 12:45p-1:00p  | Mason R.                            |  Thermonuclear explosion in WDs |
-| 1:00p-1:15p   | Hina S.                             |  Pair instability supernovae    |
+| 1:00p-1:15p   | Hina S.                             |  The Eddington Luminosity       |
 | 1:15p-1:30p   | Lauren J.                           |  Cepheids                       |
 | 1:30p-1:45p   | Suhani S.                           |  Schönberg-Chandrasekhar Limit  |
