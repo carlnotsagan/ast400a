@@ -13,4 +13,6 @@ Right click to open in a new tab instead of downloading slides!
 
 ## Thursday, October 2, 2025
 
+Slides are viewable [HTML](day_11.html). 
+
 
