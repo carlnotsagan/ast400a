@@ -6,8 +6,8 @@
 
 Grading (20% of your Final Grade): 
 
-* 10% for Presentation Content and Clarity. See Rubric.
-* 6% for the questions you ask and feedback you provide.
+* 12% for Presentation Content and Clarity. See Rubric.
+* 8% for the questions you ask and feedback you provide.
 * 4% for your responses to your classmates questions.
 
 Each presentation should be **10 minutes** long. 

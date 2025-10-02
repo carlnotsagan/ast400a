@@ -3,7 +3,7 @@
 
 **All presentations will be due to D2L by 12:30pm on Nov. 18, 2025**
 
-Grading (6% of your Final Grade): 
+Grading (8% of your Final Grade): 
 
 Each presentation should be **10 minutes** long. 
 
