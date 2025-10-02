@@ -60,3 +60,7 @@ parts:
         - file: assignments/projects
         - file: assignments/honors
         - file: assignments/feedback_on_final_presentations
+        - file: assignments/feedback_on_final_reports
+        - file: assignments/project_presentation_grading_rubric
+        - file: assignments/project_report_grading_rubric       
+ 

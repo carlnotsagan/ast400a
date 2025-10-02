@@ -27,7 +27,7 @@ The **oral presentation is 10min+5min questions**.
 
 -   **November 11, 2025, end of day**: submission of draft manuscript to
     peer-referees via email
--   **November 18, 2025, end of day**: referees submit feedback
+-   **November 27, 2025, end of day**: referees submit feedback to D2L and author
 -   **December 4, 2025, end of day**: submission of final manuscript to D2L
     
     
@@ -120,14 +120,12 @@ presentations. The questions and the way you provide your evaluations
 and feedback to your peers will also be considered for your final
 grading.
 
-The breakdown of the project/presentation grade is as follows:
+The breakdown of the project/presentation grade is as follows (in % of final grade):
 
--   50% for the oral presentation and QA (corresponding to 20% of the
-    total final grade)
--   40% for the written report (corresponding to 16% of the total final
-    grade)
--   10% from how you provide feedback to others (corresponding to 4% of
-    the total final grade).
+-   12% for the oral presentation and 8% for presentation feedback/QA
+-   16% for the written report 
+-   4% from how you provide feedback to others on their draft final reports
+
 
 **N.B.**: Regardless of the quantitative weight of each portion towards
 the grade, your engagement is necessary for the success of the others.
