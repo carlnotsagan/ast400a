@@ -54,43 +54,43 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 7 Oct  | Stellar atmospheres and outer boundary conditions    |                                                                  |
-| 9 Oct  | Supernovae                                           |                                                                  |
+| 7 Oct  | Stellar atmospheres and outer boundary conditions    | [ICA 11](assignments/ica11.ipynb),  Not for credit               |
+| 9 Oct  | Star formation and pre-main sequence evolution       |                                                                  |
 
 ## Week 8
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 14 Oct | Gravitational wave progenitors                       |                                                                  |
-| 16 Oct | Stellar Spectra                                      |                                                                  |
+| 14 Oct | Evolution on the main-sequence                       |                                                                  |
+| 16 Oct | Post-MS Evolution through Helium Burning             |                                                                  |
 
 ## Week 9
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 21 Oct | Stellar Rotation                                     |                                                                  |
-| 23 Oct | Black holes and their mergers                        |                                                                  |
+| 21 Oct | Late evolution of low- and intermediate-mass stars   |                                                                  |
+| 23 Oct | Pre-supernova evolution of massive stars             |                                                                  |
 
 ## Week 10
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 28 Oct | Star Formation                                       |                                                                  |
-| 30 Oct | Classification of Supernovae                         |                                                                  |
+| 28 Oct | Core-Collapse and Thermonuclear Supernovae           |                                                                  |
+| 30 Oct | Black holes and their mergers                        |                                                                  |
 
 ## Week 11
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 4 Nov  | Post-MS Evolution through Helium Burning             |                                                                  |
-| 6 Nov  | Late evolution of low- and intermediate-mass stars   |                                                                  |
+| 4 Nov  | Products of Binary Evolution I                       |                                                                  |
+| 6 Nov  | Products of Binary Evolution II                      |                                                                  |
 
 
 ## Week 12
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 11 Nov | Pre-supernova evolution of massive stars             |  Draft Proposal Due to Referees, End of Day                      |
+| 11 Nov | Neutron Stars                                        |  Draft Proposal Due to Referees, End of Day                      |
 | 13 Nov | Guest Lecture: PhD Candidate, [Maria Mutz](https://w3.physics.arizona.edu/person/maria-mutz) Topic: TBD |                                                                  |
 
 ## Week 13
