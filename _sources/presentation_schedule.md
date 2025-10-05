@@ -42,7 +42,7 @@ We will have **5 minutes** after for the referees to ask their assigned question
 | 12:30p-12:45p | Julio C.                            |  Thermonuclear explosions in WDs|
 | 12:45p-1:00p  | Shashank V.                         |  Stars in galaxies: Chemical evolution |
 | 1:00p-1:15p   | Anna B.                             |  Mass transfer in binary systems|
-| 1:15p-1:30p   | William W.                          |  TBD                            |
+| 1:15p-1:30p   | William W.                          |  Nucleosynthesis                |
 | 1:30p-1:45p   | Keita M.                            |  Schönberg-Chandrasekhar Limit  |
 
 ## Day 4 - Dec. 2, 2025
