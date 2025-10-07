@@ -54,6 +54,7 @@ parts:
         - file: assignments/ica8
         - file: assignments/ica9
         - file: assignments/ica10
+        - file: assignments/ica11
     - file: assignments/hws
       sections:
         - file: assignments/hw1
