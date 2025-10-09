@@ -2,7 +2,7 @@
 
 _AST400A - Theoretical Astrophysics - Fall 2025, Steward Observatory_
 
-**Due Thur. Oct. 9, 12:30p (before class)**
+**Due Tue. Oct. 14, 12:30p (before class)**
 
 -
 
