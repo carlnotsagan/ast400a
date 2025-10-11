@@ -55,13 +55,13 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 7 Oct  | Stellar atmospheres and outer boundary conditions    | [ICA 11](assignments/ica11.ipynb),  Not for credit               |
-| 9 Oct  | Star formation and pre-main sequence evolution       |                                                                  |
+| 9 Oct  | Star formation and pre-main sequence evolution       | [ICA 12](assignments/ica12.ipynb), Due: End of day, Oct. 9, 2025 |
 
 ## Week 8
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 14 Oct | Evolution on the main-sequence                       |                                                                  |
+| 14 Oct | Evolution on the main-sequence                       | [ICA 13](assignments/ica13.ipynb), Due: End of day, Oct. 14, 2025|
 | 16 Oct | Post-MS Evolution through Helium Burning             |                                                                  |
 
 ## Week 9
