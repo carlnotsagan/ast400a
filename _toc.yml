@@ -37,6 +37,9 @@ parts:
       sections:
         - file: lectures/week7/day_12
         - file: lectures/week7/day_13
+    - file: lectures/week8/week8
+      sections:
+        - file: lectures/week8/day_14
   - caption: Assignments
     maxdepth: 1
     chapters:
