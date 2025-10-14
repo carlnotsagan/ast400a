@@ -60,6 +60,7 @@ parts:
         - file: assignments/ica10
         - file: assignments/ica11
         - file: assignments/ica12
+        - file: assignments/ica13
     - file: assignments/hws
       sections:
         - file: assignments/hw1
