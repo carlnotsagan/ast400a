@@ -1,0 +1,1016 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>In-Class Assignment 13 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/ica13';</script>
+    <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Homeworks" href="hws.html" />
+    <link rel="prev" title="In-Class Assignment 12" href="ica12.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Theoretical Astrophysics - ASTR "400A" F25 "001" - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Theoretical Astrophysics - ASTR "400A" F25 "001" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    ASTR 400A: Theoretical Astrophysics, Fall 2025, University of Arizona, Steward Observatory
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Overview</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../syllabus.html">Syllabus</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../schedule.html">Schedule</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_0.html">Intro &amp; orders of magnitude</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_1.html">An Overview of Stellar Evolution</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_2.html">Mechanical and thermal equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_3.html">Equations of State I</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week3/week3.html">Week 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week3/day_4.html">Equations of State II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week3/day_5.html">Polytropic stellar models</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week4/day_6.html">Radiative energy transport &amp; conduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week4/day_7.html">Opacities</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week5/week5.html">Week 5</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week5/day_8.html">Convection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week5/day_9.html">Convection II</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week6/week6.html">Week 6</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week6/day_10.html">Stellar Energy Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week6/day_11.html">Stellar Energy Sources II</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week7/week7.html">Week 7</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week7/day_12.html">Stellar Atmospheres</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week7/day_13.html">Star Formation and the Pre-Main Sequence</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week8/week8.html">Week 8</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week8/day_14.html">Evolution On The Main-Sequence</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="pca1.html">PCA 1</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="icas.html">In-Class Assignments</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ica1.html">In-Class Assignment 1</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica3.html">In-Class Assignment 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica4.html">In-Class Assignment 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica5.html">In-Class Assignment 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica6.html">In-Class Assignment 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica7.html">In-Class Assignment 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica8.html">In-Class Assignment 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica9.html">In-Class Assignment 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica10.html">In-Class Assignment 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica11.html">In-Class Assignment 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica12.html">In-Class Assignment 12</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 13</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="hw1.html">Homework 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hw2.html">Homework 2</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="projects.html">Literature review project and presentation</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="honors.html">Honors project</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="feedback_on_final_presentations.html">Guidelines for Feedback on Final Presentations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="feedback_on_final_reports.html">Guidelines for Feedback on Final Reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_presentation_grading_rubric.html">Grading Scheme - Literature review presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_report_grading_rubric.html">Grading Scheme - Literature review project</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast400a/master?urlpath=tree/assignments/ica13.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast400a/blob/master/assignments/ica13.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+<a href="https://github.com/carlnotsagan/ast400a/issues/new?title=Issue%20on%20page%20%2Fassignments/ica13.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Open an issue"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/assignments/ica13.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>In-Class Assignment 13</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zams-and-evolution-on-the-main-sequence">ZAMS and Evolution on The Main-Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-zams-and-evolution-on-the-main-sequence">a. ZAMS and Evolution on the Main-Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/ with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-structure-evolution-on-the-main-sequence">b. Structure Evolution on the Main-Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/ with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-perceived-color-diagram-on-the-ms-using-tulips">c. Perceived color diagram on the MS using <code class="docutils literal notranslate"><span class="pre">Tulips</span></code></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/ with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-13">
+<h1>In-Class Assignment 13<a class="headerlink" href="#in-class-assignment-13" title="Permalink to this heading">#</a></h1>
+<section id="zams-and-evolution-on-the-main-sequence">
+<h2>ZAMS and Evolution on The Main-Sequence<a class="headerlink" href="#zams-and-evolution-on-the-main-sequence" title="Permalink to this heading">#</a></h2>
+<section id="learning-objectives">
+<h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>explore surface stellar properties at ZAMS through the main-sequence</p></li>
+<li><p>explore central stellar properties at ZAMS through the main-sequence</p></li>
+<li><p>produce and analyze perceived color plots using tulips</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="a-zams-and-evolution-on-the-main-sequence">
+<h2>a. ZAMS and Evolution on the Main-Sequence<a class="headerlink" href="#a-zams-and-evolution-on-the-main-sequence" title="Permalink to this heading">#</a></h2>
+<section id="individually-with-the-person-next-to-you">
+<h3><strong>Individually/ with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h3>
+<p>Download, or reuse from a previous class:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(1 M_\odot\)</span> history data: <a class="reference download internal" download="" href="../_downloads/37ec98734aaf9904d6cfe1bcb1f724b7/M1_default_trimmed_history.data"><span class="xref download myst">M1_default_trimmed_history.data</span></a>;</p></li>
+<li><p><span class="math notranslate nohighlight">\(5 M_\odot\)</span> history data: <a class="reference download internal" download="" href="../_downloads/9df017e915f65bede7a8c8552128fb9c/5m_history.data"><span class="xref download myst">5m_history.data</span></a>;</p></li>
+<li><p><span class="math notranslate nohighlight">\(11 M_\odot\)</span> history data: <a class="reference download internal" download="" href="../_downloads/abebd9ef9febefe69496f46f2f9394eb/11m_subsolar_history.data"><span class="xref download myst">11m_subsolar_history.data</span></a>;</p></li>
+</ul>
+<p>Using the all three MESA history data:</p>
+<ol class="arabic simple">
+<li><p>Compute the index at which the star reaches the zero age main-sequence, in MESA this is defined as</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> <span class="n">L_nuc_burn_total</span> <span class="o">&gt;=</span> <span class="n">s</span><span class="o">%</span> <span class="n">L_phot</span><span class="o">*</span><span class="n">s</span><span class="o">%</span> <span class="n">Lnuc_div_L_zams_limit</span>
+</pre></div>
+</div>
+<p>where a value <code class="docutils literal notranslate"><span class="pre">Lnuc_div_L_zams_limit=0.99</span></code>.</p>
+<ol class="arabic simple" start="2">
+<li><p>Compute the index at which the star reaches the <em>terminal</em> age main-sequence, that is when it has depleted or reached a central value of about <span class="math notranslate nohighlight">\(X_{\rm{c}}({^{1}\rm{H}})\lesssim 10^{-3}\)</span>.</p></li>
+<li><p>Plot the an HR diagram x-axis (<span class="math notranslate nohighlight">\(\textrm{log}T_{\rm{eff.}}\)</span>) versus y axis (<span class="math notranslate nohighlight">\(\textrm{log}L\)</span>) only over the range from idx ZAMS to idx TAMS. <a class="reference external" href="https://www.geeksforgeeks.org/python/how-to-index-and-slice-strings-in-python/">Reference for indexing in Python</a>.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: the sytax would be like [one_m_ZAMS_idx : one_m_TAMS_idx] at the end of each array you plot.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Hint:  Compare with Pols Figure 9.9.</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load data with pandas</span>
+<span class="c1">#one_m_ms_history = pd.read_csv(&#39;data/M1_default_trimmed_history.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#five_m_ms_history = pd.read_csv(&#39;data/5m_history.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#eleven_m_ms_history = pd.read_csv(&#39;data/11m_subsolar_history.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#list(one_m_ms_history)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#Lnuc_div_L_zams_limit = </span>
+<span class="c1">#center_h1_lim = </span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">### 1 m sun vars</span>
+<span class="c1">#one_m_ms_history_logTeff = one_m_ms_history[&#39;##&#39;] # log Teff</span>
+<span class="c1">#one_m_ms_history_logL = one_m_ms_history[&#39;##&#39;] # log L</span>
+<span class="c1">#one_m_ms_history_logLH = one_m_ms_history[&#39;##&#39;] # log LH (log Lnuc)</span>
+<span class="c1">#one_m_ms_history_h1 = one_m_ms_history[&#39;##&#39;] # central h1 mass fraction</span>
+
+<span class="c1"># use np where to get the index at start of ZAMS and end of MS (TAMS)</span>
+<span class="c1">#one_m_ZAMS_idx_array = np.where(one_m_ms_history_logLH &gt; Lnuc_div_L_zams_limit * one_m_ms_history_logL)[0]</span>
+<span class="c1">#one_m_ZAMS_idx = one_m_ZAMS_idx_array[0]</span>
+<span class="c1">#one_m_TAMS_idx_array = np.where(one_m_ms_history_h1 &lt; center_h1_lim)[0]</span>
+<span class="c1">#one_m_TAMS_idx = one_m_TAMS_idx_array[0]</span>
+<span class="c1">#print(one_m_ZAMS_idx,one_m_TAMS_idx)</span>
+
+
+<span class="c1">### 5 m sun vars</span>
+<span class="c1">#five_m_ms_history_logTeff = five_m_ms_history[&#39;#&#39;] # log Teff</span>
+<span class="c1">#five_m_ms_history_logL = five_m_ms_history[&#39;##&#39;] # log L</span>
+<span class="c1">#five_m_ms_history_logLH = five_m_ms_history[&#39;###&#39;] # log LH (log Lnuc)</span>
+<span class="c1">#five_m_ms_history_h1 = five_m_ms_history[&#39;##&#39;] # central h1 mass fraction</span>
+
+<span class="c1">#five_m_ZAMS_idx_array = np.where(five_m_ms_history_logLH &gt; Lnuc_div_L_zams_limit * five_m_ms_history_logL)[0]</span>
+<span class="c1">#five_m_ZAMS_idx = five_m_ZAMS_idx_array[0]</span>
+<span class="c1">#five_m_TAMS_idx_array = np.where(five_m_ms_history_h1 &lt; center_h1_lim)[0]</span>
+<span class="c1">#five_m_TAMS_idx = five_m_TAMS_idx_array[0]</span>
+<span class="c1">#print(five_m_ZAMS_idx,five_m_TAMS_idx)</span>
+
+<span class="c1">### 11 m sun vars</span>
+<span class="c1">#eleven_m_ms_history_logTeff = eleven_m_ms_history[&#39;##&#39;] # log Teff</span>
+<span class="c1">#eleven_m_ms_history_logL = eleven_m_ms_history[&#39;##&#39;] # log L</span>
+<span class="c1">#eleven_m_ms_history_logLH = eleven_m_ms_history[&#39;##&#39;] # log LH (log Lnuc)</span>
+<span class="c1">#eleven_m_ms_history_h1 = eleven_m_ms_history[&#39;##&#39;] # central h1 mass fraction</span>
+
+<span class="c1">#eleven_m_ZAMS_idx_array = np.where(eleven_m_ms_history_logLH &gt; Lnuc_div_L_zams_limit * eleven_m_ms_history_logL)[0]</span>
+<span class="c1">#eleven_m_ZAMS_idx = eleven_m_ZAMS_idx_array[0]</span>
+<span class="c1">#eleven_m_TAMS_idx_array = np.where(eleven_m_ms_history_h1 &lt; center_h1_lim)[0]</span>
+<span class="c1">#eleven_m_TAMS_idx = eleven_m_TAMS_idx_array[0]</span>
+<span class="c1">#print(eleven_m_ZAMS_idx,eleven_m_TAMS_idx)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1-2 result here</span>
+<span class="c1">#plt.title(&#39;MESA Models HR Diagram from ZAMS to TAMS&#39;)</span>
+
+<span class="c1">#plt.plot(one_m_var[one_m_ZAMS_idx:one_m_TAMS_idx],</span>
+<span class="c1">#         one_m_var[one_m_ZAMS_idx:one_m_TAMS_idx],label=r&#39;$1M_{\odot}$&#39;)</span>
+
+<span class="c1">#plt.plot(five_m_var[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         five_m_var[five_m_ZAMS_idx:five_m_TAMS_idx],label=r&#39;$5M_{\odot}$&#39;)</span>
+
+<span class="c1">#plt.plot(eleven_m_var[eleven_m_ZAMS_idx:eleven_m_TAMS_idx],</span>
+<span class="c1">#         eleven_m_var[eleven_m_ZAMS_idx:eleven_m_TAMS_idx],label=r&#39;$11M_{\odot}$&#39;)</span>
+
+<span class="c1">#plt.gca().invert_xaxis()</span>
+
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(r&#39;$\rm{log}_{10}~T_{\rm{eff}}~(\rm{K})$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\rm{log}~L \ (L_{\odot})$&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="with-your-larger-group-try-to-answer-the-following">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#with-your-larger-group-try-to-answer-the-following" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="5">
+<li><p>Describe the qualitative properties of the 3 stellar models while on the main-sequence.</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li><p>Why might the change in radius of the 1 Msun model be modest in comparison to the more massive models?</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Pols Eqn 9.14.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+<ol class="arabic simple" start="7">
+<li><p>Why do the more massive star models go to the right on the HRD before turning left (blueward) before hydrogen depletion? What is happening to the core at this time?</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+<ol class="arabic simple" start="8">
+<li><p>The core at its blueist point in the HRD, eventually reaches a new hydrostatic equilibrium with the now H depleted core and a new energy source (prior to Core He Burning.). What might be this energy source be and where is it located?</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="b-structure-evolution-on-the-main-sequence">
+<h2>b. Structure Evolution on the Main-Sequence<a class="headerlink" href="#b-structure-evolution-on-the-main-sequence" title="Permalink to this heading">#</a></h2>
+<section id="id1">
+<h3><strong>Individually/ with the person next to you</strong>:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>Using only the <span class="math notranslate nohighlight">\(5M_{\odot}\)</span> MESA history data:</p>
+<ol class="arabic simple">
+<li><p>Plot the central mean molecular weight (<code class="docutils literal notranslate"><span class="pre">mu</span></code>), <span class="math notranslate nohighlight">\(\rho\)</span>, <span class="math notranslate nohighlight">\(T\)</span>, <span class="math notranslate nohighlight">\(R\)</span> at the surface, and <span class="math notranslate nohighlight">\(L_{\rm{nuc.,H}}\)</span> as a function of model number, all normalized by their values at ZAMS.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: the sytax would be like [one_m_ZAMS_idx : one_m_TAMS_idx] at the end of each array you plot.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Hint:  Compare with Pols Figure 9.9</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># spaghetti code thats not important</span>
+<span class="c1">#five_m_ms_history_center_P_norm = 10**(five_m_ms_history[&#39;log_center_P&#39;])/10**(five_m_ms_history[&#39;log_center_P&#39;][five_m_ZAMS_idx]) # central P</span>
+<span class="c1">#five_m_ms_history_center_T_norm = 10**(five_m_ms_history[&#39;log_center_T&#39;])/10**(five_m_ms_history[&#39;log_center_T&#39;][five_m_ZAMS_idx]) # central T</span>
+<span class="c1">#five_m_ms_history_surface_R_norm = 10**(five_m_ms_history[&#39;log_R&#39;])/10**(five_m_ms_history[&#39;log_R&#39;][five_m_ZAMS_idx]) # surface R (Rsun)</span>
+<span class="c1">#five_m_ms_history_center_mu_norm = five_m_ms_history[&#39;center_mu&#39;]/five_m_ms_history[&#39;center_mu&#39;][five_m_ZAMS_idx] # central mu</span>
+<span class="c1">#five_m_ms_history_model_number = five_m_ms_history[&#39;model_number&#39;] # model_number</span>
+<span class="c1">#five_m_ms_history_log_LH_norm = 10**(five_m_ms_history[&#39;log_LH&#39;])/10**(five_m_ms_history[&#39;log_LH&#39;][five_m_ZAMS_idx]) # log_LH</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1-2 result here</span>
+<span class="c1">#plt.title(&#39;5$M_{\odot}$ Structure Properties from ZAMS to TAMS&#39;)</span>
+
+<span class="c1">#plt.plot(five_m_ms_history_model_number[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         five_m_ms_history_center_mu_norm[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         label=r&#39;$\mu$&#39;)</span>
+
+<span class="c1">#plt.plot(five_m_ms_history_model_number[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         five_m_ms_history_center_P_norm[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         label=r&#39;$P_{\rm{c}}$&#39;)</span>
+
+<span class="c1">#plt.plot(five_m_ms_history_model_number[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         five_m_ms_history_center_T_norm[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         label=r&#39;$T_{\rm{c}}$&#39;)</span>
+
+<span class="c1">#plt.plot(five_m_ms_history_model_number[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         five_m_ms_history_log_LH_norm[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         label=r&#39;$L_{\rm{H}}$&#39;)</span>
+
+<span class="c1">#plt.plot(five_m_ms_history_model_number[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         five_m_ms_history_surface_R_norm[five_m_ZAMS_idx:five_m_TAMS_idx],</span>
+<span class="c1">#         label=r&#39;$R$&#39;)</span>
+
+<span class="c1">#plt.xlim()</span>
+
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(r&#39;$\rm{Model \ Number}$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\rm{Variable \ Normalized \ by \ ZAMS \ Value}$&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id2">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="2">
+<li><p>What does the above plot show and why might it be important to our understanding of stars on the MS?</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Describe in a few sentences the qualitative properties of the core (or central) values on the main-sequence.</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>The radius at the surface peaks at some point on the MS, does this relate to your result from 7a. If so, how? What is happening to mu at this inflection point?</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><p>What is happening to mu at this inflection point of the radius?</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+<ol class="arabic simple" start="6">
+<li><p>Eventually the star with proceed with a inert He core overlaid with a thick H-burning shell. What might you expect that to to mean for the surface radius? What trajectory would the star take when this shell is formed?</p></li>
+</ol>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="c-perceived-color-diagram-on-the-ms-using-tulips">
+<h2>c. Perceived color diagram on the MS using <code class="docutils literal notranslate"><span class="pre">Tulips</span></code><a class="headerlink" href="#c-perceived-color-diagram-on-the-ms-using-tulips" title="Permalink to this heading">#</a></h2>
+<p><a class="reference external" href="https://astro-tulips.readthedocs.io/en/latest/perceived_color_diagram.html"><strong>Perceived Color</strong></a></p>
+<blockquote>
+<div><p>The color is determined using the colorpy package, which approximates the spectrum of a star using its effective temperature. According to the 1931 color matching functions of the Commission Internationale de l’Eclairage, this spectrum is converted to the approximate RGB color the human eye will perceive.</p>
+</div></blockquote>
+<section id="id3">
+<h3><strong>Individually/ with the person next to you</strong>:<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>In your current working directory create a folder called <code class="docutils literal notranslate"><span class="pre">LOGS</span></code>.</p></li>
+<li><p>Copy your <code class="docutils literal notranslate"><span class="pre">5m_history.data</span></code> into this directory and rename it <code class="docutils literal notranslate"><span class="pre">history.data</span></code>. It will look in this directory for a file called <code class="docutils literal notranslate"><span class="pre">history.data</span></code>.</p></li>
+<li><p>Create your data object for analysis using <code class="docutils literal notranslate"><span class="pre">mesaPlot</span></code>:</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">m5</span> <span class="o">=</span> <span class="n">mp</span><span class="o">.</span><span class="n">MESA</span><span class="p">()</span>
+</pre></div>
+</div>
+<ol class="arabic simple" start="4">
+<li><p>Load the history data using this object:</p></li>
+</ol>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>m5.loadHistory(filename_in=`YOUR_PATH_NAME`+ &quot;history.data&quot;)
+</pre></div>
+</div>
+<ol class="arabic simple" start="5">
+<li><p>Now, using <code class="docutils literal notranslate"><span class="pre">tulips</span></code> to produce an <code class="docutils literal notranslate"><span class="pre">perceived_color</span></code> <a class="reference external" href="https://astro-tulips.readthedocs.io/en/latest/perceived_color_diagram.html">plot</a> using your history data. It will create a series of these plots based on your defined step size <code class="docutils literal notranslate"><span class="pre">N</span></code>.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># only uncomment if you were able to successfully install</span>
+<span class="c1">#import tulips</span>
+
+<span class="c1"># note the capital `P`</span>
+<span class="c1">#import mesaPlot as mp</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Specify  directory of MESA model</span>
+<span class="c1">#SINGLE_M11_DIR = &quot;../../tulips/MESA_DIR_EXAMPLE/&quot;</span>
+<span class="c1">#SINGLE_M5_DIR = &quot;./data/LOGS/&quot;</span>
+
+<span class="c1">#m5 = mp.MESA()</span>
+<span class="c1">#m5.loadHistory(filename_in=SINGLE_M5_DIR + &quot;history.data&quot;)</span>
+
+<span class="c1">#idx_low = 0</span>
+<span class="c1">#idx_upper = 400 </span>
+<span class="c1">#N = 2 </span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#tulips.perceived_color(m5, time_ind=(idx_low, idx_upper , N), </span>
+<span class="c1">#                       fps=10, output_fname=&quot;perceived_color&quot;, fig_size=(10, 8))</span>
+<span class="c1">#plt.show()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#from IPython.display import Video</span>
+
+<span class="c1">#Video(&quot;perceived_color.mp4&quot;, embed=True, width=700, height=600)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id4">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="5">
+<li><p>Using the perceived color plot, discuss and identify the impact on the color of the star once the thick H-shell has been formed and its evolution in the HRD. That is, over which frames/time in the visualzation is the star undergoing thick H-shell burning.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Start by idenifying the ZAMS and TAMS (including when our R reaches a max before contracting again).</p>
+</div></blockquote>
+<blockquote>
+<div><p>Your groups thoughtful response.</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./assignments"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ica12.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">In-Class Assignment 12</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="hws.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Homeworks</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#zams-and-evolution-on-the-main-sequence">ZAMS and Evolution on The Main-Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-zams-and-evolution-on-the-main-sequence">a. ZAMS and Evolution on the Main-Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/ with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-structure-evolution-on-the-main-sequence">b. Structure Evolution on the Main-Sequence</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/ with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-perceived-color-diagram-on-the-ms-using-tulips">c. Perceived color diagram on the MS using <code class="docutils literal notranslate"><span class="pre">Tulips</span></code></a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/ with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Carl E. Fields
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
