@@ -40,6 +40,7 @@ parts:
     - file: lectures/week8/week8
       sections:
         - file: lectures/week8/day_14
+        - file: lectures/week8/day_15
   - caption: Assignments
     maxdepth: 1
     chapters:
