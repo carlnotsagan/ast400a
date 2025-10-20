@@ -59,7 +59,7 @@ We will have **5 minutes** after for the referees to ask their assigned question
 
 | Time          | Presenter                           | Topic                           |
 | ------------- | ----------------------------------- | ------------------------------- |
-| 12:30p-12:45p | Gineka M.                           |  Dark Matter                    |
+| 12:30p-12:45p | Gineka M.                           |  Dynamics of Globular Clusters  |
 | 12:45p-1:00p  | Adrian R.                           |  Asteroseismology               |
 | 1:00p-1:15p   | Rohin S.                            |  Black Hole Accretion Disks     |
 | 1:15p-1:30p   | Colin W.                            |  Neutron star structure         |
