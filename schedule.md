@@ -68,7 +68,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 21 Oct | Late evolution of low- and intermediate-mass stars   |                                                                  |
+| 21 Oct | Late evolution of low- and intermediate-mass stars   |  [ICA 14](assignments/ica14.ipynb), Due: EoD, Oct. 21            |
 | 23 Oct | Pre-supernova evolution of massive stars             |                                                                  |
 
 ## Week 10
@@ -83,14 +83,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 4 Nov  | Products of Binary Evolution I                       |                                                                  |
-| 6 Nov  | Products of Binary Evolution II                      |                                                                  |
+| 6 Nov  | Products of Binary Evolution II  + Neutron Stars     |                                                                  |
 
 
 ## Week 12
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 11 Nov | Neutron Stars                                        |  Draft Proposal Due to Referees, End of Day                      |
+| 11 Nov | Veterans Day - no classes                            |  Draft Proposal Due to Referees, End of Day                      |
 | 13 Nov | Guest Lecture: PhD Candidate, [Maria Mutz](https://w3.physics.arizona.edu/person/maria-mutz) Topic: TBD |                                                                  |
 
 ## Week 13
