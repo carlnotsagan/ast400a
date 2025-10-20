@@ -1,0 +1,913 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>In-Class Assignment 14 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/ica14';</script>
+    <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Homeworks" href="hws.html" />
+    <link rel="prev" title="In-Class Assignment 13" href="ica13.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../_static/logo.png" class="logo__image only-light" alt="Theoretical Astrophysics - ASTR "400A" F25 "001" - Home"/>
+    <script>document.write(`<img src="../_static/logo.png" class="logo__image only-dark" alt="Theoretical Astrophysics - ASTR "400A" F25 "001" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../index.html">
+                    ASTR 400A: Theoretical Astrophysics, Fall 2025, University of Arizona, Steward Observatory
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Overview</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../syllabus.html">Syllabus</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../schedule.html">Schedule</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_0.html">Intro &amp; orders of magnitude</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_1.html">An Overview of Stellar Evolution</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_2.html">Mechanical and thermal equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_3.html">Equations of State I</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week3/week3.html">Week 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week3/day_4.html">Equations of State II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week3/day_5.html">Polytropic stellar models</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week4/day_6.html">Radiative energy transport &amp; conduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week4/day_7.html">Opacities</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week5/week5.html">Week 5</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week5/day_8.html">Convection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week5/day_9.html">Convection II</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week6/week6.html">Week 6</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week6/day_10.html">Stellar Energy Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week6/day_11.html">Stellar Energy Sources II</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week7/week7.html">Week 7</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week7/day_12.html">Stellar Atmospheres</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week7/day_13.html">Star Formation and the Pre-Main Sequence</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week8/week8.html">Week 8</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week8/day_14.html">Evolution On The Main-Sequence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week8/day_15.html">Post-Main Sequence Evolution through Helium Burning</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week9/week9.html">Week 9</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week9/day_16.html">Late evolution of low- and intermediate-mass stars</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="pca1.html">PCA 1</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="icas.html">In-Class Assignments</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ica1.html">In-Class Assignment 1</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica3.html">In-Class Assignment 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica4.html">In-Class Assignment 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica5.html">In-Class Assignment 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica6.html">In-Class Assignment 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica7.html">In-Class Assignment 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica8.html">In-Class Assignment 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica9.html">In-Class Assignment 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica10.html">In-Class Assignment 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica11.html">In-Class Assignment 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica12.html">In-Class Assignment 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica13.html">In-Class Assignment 13</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 14</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="hw1.html">Homework 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="hw2.html">Homework 2</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="projects.html">Literature review project and presentation</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="honors.html">Honors project</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="feedback_on_final_presentations.html">Guidelines for Feedback on Final Presentations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="feedback_on_final_reports.html">Guidelines for Feedback on Final Reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_presentation_grading_rubric.html">Grading Scheme - Literature review presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="project_report_grading_rubric.html">Grading Scheme - Literature review project</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast400a/master?urlpath=tree/assignments/ica14.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast400a/blob/master/assignments/ica14.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+<a href="https://github.com/carlnotsagan/ast400a/issues/new?title=Issue%20on%20page%20%2Fassignments/ica14.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Open an issue"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../_sources/assignments/ica14.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>In-Class Assignment 14</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-tp-agb-phase">The TP-AGB Phase</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-thermally-pulsing-agb-star">a. - Thermally Pulsing AGB Star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-identifying-structure-of-tp-agb-stars">b - Identifying Structure of TP-AGB Stars</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-the-c13-pocket">c. - the c13 pocket</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-14">
+<h1>In-Class Assignment 14<a class="headerlink" href="#in-class-assignment-14" title="Permalink to this heading">#</a></h1>
+<section id="the-tp-agb-phase">
+<h2>The TP-AGB Phase<a class="headerlink" href="#the-tp-agb-phase" title="Permalink to this heading">#</a></h2>
+<section id="learning-objectives">
+<h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>explore the 3DU event in intermediate mass stars</p></li>
+<li><p>gain a qualitative understanding of the He-shell flash region and interpulse properties</p></li>
+<li><p>explore implications of c13 pocket in a low mass AGB star</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Download the following model file locally. These data were produced using the <code class="docutils literal notranslate"><span class="pre">c13_pocket</span></code> test suite.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(3 M_{\odot}\)</span>: <a class="reference download internal" download="" href="../_downloads/7f921f3f90e4a1a4821b745bdf5c28cf/3m_to_3DU_history.data"><span class="xref download myst">3m_to_3DU_history.data</span></a>; - the model starts from core He-depletion.</p></li>
+<li><p><span class="math notranslate nohighlight">\(3 M_{\odot}\)</span>: <a class="reference download internal" download="" href="../_downloads/99659a21b5d2b9f0a140bc44510b9e65/3m_c13_pocket.data"><span class="xref download myst">3m_c13_pocket_history.data</span></a>; - this data covers one full thermal pulse and captures the presence of a c13 pocket.</p></li>
+<li><p><span class="math notranslate nohighlight">\(3 M_{\odot}\)</span>: <a class="reference download internal" download="" href="../_downloads/e835f16ceca654f29c9bb7119f3147c0/LOGS.zip"><span class="xref download myst">LOGS.zip</span></a>; - this contains a LOG folder and one profile file during the above c13 pocket TP. Once downloaded upzip in the current working directory.</p></li>
+</ul>
+</section>
+</section>
+<section id="a-thermally-pulsing-agb-star">
+<h2>a. - Thermally Pulsing AGB Star<a class="headerlink" href="#a-thermally-pulsing-agb-star" title="Permalink to this heading">#</a></h2>
+<section id="individually-with-the-person-next-to-you">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h3>
+<p>Using the <span class="math notranslate nohighlight">\(3M_{\odot}\)</span>  <code class="docutils literal notranslate"><span class="pre">3m_to_3DU_history.data</span></code> MESA history dataset:</p>
+<ol class="arabic simple">
+<li><p>Plot the log total luminosity <span class="math notranslate nohighlight">\(\rm{log}~L\)</span> and log helium luminosity <span class="math notranslate nohighlight">\(\rm{log}~L_{\rm{He}}\)</span> as a function of star age (<code class="docutils literal notranslate"><span class="pre">star_age</span></code>) in units of Gyr.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: to zoom in on only the TP-AGB phase, set the xlimits to [1.225,1.227]</p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Plot the surface abundances of <span class="math notranslate nohighlight">\({^{12}\rm{C}}\)</span>, <span class="math notranslate nohighlight">\({^{14}\rm{N}}\)</span>, and <span class="math notranslate nohighlight">\({^{16}\rm{O}}\)</span> as a function of star age (<code class="docutils literal notranslate"><span class="pre">star_age</span></code>) in units of Gyr.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: use the same x -axis limits as part 1.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Hint: if you click the left panel in a jupyter notebook next to a long cell it will hide/unhide the full content to make it shorter to scroll.</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Use these two plots the answer/discuss the following questions below with your group.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load data and see which variables are available</span>
+<span class="c1">#tp_agb_data = pd.read_csv(&#39;##&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#tp_agb_data.head(10)</span>
+<span class="c1">#list(tp_agb_data)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load vars here</span>
+<span class="c1">#three_m_star_age_years = tp_agb_data[&#39;##&#39;]</span>
+<span class="c1">#three_m_log_L = tp_agb_data[&#39;##&#39;]</span>
+<span class="c1">#three_m_log_LHe = tp_agb_data[&#39;##&#39;]</span>
+
+<span class="c1">#three_m_surface_c12 = tp_agb_data[&#39;surface_#&#39;]</span>
+<span class="c1">#three_m_surface_n14 = tp_agb_data[&#39;surface_#&#39;] </span>
+<span class="c1">#three_m_surface_o16 = tp_agb_data[&#39;surface_#&#39;]</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1 result here</span>
+<span class="c1">#plt.title(&#39;3$M_{\odot}$ Model During TP-AGB Phase&#39;)</span>
+
+<span class="c1">#plt.plot(##/1e9,</span>
+         <span class="c1">##,label=r&#39;$L$&#39;)</span>
+
+<span class="c1">#plt.plot(##/1e9,</span>
+<span class="c1">#         ##,label=r&#39;$L_{\rm{He}}$&#39;)</span>
+
+
+<span class="c1">#plt.xlim(##</span>
+
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(r&#39;$\rm{Age \ (Gyr)}$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\rm{log}~L \ (L_{\odot})$&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 2 result here</span>
+<span class="c1">#plt.title(&#39;3$M_{\odot}$ Model During TP-AGB Phase&#39;)</span>
+
+<span class="c1">#plt.plot(three_m_star_age_years/1e9,</span>
+<span class="c1">#         three_m_surface_###,label=r&#39;$X_{surf.}(^{12}\rm{C})$&#39;)</span>
+
+<span class="c1">#plt.plot(three_m_star_age_years/1e9,</span>
+<span class="c1">#         three_m_surface_##,label=r&#39;$X_{surf.}(^{14}\rm{N})$&#39;)</span>
+
+<span class="c1">#plt.plot(three_m_star_age_years/1e9,</span>
+<span class="c1">#         three_m_surface_##,label=r&#39;$X_{surf.}(^{16}\rm{O})$&#39;)</span>
+
+
+<span class="c1">#plt.xlim(#</span>
+
+
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.xlabel(r&#39;$\rm{Age \ (Gyr)}$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$\rm{Surface \ Mass \ Fraction}$&#39;)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="with-your-larger-group-try-to-answer-the-following">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#with-your-larger-group-try-to-answer-the-following" title="Permalink to this heading">#</a></h3>
+<p>Using these plots answer the following:</p>
+<blockquote>
+<div><p>How many pulses are covered over this range?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>What is their qualitative properties over time?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>What is the approximate time between pulses, the <em>interpulse period</em>?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>Hint: Compare with Pols <a class="reference external" href="https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf">Figure 11.3/11.4</a></p>
+</div></blockquote>
+<blockquote>
+<div><p>Does this model experience a third dredge up event during this time? If so, how can we tell?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>Does this model show evidence for hot bottom burning (HBB)?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+</section>
+</section>
+<section id="b-identifying-structure-of-tp-agb-stars">
+<h2>b - Identifying Structure of TP-AGB Stars<a class="headerlink" href="#b-identifying-structure-of-tp-agb-stars" title="Permalink to this heading">#</a></h2>
+<section id="id1">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>Using the <span class="math notranslate nohighlight">\(3M_{\odot}\)</span>  <code class="docutils literal notranslate"><span class="pre">3m_c13_pocket_history.data</span></code> MESA history dataset:</p>
+<ol class="arabic simple">
+<li><p>Plot a <a class="reference external" href="https://en.wikipedia.org/wiki/Rudolf_Kippenhahn">Kippenhahn diagram</a> using mesaPlot and zoom into the He-shell flash region (about 0.5-0.6 <span class="math notranslate nohighlight">\(M_{\odot}\)</span>) using <code class="docutils literal notranslate"><span class="pre">yrng</span></code>.</p>
+<ul class="simple">
+<li><p>To use these data, create a directory called <code class="docutils literal notranslate"><span class="pre">LOGS</span></code> in the same directory as this notebook</p></li>
+<li><p>Copy <code class="docutils literal notranslate"><span class="pre">3m_c13_pocket_history.data</span></code> into the created <code class="docutils literal notranslate"><span class="pre">LOGS</span></code> directory</p></li>
+<li><p>rename the file in the <code class="docutils literal notranslate"><span class="pre">LOGS</span></code> directory to <code class="docutils literal notranslate"><span class="pre">history.data</span></code></p></li>
+</ul>
+</li>
+</ol>
+<blockquote>
+<div><p>Hint: you might have to install/reinstall mesaPlot like we did in <a class="reference external" href="https://carlnotsagan.github.io/ast400a/assignments/ica10.html?highlight=mesaplot">ICA10</a>.</p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Using your Kippenhahn diagram, answer the following with your group.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## b result here</span>
+<span class="c1">#import mesaPlot as mp</span>
+<span class="c1">#m=mp.MESA()</span>
+<span class="c1">#p=mp.plot()</span>
+<span class="c1">#m.loadHistory(&#39;LOGS&#39;)</span>
+<span class="c1">#kip = p.plotKip(m,show_mass_loc=True,yrng=[##,##])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id2">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>In the Kippenhahn Diagram, identify the following and state their approximate mass coordinate: the H-burning shell, the He-burning shell, the CO core, the intershell convective zone (ICZ), and the H-envelope.</p></li>
+</ol>
+<blockquote>
+<div><p>Your group’s thoughtful response.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="c-the-c13-pocket">
+<h2>c. - the c13 pocket<a class="headerlink" href="#c-the-c13-pocket" title="Permalink to this heading">#</a></h2>
+<section id="id3">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">Abund</span></code> function in mesaPlot to confirm the presence of the formation of a c13 pocket during the interpulse phase for this model.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Set <code class="docutils literal notranslate"><span class="pre">xmin=0.5787</span></code> and <code class="docutils literal notranslate"><span class="pre">xmax=0.579</span></code>, the ylimit for the abundances to <code class="docutils literal notranslate"><span class="pre">y1rng=[1e-3,1]</span></code> to zoom in on the pocket!</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># c result here</span>
+<span class="c1">#m=mp.MESA()</span>
+<span class="c1">#p=mp.plot()</span>
+<span class="c1">#m.loadProfile(f=&#39;LOGS/profile38.data&#39;)</span>
+<span class="c1">#p.plotAbun(m,</span>
+<span class="c1">#           xmin=##,xmax=##, # set these based on the inspection of the Kipp above</span>
+<span class="c1">#           cmap=plt.cm.inferno_r,num_labels=10,</span>
+<span class="c1">#          y1rng=[##,##])</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id4">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>What does the presence of the c13 pocket imply about the observational characteristics of the AGB star?</p></li>
+</ol>
+<blockquote>
+<div><p>Your group’s thoughtful response.</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./assignments"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+    <a class="left-prev"
+       href="ica13.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">In-Class Assignment 13</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="hws.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Homeworks</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-tp-agb-phase">The TP-AGB Phase</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-thermally-pulsing-agb-star">a. - Thermally Pulsing AGB Star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-identifying-structure-of-tp-agb-stars">b - Identifying Structure of TP-AGB Stars</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-the-c13-pocket">c. - the c13 pocket</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Carl E. Fields
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
