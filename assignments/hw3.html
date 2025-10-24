@@ -65,6 +65,8 @@
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Final Project" href="project.html" />
+    <link rel="prev" title="Homework 2" href="hw2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,8 +128,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -247,11 +247,12 @@
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week9/week9.html">Week 9</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../lectures/week9/day_16.html">Late evolution of low- and intermediate-mass stars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week9/day_17.html">Pre-supernova evolution of massive stars</a></li>
 </ul>
 </details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="pca1.html">PCA 1</a></li>
 </ul>
@@ -273,11 +274,13 @@
 <li class="toctree-l2"><a class="reference internal" href="ica12.html">In-Class Assignment 12</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica13.html">In-Class Assignment 13</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica14.html">In-Class Assignment 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="ica15.html">In-Class Assignment 15</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="hws.html">Homeworks</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="hw1.html">Homework 1</a></li>
 <li class="toctree-l2"><a class="reference internal" href="hw2.html">Homework 2</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">Homework 3</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -463,53 +466,65 @@ document.write(`
 <ul class="simple">
 <li></li>
 </ul>
-<p>Relevant Chapters: <a class="reference external" href="https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843">HKT</a> Ch. 4,5; Pols Lectures Ch. 3,5 <a class="reference external" href="https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf">here</a>. LeBlanc Chapters 5,6. Not a complete list of the topics covered in the problem set. You are encouraged to work together on the problem sets but you must submit your own work.</p>
+<p>Relevant Chapters: <a class="reference external" href="https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843">HKT</a> Ch. 5; Pols Lectures Ch. 10,11,12 <a class="reference external" href="https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf">here</a>. LeBlanc Chapters 2,6. Not a complete list of the topics covered in the problem set.</p>
 <p><strong>Submitting your work:</strong> You are encouraged to work in groups, but your final solutions should be your own work! Turn into D2L as a PDF. In most cases, solutions will be found by hand, then written up in LaTeX/Markdown/Word and exported as a final PDF. If you have not worked with LaTeX before consider starting from one of the Overleaf Homework Templates <a class="reference external" href="https://tr.overleaf.com/gallery/tagged/homework">here</a>.</p>
-<p><strong>Extra credit:</strong> HW assignments submitted that were prepared using LaTeX will earn 10 points extra credit. If you used LaTeX to prepare your solutions, make a note of this in D2L textbox.</p>
+<p><strong>Extra credit:</strong> HW assignments submitted that were prepared using LaTeX will earn 5 points extra credit. If you used LaTeX to prepare your solutions, make a note of this in D2L textbox.</p>
 <p><strong>Total: (150 points)</strong></p>
 <p>–</p>
 <ol class="arabic simple">
-<li><p><strong>Total: (30 points)</strong> - The <a class="reference external" href="https://en.wikipedia.org/wiki/Planck%27s_law">Planck</a> function</p>
+<li><p><strong>Total: (50 points)</strong> - Assuming that while on the Horizontal Branch, the Sun will burn helium via the triple-<span class="math notranslate nohighlight">\(\alpha\)</span> reaction only and that the luminosity in the core will be constant <span class="math notranslate nohighlight">\(L_{\rm{HB}}=100L_{\odot}\)</span>.</p>
 <ul class="simple">
-<li><p>(<strong>a</strong>) - Show that <span class="math notranslate nohighlight">\(
-\frac{dB_{\nu}}{dT} = \frac{2 k_{\rm{B}}^3 T^2}{h^2 c^2} \left [ \frac{x^4 e^x}{(e^x-1)^2} \right ]~.\)</span> (<strong>10 points</strong>)</p></li>
-<li><p>(<strong>b</strong>) - Compute the maximum of the bracketed term using derivatives. This will require a numerical solution. (<strong>10 points</strong>)</p></li>
-<li><p>(<strong>c</strong>) - Plug the maximum back into your variable substitution to compute the favored photon energy. In a few sentences compare your result to that from Pols 5.24 and what this suggests for the Rosseland mean opacity. (<strong>10 points</strong>)</p></li>
+<li><p>(<strong>a</strong>) - Compute the energy emitted by the triple-<span class="math notranslate nohighlight">\(\alpha\)</span> reaction in MeV. <strong>(10 points)</strong></p></li>
+<li><p>(<strong>b</strong>) - Compute the fraction <span class="math notranslate nohighlight">\(f\)</span> of mass transformed into energy for the triple-<span class="math notranslate nohighlight">\(\alpha\)</span> reaction. <strong>(10 points)</strong></p>
+<ul>
+<li><p><em>Hint: <a class="reference external" href="https://en.wikipedia.org/wiki/Mass%E2%80%93energy_equivalence">Mass–energy equivalence</a></em></p></li>
 </ul>
 </li>
-<li><p><strong>Total: (35 points)</strong> - Assume a star of radius <span class="math notranslate nohighlight">\(R_\star\)</span> having a density profile equal to
-<span class="math notranslate nohighlight">\(\rho( r)=\rho_{c} \left ( 1 - \frac{r}{R_\star} \right )\)</span> and a nuclear production rate per unit mass equal to <span class="math notranslate nohighlight">\(\epsilon( r) = \epsilon_{c} \left (1 - \frac{r}{0.2 R_\star} \right ) \ \  \textrm{for} \ r~\leq 0.2~R_\star\)</span> and <span class="math notranslate nohighlight">\(\epsilon( r) = 0 \ \  \textrm{for} \ r~\gt 0.2~R_\star~.\)</span></p>
-<ul class="simple">
-<li><p>(<strong>a</strong>) - Compute the luminosity of the star at its surface in terms <span class="math notranslate nohighlight">\(R_\star\)</span>, <span class="math notranslate nohighlight">\(\rho_{c},\)</span> and <span class="math notranslate nohighlight">\(\epsilon_{c}\)</span> <strong>(15 points)</strong></p></li>
-<li><p>(<strong>b</strong>) - Plug in present day solar values, you can use HKT 9.2.3, and compute a numerical value for the luminosity. <strong>(10 points)</strong></p></li>
-<li><p>(<strong>c</strong>) - Compute the nuclear timescale for this star and compare it to the nuclear timescale of the Sun. <strong>(10 points)</strong>
-<em>For this problem, you may solve by hand or using <a class="reference external" href="https://www.sympy.org/en/index.html">SymPy</a>. If using sympy, upload the PDF output of your notebook as part of the solution.</em></p></li>
+<li><p>(<strong>c</strong>) - Compute the total emitted energy on the horizontal branch assuming 10% of the total mass (<span class="math notranslate nohighlight">\(1M_{\odot}\)</span>) will be converted to <span class="math notranslate nohighlight">\({^{12}\rm{C}}\)</span> and with the efficiency found in (<strong>b</strong>). <strong>(10 points)</strong></p></li>
+<li><p>(<strong>d</strong>) - Compute the total time this star will spend on the horizontal branch (<span class="math notranslate nohighlight">\(t_{\rm{HB}}\)</span>). <strong>(10 points)</strong></p></li>
+<li><p>(<strong>e</strong>) - Compare this to the typical main-sequence lifetime for a Solar like star and describe physically why the <span class="math notranslate nohighlight">\(t_{\rm{HB}}\)</span> is shorter or longer. <strong>(10 points)</strong></p></li>
 </ul>
 </li>
-<li><p><strong>Total: (20 points)</strong> - Assume that 10 eV of energy per atom found in the Sun is emitted during some chemical reaction taking place. Also assume that the Sun is composed of pure hydrogen.</p>
+<li><p><strong>Total: (25 points)</strong> - Consider a homogeneous spherical cloud with temperature <span class="math notranslate nohighlight">\(T\)</span> and density <span class="math notranslate nohighlight">\(\rho\)</span>. Neglecting all factors except for gravitational and thermal energy, it may be assumed that the cloud can collapse under the condition: <span class="math notranslate nohighlight">\(-\Omega&gt;2U\)</span>.</p>
 <ul class="simple">
-<li><p>(<strong>a</strong>) - Calculate the total energy emitted by this chemical process (<span class="math notranslate nohighlight">\(E_{\rm{chem}}\)</span>). <strong>(5 points)</strong></p></li>
-<li><p>(<strong>b</strong>) - Compute the nuclear timescale for this star assuming a solar luminosity. <strong>(5 points)</strong></p></li>
-<li><p>(<strong>c</strong>) - In a few sentences describe if it is then possible that the energy source of the Sun is chemical in nature? Why or why not? <strong>(10 points)</strong></p></li>
+<li><p>(<strong>a</strong>) - Calculate the Jeans length <span class="math notranslate nohighlight">\(R_{\rm{J}}\)</span> for this cloud, the length at which this condition is met. <strong>(15 points)</strong></p></li>
+<li><p>(<strong>b</strong>) - Respond in a few sentences: If a cloud has a radius larger than its <span class="math notranslate nohighlight">\(R_{\rm{J}}\)</span>, will it collapse? What are the next steps of a cloud that has began to collapse? <strong>(10 points)</strong></p></li>
 </ul>
 </li>
-<li><p><strong>Total: (25 points)</strong> - Conceptual questions from Pols Chapter 3. Respond in a few sentences.</p>
+<li><p><strong>Total: (30 points)</strong> - Conceptual questions from Pols Chapter 10,12. Respond in a few sentences.</p>
 <ul class="simple">
-<li><p>(<strong>a</strong>) - What do we mean by local thermodynamic equilibrium (LTE)? Why is this a good assumption for stellar interiors? What is the difference between LTE and thermal equilibrium (as treated in Ch. 2)? <strong>(10 points)</strong></p></li>
-<li><p>(<strong>b</strong>) - In what type of stars does degeneracy become important? Is it important in main-sequence stars? Is it more important in high mass or low mass MS stars? <strong>(5 points)</strong></p></li>
-<li><p>(<strong>c</strong>) - Explain qualitatively why for degenerate matter, the pressure increases with the density. <strong>(5 points)</strong></p></li>
-<li><p>(<strong>d</strong>) - In the central region of a star we find free electrons and ions. Why do the electrons become degenerate first? Why do the ions never become degenerate in practice? <strong>(5 points)</strong></p></li>
+<li><p>(<strong>a</strong>) - Why does the luminosity of a star increase on the main sequence? Why do low-mass stars, like
+the Sun, expand less during the main sequence than higher-mass stars? <strong>(10 points)</strong></p></li>
+<li><p>(<strong>b</strong>) - Explain what happens during the ‘hook’ at the end of the main sequence of stars more massive
+than the Sun. <strong>(5 points)</strong></p></li>
+<li><p>(<strong>c</strong>) - Explain the existence of a Hertzsprung gap in the HRD for high-mass stars. Why is there no
+Hertzsprung gap for low-mass stars? <strong>(10 points)</strong></p></li>
+<li><p>(<strong>d</strong>) - Explain why the timescales of the burning stages from C-burning onward are very short compared
+to the H- and He-burning phases. <strong>(5 points)</strong></p></li>
 </ul>
 </li>
-<li><p><strong>Total: (40 points)</strong> - Produce a stellar model using MESA-Web <a class="reference external" href="http://user.astro.wisc.edu/~townsend/static.php?ref=mesa-web-submit">here</a> of initial mass between 0.5 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> to 30 <span class="math notranslate nohighlight">\(M_{\odot}\)</span>. <strong>Set your stopping condition to central hydrogen mass fraction lower limit of 1e-6</strong>. We will focus on the evolution of the star to the end of the main-sequence.
+<li><p><strong>Total: (45 points)</strong> - Produce a stellar model using MESA-Web <a class="reference external" href="http://user.astro.wisc.edu/~townsend/static.php?ref=mesa-web-submit">here</a> of initial mass between 0.5 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> to 30 <span class="math notranslate nohighlight">\(M_{\odot}\)</span>. <strong>Set your stopping condition to central helium mass fraction lower limit of 1e-6</strong>. Sometimes a non-UA email works better.
 <br>
-<strong>Note</strong>: If you have issues for your choice of mass, change to a lower initial mass, the defaults are set for a 1 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> model to evolve to a white dwarf.
+<strong>Note</strong>: If you have issues for your choice of mass, change to a different initial mass.
 <br>
-<strong>Extra Credit</strong>: If you download and install MESA (instructions <a class="reference external" href="https://docs.mesastar.org/en/latest/installation.html">here</a>) to your laptop or on UA HPC (account creation info <a class="reference external" href="https://hpcdocs.hpc.arizona.edu/registration_and_access/account_creation/#overview">here</a>) then produce a model using one of the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite.html"><em>Test Suites</em></a> you can earn 25 points extra credit.</p>
+<strong>Extra Credit</strong>: If you download and install MESA (instructions <a class="reference external" href="https://docs.mesastar.org/en/latest/installation.html">here</a>) to your laptop or on UA HPC (account creation info <a class="reference external" href="https://hpcdocs.hpc.arizona.edu/registration_and_access/account_creation/#overview">here</a>) then produce a model using one of the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite.html"><em>Test Suites</em></a> you can earn 15 points extra credit.</p>
 <ul class="simple">
-<li><p>(<strong>a</strong>) - Produce a <em>profile</em> plot of <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> and <span class="math notranslate nohighlight">\(\nabla_{\rm{rad}}\)</span> as a function of mass (<span class="math notranslate nohighlight">\(m/M_{\odot}\)</span>) or radius (<span class="math notranslate nohighlight">\(r/R_{\odot}\)</span>) during the main-sequence (or elsewhere if using a <code class="docutils literal notranslate"><span class="pre">test_suite</span></code>) and <em>label</em> where the star is <strong>convective</strong> and <strong>radiative</strong>. <strong>(15 points)</strong></p></li>
-<li><p>(<strong>b</strong>) - Produce an HRD using the history data from your model and label the <code class="docutils literal notranslate"><span class="pre">main-sequence</span></code>. On the same plot, plot the present location of the Sun. <strong>(15 points)</strong></p></li>
-<li><p>(<strong>c</strong>) - Produce a time-evolution plot of the luminosity of the <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> burning categories and determine which is the dominant burning category for your model. If there is a crossover point, identify the approximate central <span class="math notranslate nohighlight">\(T_6\)</span> this occurs at. <strong>(10 points)</strong></p></li>
+<li><p>(<strong>a</strong>) - Produce a <em>profile</em> plot of <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> and <span class="math notranslate nohighlight">\(\nabla_{\rm{rad}}\)</span> as a function of mass (<span class="math notranslate nohighlight">\(m/M_{\odot}\)</span>) or radius (<span class="math notranslate nohighlight">\(r/R_{\odot}\)</span>) during core-helium burning phase (or elsewhere if using a <code class="docutils literal notranslate"><span class="pre">test_suite</span></code>) and</p>
+<ul>
+<li><p><em>label</em> where the star is <strong>convective</strong> and <strong>radiative</strong>. <strong>(15 points)</strong></p></li>
+<li><p><em>describe</em> the expected evolutionary fate of the star and your reasoning. <strong>(5 points)</strong></p></li>
+</ul>
+</li>
+<li><p>(<strong>b</strong>) - Produce an HR diagram using the history data from your model and label at least <strong>four</strong> of the applicable evolutionary phases:</p>
+<ul>
+<li><p><em>Main-Sequence</em>, <em>Red Giant Branch</em>, <em>Asymptotic Giant Branch</em>, <em>Blue Loop</em>, <em>Hertzsprung Gap</em> <strong>(15 points)</strong></p></li>
+</ul>
+</li>
+<li><p>(<strong>c</strong>) - Produce a time-evolution (<code class="docutils literal notranslate"><span class="pre">model_number</span></code> or <code class="docutils literal notranslate"><span class="pre">star_age</span></code> for example) plot of the luminosity of the all helium burning <span class="math notranslate nohighlight">\(L_{\rm{He}}\)</span> and use this to show if the star undergoes a <em>helium flash</em> or not.</p>
+<ul>
+<li><p>Describe in a few words your reasoning based on the results of the plot. <strong>(10 points)</strong></p></li>
+</ul>
+</li>
 </ul>
 </li>
 </ol>
@@ -545,6 +560,24 @@ document.write(`
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="hw2.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Homework 2</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="project.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Final Project</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
