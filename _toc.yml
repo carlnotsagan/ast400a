@@ -45,6 +45,9 @@ parts:
       sections:
         - file: lectures/week9/day_16
         - file: lectures/week9/day_17
+    - file: lectures/week10/week10
+      sections:
+        - file: lectures/week10/day_18
   - caption: Assignments
     maxdepth: 1
     chapters:
@@ -68,6 +71,7 @@ parts:
         - file: assignments/ica13
         - file: assignments/ica14
         - file: assignments/ica15
+        - file: assignments/ica16
     - file: assignments/hws
       sections:
         - file: assignments/hw1
