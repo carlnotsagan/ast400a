@@ -69,21 +69,21 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 21 Oct | Late evolution of low- and intermediate-mass stars   |  [ICA 14](assignments/ica14.ipynb), Due: EoD, Oct. 21            |
-| 23 Oct | Pre-supernova evolution of massive stars             |                                                                  |
+| 23 Oct | Pre-supernova evolution of massive stars             |  [ICA 15](assignments/ica15.ipynb), Not for Credit               |
 
 ## Week 10
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 28 Oct | Core-Collapse and Thermonuclear Supernovae           |                                                                  |
-| 30 Oct | Black holes and their mergers                        |                                                                  |
+| 28 Oct | Core-Collapse and Thermonuclear Supernovae           |  [ICA 16](assignments/ica16.ipynb), Due: EoD, Oct. 28            |
+| 30 Oct | Black holes and their mergers                        |  [ICA 17](assignments/ica17.ipynb), Not for Credit               |
 
 ## Week 11
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 4 Nov  | Products of Binary Evolution I                       |                                                                  |
-| 6 Nov  | Products of Binary Evolution II  + Neutron Stars     |                                                                  |
+| 4 Nov  | Products of Binary Evolution I                       |  [ICA 18](assignments/ica18.ipynb), Not for Credit               |
+| 6 Nov  | Products of Binary Evolution II  + Neutron Stars     |  [ICA 19](assignments/ica19.ipynb), Due: EoD, Nov. 6             |
 
 
 ## Week 12
@@ -97,7 +97,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 18 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri) | Draft Proposal Feedback Due to D2L and via Email End of Day                        |                                                                  |
+| 18 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri) | [Final Presentations](https://carlnotsagan.github.io/ast400a/assignments/project_presentation_grading_rubric.html) Due to D2L and via Email End of Day                        |                                                                  |
 | 20 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)                          |                                                                  |
 
 ## Week 14
@@ -105,14 +105,14 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 25 Nov | Student Presentations                                |                                                                  |
-| 27 Nov | Optional Class (Open Office Hours)                   |                                                                  |
+| 27 Nov | Optional Class (Open Office Hours)                   |   Draft [Proposal Feedback](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_reports.html) Due to D2L and via Email End of Day    |
 
 ## Week 15
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 2 Dec  | Student Presentations                                |                                                                  |
-| 4 Dec  | Student Presentations                                |  Final Project Report Due to D2L, End of Day                     |
+| 4 Dec  | Student Presentations                                |  [Final Project Report](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html) Due to D2L, End of Day                     |
 
 ## Week 16
 
