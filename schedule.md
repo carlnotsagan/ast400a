@@ -97,7 +97,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 18 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri) | [Final Presentations](https://carlnotsagan.github.io/ast400a/assignments/project_presentation_grading_rubric.html) Due to D2L and via Email End of Day                        |                                                                  |
+| 18 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri) | [Final Presentations](https://carlnotsagan.github.io/ast400a/assignments/project_presentation_grading_rubric.html) Due to D2L, End of Day                        |                                                                  |
 | 20 Nov | Student Presentations, Hosted by [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)                          |                                                                  |
 
 ## Week 14
