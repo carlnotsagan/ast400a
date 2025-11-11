@@ -91,7 +91,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 11 Nov | Veterans Day - no classes                            |  Draft Proposal Due to Referees, End of Day                      |
-| 13 Nov | Guest Lecture: PhD Candidate, [Maria Mutz](https://w3.physics.arizona.edu/person/maria-mutz) Topic: TBD |                                                                  |
+| 13 Nov | Guest Lecture: PhD Candidate, [Maria Mutz](https://w3.physics.arizona.edu/person/maria-mutz) Topic: Neutron Stars |  [ICA 20](assignments/ica20.ipynb), Not for Credit                                                                 |
 
 ## Week 13
 
