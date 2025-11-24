@@ -1,0 +1,1112 @@
+
+
+<!DOCTYPE html>
+
+
+<html lang="en" data-content_root="" >
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
+
+    <title>In-Class Assignment 14 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F25 &#34;001&#34;</title>
+  
+  
+  
+  <script data-cfasync="false">
+    document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
+    document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
+  </script>
+  
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+
+  
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+  <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
+<link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/styles/sphinx-book-theme.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/proof.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.4cbf315f70debaebd550c87a6162cf0f.min.css" />
+  
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/_sphinx_javascript_frameworks_compat.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="../../_static/scripts/sphinx-book-theme.js"></script>
+    <script>let toggleHintShow = 'Click to show';</script>
+    <script>let toggleHintHide = 'Click to hide';</script>
+    <script>let toggleOpenOnPrint = 'true';</script>
+    <script src="../../_static/togglebutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
+    <script src="../../_static/design-tabs.js"></script>
+    <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
+    <script async="async" src="../../_static/sphinx-thebe.js"></script>
+    <script>window.MathJax = {"options": {"processHtmlClass": "tex2jax_process|mathjax_process|math|output_area"}}</script>
+    <script defer="defer" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'assignments/sols/ica14-solutions';</script>
+    <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="docsearch:language" content="en"/>
+  </head>
+  
+  
+  <body data-bs-spy="scroll" data-bs-target=".bd-toc-nav" data-offset="180" data-bs-root-margin="0px 0px -60%" data-default-mode="">
+
+  
+  
+  <div id="pst-skip-link" class="skip-link d-print-none"><a href="#main-content">Skip to main content</a></div>
+  
+  <div id="pst-scroll-pixel-helper"></div>
+  
+  <button type="button" class="btn rounded-pill" id="pst-back-to-top">
+    <i class="fa-solid fa-arrow-up"></i>Back to top</button>
+
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-primary-sidebar-checkbox"/>
+  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
+  
+  <input type="checkbox"
+          class="sidebar-toggle"
+          id="pst-secondary-sidebar-checkbox"/>
+  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
+  
+  <div class="search-button__wrapper">
+    <div class="search-button__overlay"></div>
+    <div class="search-button__search-container">
+<form class="bd-search d-flex align-items-center"
+      action="../../search.html"
+      method="get">
+  <i class="fa-solid fa-magnifying-glass"></i>
+  <input type="search"
+         class="form-control"
+         name="q"
+         id="search-input"
+         placeholder="Search this book..."
+         aria-label="Search this book..."
+         autocomplete="off"
+         autocorrect="off"
+         autocapitalize="off"
+         spellcheck="false"/>
+  <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
+</form></div>
+  </div>
+
+  <div class="pst-async-banner-revealer d-none">
+  <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
+</div>
+
+  
+    <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
+    </header>
+  
+
+  <div class="bd-container">
+    <div class="bd-container__inner bd-page-width">
+      
+      
+      
+        
+      
+      <div class="bd-sidebar-primary bd-sidebar">
+        
+
+  
+  <div class="sidebar-header-items sidebar-primary__section">
+    
+    
+    
+    
+  </div>
+  
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item">
+
+  
+    
+  
+
+<a class="navbar-brand logo" href="../../index.html">
+  
+  
+  
+  
+  
+    
+    
+      
+    
+    
+    <img src="../../_static/logo.png" class="logo__image only-light" alt="Theoretical Astrophysics - ASTR "400A" F25 "001" - Home"/>
+    <script>document.write(`<img src="../../_static/logo.png" class="logo__image only-dark" alt="Theoretical Astrophysics - ASTR "400A" F25 "001" - Home"/>`);</script>
+  
+  
+</a></div>
+        <div class="sidebar-primary-item">
+
+ <script>
+ document.write(`
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass"></i>
+    <span class="search-button__default-text">Search</span>
+    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+   </button>
+ `);
+ </script></div>
+        <div class="sidebar-primary-item"><nav class="bd-links bd-docs-nav" aria-label="Main">
+    <div class="bd-toc-item navbar-nav active">
+        
+        <ul class="nav bd-sidenav bd-sidenav__home-link">
+            <li class="toctree-l1">
+                <a class="reference internal" href="../../index.html">
+                    ASTR 400A: Theoretical Astrophysics, Fall 2025, University of Arizona, Steward Observatory
+                </a>
+            </li>
+        </ul>
+        <p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Overview</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../../syllabus.html">Syllabus</a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="toctree-l1"><a class="reference internal" href="../../schedule.html">Schedule</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Course Materials</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week1/day_0.html">Intro &amp; orders of magnitude</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week1/day_1.html">An Overview of Stellar Evolution</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week2/day_2.html">Mechanical and thermal equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week2/day_3.html">Equations of State I</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week3/week3.html">Week 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week3/day_4.html">Equations of State II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week3/day_5.html">Polytropic stellar models</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week4/week4.html">Week 4</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week4/day_6.html">Radiative energy transport &amp; conduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week4/day_7.html">Opacities</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week5/week5.html">Week 5</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week5/day_8.html">Convection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week5/day_9.html">Convection II</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week6/week6.html">Week 6</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week6/day_10.html">Stellar Energy Sources</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week6/day_11.html">Stellar Energy Sources II</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week7/week7.html">Week 7</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week7/day_12.html">Stellar Atmospheres</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week7/day_13.html">Star Formation and the Pre-Main Sequence</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week8/week8.html">Week 8</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week8/day_14.html">Evolution On The Main-Sequence</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week8/day_15.html">Post-Main Sequence Evolution through Helium Burning</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week9/week9.html">Week 9</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week9/day_16.html">Late evolution of low- and intermediate-mass stars</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week9/day_17.html">Pre-supernova evolution of massive stars</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week10/week10.html">Week 10</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week10/day_18.html">Core-Collapse and Thermonuclear Supernovae</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week10/day_19.html">Observational and Physical Classification of Supernovae + Black holes and their mergers</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week11/week11.html">Week 11</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week11/day_20.html">Products of Binary Evolution I</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week11/day_21.html">Products of Binary Evolution II + Neutron Stars</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../../lectures/week12/week12.html">Week 12</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../../lectures/week12/day_22.html">Neutron Stars</a></li>
+</ul>
+</details></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1 has-children"><a class="reference internal" href="../pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../pca1.html">PCA 1</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../ica1.html">In-Class Assignment 1</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="../ica2.html">In-Class Assignment 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica3.html">In-Class Assignment 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica4.html">In-Class Assignment 4</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica5.html">In-Class Assignment 5</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica6.html">In-Class Assignment 6</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica7.html">In-Class Assignment 7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica8.html">In-Class Assignment 8</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica9.html">In-Class Assignment 9</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica10.html">In-Class Assignment 10</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica11.html">In-Class Assignment 11</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica12.html">In-Class Assignment 12</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica13.html">In-Class Assignment 13</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica14.html">In-Class Assignment 14</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica15.html">In-Class Assignment 15</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica16.html">In-Class Assignment 16</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../ica17.html">In-Class Assignment 17</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica18.html">In-Class Assignment 18</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica19.html">In-Class Assignment 19</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ica20.html">In-Class Assignment 20: Neutron Star Equations of State</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../hw1.html">Homework 1</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hw2.html">Homework 2</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hw3.html">Homework 3</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../hw4.html">Homework 4 (Optional)</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../project.html">Final Project</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../projects.html">Literature review project and presentation</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../honors.html">Honors project</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="../feedback_on_final_presentations.html">Guidelines for Feedback on Final Presentations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../feedback_on_final_reports.html">Guidelines for Feedback on Final Reports</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../project_presentation_grading_rubric.html">Grading Scheme - Literature review presentation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../project_report_grading_rubric.html">Grading Scheme - Literature review project</a></li>
+</ul>
+</details></li>
+</ul>
+
+    </div>
+</nav></div>
+    </div>
+  
+  
+  <div class="sidebar-primary-items__end sidebar-primary__section">
+  </div>
+  
+  <div id="rtd-footer-container"></div>
+
+
+      </div>
+      
+      <main id="main-content" class="bd-main" role="main">
+        
+        
+
+<div class="sbt-scroll-pixel-helper"></div>
+
+          <div class="bd-content">
+            <div class="bd-article-container">
+              
+              <div class="bd-header-article d-print-none">
+<div class="header-article-items header-article__inner">
+  
+    <div class="header-article-items__start">
+      
+        <div class="header-article-item"><button class="sidebar-toggle primary-toggle btn btn-sm" title="Toggle primary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <span class="fa-solid fa-bars"></span>
+</button></div>
+      
+    </div>
+  
+  
+    <div class="header-article-items__end">
+      
+        <div class="header-article-item">
+
+<div class="article-header-buttons">
+
+
+
+
+
+<div class="dropdown dropdown-launch-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Launch interactive content">
+    <i class="fas fa-rocket"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="https://mybinder.org/v2/gh/carlnotsagan/ast400a/master?urlpath=tree/assignments/sols/ica14-solutions.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Binder"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Binder logo" src="../../_static/images/logo_binder.svg">
+  </span>
+<span class="btn__text-container">Binder</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li><a href="https://colab.research.google.com/github/carlnotsagan/ast400a/blob/master/assignments/sols/ica14-solutions.ipynb" target="_blank"
+   class="btn btn-sm dropdown-item"
+   title="Launch on Colab"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  
+    <img alt="Colab logo" src="../../_static/images/logo_colab.png">
+  </span>
+<span class="btn__text-container">Colab</span>
+</a>
+</li>
+      
+  </ul>
+</div>
+
+
+
+<a href="https://github.com/carlnotsagan/ast400a/issues/new?title=Issue%20on%20page%20%2Fassignments/sols/ica14-solutions.html&body=Your%20issue%20content%20here." target="_blank"
+   class="btn btn-sm btn-source-issues-button"
+   title="Open an issue"
+   data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-lightbulb"></i>
+  </span>
+
+</a>
+
+
+
+
+
+
+<div class="dropdown dropdown-download-buttons">
+  <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" aria-label="Download this page">
+    <i class="fas fa-download"></i>
+  </button>
+  <ul class="dropdown-menu">
+      
+      
+      
+      <li><a href="../../_sources/assignments/sols/ica14-solutions.ipynb" target="_blank"
+   class="btn btn-sm btn-download-source-button dropdown-item"
+   title="Download source file"
+   data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file"></i>
+  </span>
+<span class="btn__text-container">.ipynb</span>
+</a>
+</li>
+      
+      
+      
+      
+      <li>
+<button onclick="window.print()"
+  class="btn btn-sm btn-download-pdf-button dropdown-item"
+  title="Print to PDF"
+  data-bs-placement="left" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-file-pdf"></i>
+  </span>
+<span class="btn__text-container">.pdf</span>
+</button>
+</li>
+      
+  </ul>
+</div>
+
+
+
+
+<button onclick="toggleFullScreen()"
+  class="btn btn-sm btn-fullscreen-button"
+  title="Fullscreen mode"
+  data-bs-placement="bottom" data-bs-toggle="tooltip"
+>
+  
+
+<span class="btn__icon-container">
+  <i class="fas fa-expand"></i>
+  </span>
+
+</button>
+
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
+  </button>
+`);
+</script>
+
+
+<script>
+document.write(`
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="fa-solid fa-magnifying-glass fa-lg"></i>
+  </button>
+`);
+</script>
+<button class="sidebar-toggle secondary-toggle btn btn-sm" title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</button>
+</div></div>
+      
+    </div>
+  
+</div>
+</div>
+              
+              
+
+<div id="jb-print-docs-body" class="onlyprint">
+    <h1>In-Class Assignment 14</h1>
+    <!-- Table of contents -->
+    <div id="print-main-content">
+        <div id="jb-print-toc">
+            
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-tp-agb-phase">The TP-AGB Phase</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-thermally-pulsing-agb-star">a. - Thermally Pulsing AGB Star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-identifying-structure-of-tp-agb-stars">b - Identifying Structure of TP-AGB Stars</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-the-c13-pocket">c. - the c13 pocket</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+            </nav>
+        </div>
+    </div>
+</div>
+
+              
+                
+<div id="searchbox"></div>
+                <article class="bd-article">
+                  
+  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-14">
+<h1>In-Class Assignment 14<a class="headerlink" href="#in-class-assignment-14" title="Permalink to this heading">#</a></h1>
+<section id="the-tp-agb-phase">
+<h2>The TP-AGB Phase<a class="headerlink" href="#the-tp-agb-phase" title="Permalink to this heading">#</a></h2>
+<section id="learning-objectives">
+<h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
+<ul class="simple">
+<li><p>explore the 3DU event in intermediate mass stars</p></li>
+<li><p>gain a qualitative understanding of the He-shell flash region and interpulse properties</p></li>
+<li><p>explore implications of c13 pocket in a low mass AGB star</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+</pre></div>
+</div>
+</div>
+</div>
+<p>Download the following model file locally. These data were produced using the <code class="docutils literal notranslate"><span class="pre">c13_pocket</span></code> test suite.</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(3 M_{\odot}\)</span>: <a class="reference internal" href="#data/3m_to_3DU_history.data"><span class="xref myst">3m_to_3DU_history.data</span></a>; - the model starts from core He-depletion.</p></li>
+<li><p><span class="math notranslate nohighlight">\(3 M_{\odot}\)</span>: <a class="reference internal" href="#data/3m_c13_pocket.data"><span class="xref myst">3m_c13_pocket_history.data</span></a>; - this data covers one full thermal pulse and captures the presence of a c13 pocket.</p></li>
+<li><p><span class="math notranslate nohighlight">\(3 M_{\odot}\)</span>: <a class="reference internal" href="#data/LOGS.zip"><span class="xref myst">LOGS.zip</span></a>; - this contains a LOG folder and one profile file during the above c13 pocket TP. Once downloaded upzip in the current working directory.</p></li>
+</ul>
+</section>
+</section>
+<section id="a-thermally-pulsing-agb-star">
+<h2>a. - Thermally Pulsing AGB Star<a class="headerlink" href="#a-thermally-pulsing-agb-star" title="Permalink to this heading">#</a></h2>
+<section id="individually-with-the-person-next-to-you">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h3>
+<p>Using the <span class="math notranslate nohighlight">\(3M_{\odot}\)</span>  <code class="docutils literal notranslate"><span class="pre">3m_to_3DU_history.data</span></code> MESA history dataset:</p>
+<ol class="arabic simple">
+<li><p>Plot the log total luminosity <span class="math notranslate nohighlight">\(\rm{log}~L\)</span> and log helium luminosity <span class="math notranslate nohighlight">\(\rm{log}~L_{\rm{He}}\)</span> as a function of star age (<code class="docutils literal notranslate"><span class="pre">star_age</span></code>) in units of Gyr.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: to zoom in on only the TP-AGB phase, set the xlimits to [1.225,1.227]</p>
+</div></blockquote>
+<ol class="arabic simple" start="2">
+<li><p>Plot the surface abundances of <span class="math notranslate nohighlight">\({^{12}\rm{C}}\)</span>, <span class="math notranslate nohighlight">\({^{14}\rm{N}}\)</span>, and <span class="math notranslate nohighlight">\({^{16}\rm{O}}\)</span> as a function of star age (<code class="docutils literal notranslate"><span class="pre">star_age</span></code>) in units of Gyr.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: use the same x -axis limits as part 1.</p>
+</div></blockquote>
+<blockquote>
+<div><p>Hint: if you click the left panel in a jupyter notebook next to a long cell it will hide/unhide the full content to make it shorter to scroll.</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Use these two plots the answer/discuss the following questions below with your group.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load data and see which variables are available</span>
+<span class="n">tp_agb_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;3m_to_3DU_history.data&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\s+&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">tp_agb_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+<span class="c1">#list(tp_agb_data)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># load data and see which variables are available</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">tp_agb_data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;3m_to_3DU_history.data&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\s+&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">tp_agb_data</span><span class="o">.</span><span class="n">head</span><span class="p">(</span><span class="mi">10</span><span class="p">)</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py:948,</span> in <span class="ni">read_csv</span><span class="nt">(filepath_or_buffer, sep, delimiter, header, names, index_col, usecols, dtype, engine, converters, true_values, false_values, skipinitialspace, skiprows, skipfooter, nrows, na_values, keep_default_na, na_filter, verbose, skip_blank_lines, parse_dates, infer_datetime_format, keep_date_col, date_parser, date_format, dayfirst, cache_dates, iterator, chunksize, compression, thousands, decimal, lineterminator, quotechar, quoting, doublequote, escapechar, comment, encoding, encoding_errors, dialect, on_bad_lines, delim_whitespace, low_memory, memory_map, float_precision, storage_options, dtype_backend)</span>
+<span class="g g-Whitespace">    </span><span class="mi">935</span> <span class="n">kwds_defaults</span> <span class="o">=</span> <span class="n">_refine_defaults_read</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">936</span>     <span class="n">dialect</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">937</span>     <span class="n">delimiter</span><span class="p">,</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">944</span>     <span class="n">dtype_backend</span><span class="o">=</span><span class="n">dtype_backend</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">945</span> <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">946</span> <span class="n">kwds</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">kwds_defaults</span><span class="p">)</span>
+<span class="ne">--&gt; </span><span class="mi">948</span> <span class="k">return</span> <span class="n">_read</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="n">kwds</span><span class="p">)</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py:611,</span> in <span class="ni">_read</span><span class="nt">(filepath_or_buffer, kwds)</span>
+<span class="g g-Whitespace">    </span><span class="mi">608</span> <span class="n">_validate_names</span><span class="p">(</span><span class="n">kwds</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;names&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">))</span>
+<span class="g g-Whitespace">    </span><span class="mi">610</span> <span class="c1"># Create the parser.</span>
+<span class="ne">--&gt; </span><span class="mi">611</span> <span class="n">parser</span> <span class="o">=</span> <span class="n">TextFileReader</span><span class="p">(</span><span class="n">filepath_or_buffer</span><span class="p">,</span> <span class="o">**</span><span class="n">kwds</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">613</span> <span class="k">if</span> <span class="n">chunksize</span> <span class="ow">or</span> <span class="n">iterator</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">614</span>     <span class="k">return</span> <span class="n">parser</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py:1448,</span> in <span class="ni">TextFileReader.__init__</span><span class="nt">(self, f, engine, **kwds)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1445</span>     <span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">kwds</span><span class="p">[</span><span class="s2">&quot;has_index_names&quot;</span><span class="p">]</span>
+<span class="g g-Whitespace">   </span><span class="mi">1447</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="p">:</span> <span class="n">IOHandles</span> <span class="o">|</span> <span class="kc">None</span> <span class="o">=</span> <span class="kc">None</span>
+<span class="ne">-&gt; </span><span class="mi">1448</span> <span class="bp">self</span><span class="o">.</span><span class="n">_engine</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_make_engine</span><span class="p">(</span><span class="n">f</span><span class="p">,</span> <span class="bp">self</span><span class="o">.</span><span class="n">engine</span><span class="p">)</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/pandas/io/parsers/readers.py:1705,</span> in <span class="ni">TextFileReader._make_engine</span><span class="nt">(self, f, engine)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1703</span>     <span class="k">if</span> <span class="s2">&quot;b&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">mode</span><span class="p">:</span>
+<span class="g g-Whitespace">   </span><span class="mi">1704</span>         <span class="n">mode</span> <span class="o">+=</span> <span class="s2">&quot;b&quot;</span>
+<span class="ne">-&gt; </span><span class="mi">1705</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="o">=</span> <span class="n">get_handle</span><span class="p">(</span>
+<span class="g g-Whitespace">   </span><span class="mi">1706</span>     <span class="n">f</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1707</span>     <span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1708</span>     <span class="n">encoding</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1709</span>     <span class="n">compression</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;compression&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1710</span>     <span class="n">memory_map</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;memory_map&quot;</span><span class="p">,</span> <span class="kc">False</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1711</span>     <span class="n">is_text</span><span class="o">=</span><span class="n">is_text</span><span class="p">,</span>
+<span class="g g-Whitespace">   </span><span class="mi">1712</span>     <span class="n">errors</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;encoding_errors&quot;</span><span class="p">,</span> <span class="s2">&quot;strict&quot;</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1713</span>     <span class="n">storage_options</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">options</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s2">&quot;storage_options&quot;</span><span class="p">,</span> <span class="kc">None</span><span class="p">),</span>
+<span class="g g-Whitespace">   </span><span class="mi">1714</span> <span class="p">)</span>
+<span class="g g-Whitespace">   </span><span class="mi">1715</span> <span class="k">assert</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span>
+<span class="g g-Whitespace">   </span><span class="mi">1716</span> <span class="n">f</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">handles</span><span class="o">.</span><span class="n">handle</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/pandas/io/common.py:863,</span> in <span class="ni">get_handle</span><span class="nt">(path_or_buf, mode, encoding, compression, memory_map, is_text, errors, storage_options)</span>
+<span class="g g-Whitespace">    </span><span class="mi">858</span> <span class="k">elif</span> <span class="nb">isinstance</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="nb">str</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">859</span>     <span class="c1"># Check whether the filename is to be opened in binary mode.</span>
+<span class="g g-Whitespace">    </span><span class="mi">860</span>     <span class="c1"># Binary mode does not support &#39;encoding&#39; and &#39;newline&#39;.</span>
+<span class="g g-Whitespace">    </span><span class="mi">861</span>     <span class="k">if</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">encoding</span> <span class="ow">and</span> <span class="s2">&quot;b&quot;</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">862</span>         <span class="c1"># Encoding</span>
+<span class="ne">--&gt; </span><span class="mi">863</span>         <span class="n">handle</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">864</span>             <span class="n">handle</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">865</span>             <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">866</span>             <span class="n">encoding</span><span class="o">=</span><span class="n">ioargs</span><span class="o">.</span><span class="n">encoding</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">867</span>             <span class="n">errors</span><span class="o">=</span><span class="n">errors</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">868</span>             <span class="n">newline</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">869</span>         <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">870</span>     <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">871</span>         <span class="c1"># Binary mode</span>
+<span class="g g-Whitespace">    </span><span class="mi">872</span>         <span class="n">handle</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">handle</span><span class="p">,</span> <span class="n">ioargs</span><span class="o">.</span><span class="n">mode</span><span class="p">)</span>
+
+<span class="ne">FileNotFoundError</span>: [Errno 2] No such file or directory: &#39;3m_to_3DU_history.data&#39;
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load vars here</span>
+<span class="n">three_m_star_age_years</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;star_age&#39;</span><span class="p">]</span>
+<span class="n">three_m_log_L</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;log_L&#39;</span><span class="p">]</span>
+<span class="n">three_m_log_LHe</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;log_LHe&#39;</span><span class="p">]</span>
+
+<span class="n">three_m_surface_c12</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;surface_c12&#39;</span><span class="p">]</span>
+<span class="n">three_m_surface_n14</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;surface_n14&#39;</span><span class="p">]</span> 
+<span class="n">three_m_surface_o16</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;surface_o16&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># load vars here</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">three_m_star_age_years</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;star_age&#39;</span><span class="p">]</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">three_m_log_L</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;log_L&#39;</span><span class="p">]</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">three_m_log_LHe</span> <span class="o">=</span> <span class="n">tp_agb_data</span><span class="p">[</span><span class="s1">&#39;log_LHe&#39;</span><span class="p">]</span>
+
+<span class="ne">NameError</span>: name &#39;tp_agb_data&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1 result here</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;3$M_{\odot}$ Model During TP-AGB Phase&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+         <span class="n">three_m_log_L</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$L$&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+         <span class="n">three_m_log_LHe</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$L_{\rm</span><span class="si">{He}</span><span class="s1">}$&#39;</span><span class="p">)</span>
+
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mf">1.225</span><span class="p">,</span><span class="mf">1.227</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rm{Age \ (Gyr)}$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rm</span><span class="si">{log}</span><span class="s1">~L \ (L_{\odot})$&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1">## 1 result here</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;3$M_{\odot}$ Model During TP-AGB Phase&#39;</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span>          <span class="n">three_m_log_L</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$L$&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span>          <span class="n">three_m_log_LHe</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$L_{\rm</span><span class="si">{He}</span><span class="s1">}$&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">11</span> <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mf">1.225</span><span class="p">,</span><span class="mf">1.227</span><span class="p">)</span>
+
+<span class="ne">NameError</span>: name &#39;three_m_star_age_years&#39; is not defined
+</pre></div>
+</div>
+<img alt="../../_images/885cfcc48a5dd16153ea385d758e238dd4f23876d794d5c88f3a7a70c56cd26f.png" src="../../_images/885cfcc48a5dd16153ea385d758e238dd4f23876d794d5c88f3a7a70c56cd26f.png" />
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 2 result here</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;3$M_{\odot}$ Model During TP-AGB Phase&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+         <span class="n">three_m_surface_c12</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$X_{surf.}(^</span><span class="si">{12}</span><span class="s1">\rm</span><span class="si">{C}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+         <span class="n">three_m_surface_n14</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$X_{surf.}(^</span><span class="si">{14}</span><span class="s1">\rm</span><span class="si">{N}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+         <span class="n">three_m_surface_o16</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$X_{surf.}(^</span><span class="si">{16}</span><span class="s1">\rm</span><span class="si">{O}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+
+
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mf">1.225</span><span class="p">,</span><span class="mf">1.227</span><span class="p">)</span>
+
+
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rm{Age \ (Gyr)}$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rm{Surface \ Mass \ Fraction}$&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1">## 2 result here</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;3$M_{\odot}$ Model During TP-AGB Phase&#39;</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span>          <span class="n">three_m_surface_c12</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$X_{surf.}(^</span><span class="si">{12}</span><span class="s1">\rm</span><span class="si">{C}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span>          <span class="n">three_m_surface_n14</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$X_{surf.}(^</span><span class="si">{14}</span><span class="s1">\rm</span><span class="si">{N}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">three_m_star_age_years</span><span class="o">/</span><span class="mf">1e9</span><span class="p">,</span>
+<span class="g g-Whitespace">     </span><span class="mi">11</span>          <span class="n">three_m_surface_o16</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;$X_{surf.}(^</span><span class="si">{16}</span><span class="s1">\rm</span><span class="si">{O}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+
+<span class="ne">NameError</span>: name &#39;three_m_star_age_years&#39; is not defined
+</pre></div>
+</div>
+<img alt="../../_images/885cfcc48a5dd16153ea385d758e238dd4f23876d794d5c88f3a7a70c56cd26f.png" src="../../_images/885cfcc48a5dd16153ea385d758e238dd4f23876d794d5c88f3a7a70c56cd26f.png" />
+</div>
+</div>
+</section>
+<section id="with-your-larger-group-try-to-answer-the-following">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#with-your-larger-group-try-to-answer-the-following" title="Permalink to this heading">#</a></h3>
+<p>Using these plots answer the following:</p>
+<blockquote>
+<div><p>How many pulses are covered over this range?</p>
+</div></blockquote>
+<p>11 pulses.</p>
+<blockquote>
+<div><p>What is their qualitative properties over time?</p>
+</div></blockquote>
+<p>The amplitude of the pulse, shown via the helium shell luminosity grows over time.</p>
+<blockquote>
+<div><p>What is the approximate time between pulses, the <em>interpulse period</em>?</p>
+</div></blockquote>
+<p>About total duration of 1.5Myr, for an average interpulse period of 0.13Myr, consistent with Figure 11.3.</p>
+<blockquote>
+<div><p>Hint: Compare with Pols <a class="reference external" href="https://www.ucolick.org/~woosley/ay112-14/texts/pols11.pdf">Figure 11.3/11.4</a></p>
+</div></blockquote>
+<blockquote>
+<div><p>Does this model experience a third dredge up event during this time? If so, how can we tell?</p>
+</div></blockquote>
+<p>Yes, at about the 7th pulse the 3DU occurs and brings the now extinguished H-shell ash to the surface, in this case carbon and oxygen.</p>
+<blockquote>
+<div><p>Does this model show evidence for hot bottom burning (HBB)?</p>
+</div></blockquote>
+<p>No, its initial mass is too low to build a hot enough temperature to burn the bottom of the H-envelope via the CNO cycle. In a more maassive AGB star, this can occur and the evidence would be the conversion of C12 from the intershell region being proceed to N14 that is dredged to the surface. This thus prevents more massive AGB stars from becoming C (carbon) stars observationally.</p>
+</section>
+</section>
+<section id="b-identifying-structure-of-tp-agb-stars">
+<h2>b - Identifying Structure of TP-AGB Stars<a class="headerlink" href="#b-identifying-structure-of-tp-agb-stars" title="Permalink to this heading">#</a></h2>
+<section id="id1">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>Using the <span class="math notranslate nohighlight">\(3M_{\odot}\)</span>  <code class="docutils literal notranslate"><span class="pre">3m_c13_pocket_history.data</span></code> MESA history dataset:</p>
+<ol class="arabic simple">
+<li><p>Plot a <a class="reference external" href="https://en.wikipedia.org/wiki/Rudolf_Kippenhahn">Kippenhahn diagram</a> using mesaPlot and zoom into the He-shell flash region (about 0.5-0.6 <span class="math notranslate nohighlight">\(M_{\odot}\)</span>) using <code class="docutils literal notranslate"><span class="pre">yrng</span></code>.</p>
+<ul class="simple">
+<li><p>To use these data, create a directory called <code class="docutils literal notranslate"><span class="pre">LOGS</span></code> in the same directory as this notebook</p></li>
+<li><p>Copy <code class="docutils literal notranslate"><span class="pre">3m_c13_pocket_history.data</span></code> into the created <code class="docutils literal notranslate"><span class="pre">LOGS</span></code> directory</p></li>
+<li><p>rename the file in the <code class="docutils literal notranslate"><span class="pre">LOGS</span></code> directory to <code class="docutils literal notranslate"><span class="pre">history.data</span></code></p></li>
+</ul>
+</li>
+<li><p>Using your Kippenhahn diagram, answer the following with your group.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## b result here</span>
+<span class="kn">import</span> <span class="nn">mesaPlot</span> <span class="k">as</span> <span class="nn">mp</span>
+<span class="n">m</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">MESA</span><span class="p">()</span>
+<span class="n">p</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">m</span><span class="o">.</span><span class="n">loadHistory</span><span class="p">(</span><span class="s1">&#39;LOGS&#39;</span><span class="p">)</span>
+<span class="n">kip</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">plotKip</span><span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="n">show_mass_loc</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">yrng</span><span class="o">=</span><span class="p">[</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.6</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="n">line</span> <span class="mi">5</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">m</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">MESA</span><span class="p">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">p</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="ne">----&gt; </span><span class="mi">5</span> <span class="n">m</span><span class="o">.</span><span class="n">loadHistory</span><span class="p">(</span><span class="s1">&#39;LOGS&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="n">kip</span> <span class="o">=</span> <span class="n">p</span><span class="o">.</span><span class="n">plotKip</span><span class="p">(</span><span class="n">m</span><span class="p">,</span><span class="n">show_mass_loc</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">yrng</span><span class="o">=</span><span class="p">[</span><span class="mf">0.5</span><span class="p">,</span><span class="mf">0.6</span><span class="p">])</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/mesaPlot/file_reader.py:677,</span> in <span class="ni">MESA.loadHistory</span><span class="nt">(self, f, filename_in, max_model, max_num_lines, cols, final_lines, _dbg, use_pickle, reload_pickle)</span>
+<span class="g g-Whitespace">    </span><span class="mi">674</span> <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">675</span>     <span class="n">filename</span> <span class="o">=</span> <span class="n">filename_in</span>
+<span class="ne">--&gt; </span><span class="mi">677</span> <span class="bp">self</span><span class="o">.</span><span class="n">hist</span><span class="o">.</span><span class="n">loadFile</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">678</span>     <span class="n">filename</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">679</span>     <span class="n">max_num_lines</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">680</span>     <span class="n">cols</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">681</span>     <span class="n">final_lines</span><span class="o">=</span><span class="n">final_lines</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">682</span>     <span class="n">_dbg</span><span class="o">=</span><span class="n">_dbg</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">683</span>     <span class="n">use_pickle</span><span class="o">=</span><span class="n">use_pickle</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">684</span>     <span class="n">reload_pickle</span><span class="o">=</span><span class="n">reload_pickle</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">685</span> <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">686</span> <span class="k">if</span> <span class="n">max_model</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">687</span>     <span class="bp">self</span><span class="o">.</span><span class="n">hist</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">hist</span><span class="o">.</span><span class="n">data</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">hist</span><span class="o">.</span><span class="n">model_number</span> <span class="o">&lt;=</span> <span class="n">max_model</span><span class="p">]</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/mesaPlot/file_reader.py:246,</span> in <span class="ni">data.loadFile</span><span class="nt">(self, filename, max_num_lines, cols, final_lines, _dbg, use_pickle, reload_pickle, silent, is_mod)</span>
+<span class="g g-Whitespace">    </span><span class="mi">243</span>         <span class="k">return</span>
+<span class="g g-Whitespace">    </span><span class="mi">245</span> <span class="c1"># Not using pickle</span>
+<span class="ne">--&gt; </span><span class="mi">246</span> <span class="bp">self</span><span class="o">.</span><span class="n">_loadFile</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">max_num_lines</span><span class="p">,</span> <span class="n">cols</span><span class="p">,</span> <span class="n">final_lines</span><span class="p">)</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/mesaPlot/file_reader.py:291,</span> in <span class="ni">data._loadFile</span><span class="nt">(self, filename, max_num_lines, cols, final_lines)</span>
+<span class="g g-Whitespace">    </span><span class="mi">289</span> <span class="k">def</span> <span class="nf">_loadFile</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">max_num_lines</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">cols</span><span class="o">=</span><span class="p">[],</span> <span class="n">final_lines</span><span class="o">=-</span><span class="mi">1</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">290</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">291</span>         <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s2">&quot;No file &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; found&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">293</span>     <span class="n">head</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\s+&#39;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">nrows</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">295</span>     <span class="k">if</span> <span class="n">max_num_lines</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+
+<span class="ne">FileNotFoundError</span>: No file LOGS/history.data found
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id2">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>In the Kippenhahn Diagram, identify the following and state their approximate mass coordinate: the H-burning shell, the He-burning shell, the CO core, the intershell convective zone (ICZ), and the H-envelope.</p></li>
+</ol>
+<blockquote>
+<div><p>Your group’s thoughtful response.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="c-the-c13-pocket">
+<h2>c. - the c13 pocket<a class="headerlink" href="#c-the-c13-pocket" title="Permalink to this heading">#</a></h2>
+<section id="id3">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Use the <code class="docutils literal notranslate"><span class="pre">Abund</span></code> function in mesaPlot to confirm the presence of the formation of a c13 pocket during the interpulse phase for this model.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: Set <code class="docutils literal notranslate"><span class="pre">xmin=0.5787</span></code> and <code class="docutils literal notranslate"><span class="pre">xmax=0.579</span></code>, the ylimit for the abundances to <code class="docutils literal notranslate"><span class="pre">y1rng=[1e-3,1]</span></code> to zoom in on the pocket!</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># c result here</span>
+<span class="n">m</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">MESA</span><span class="p">()</span>
+<span class="n">p</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">m</span><span class="o">.</span><span class="n">loadProfile</span><span class="p">(</span><span class="n">f</span><span class="o">=</span><span class="s1">&#39;LOGS/profile38.data&#39;</span><span class="p">)</span>
+<span class="n">p</span><span class="o">.</span><span class="n">plotAbun</span><span class="p">(</span><span class="n">m</span><span class="p">,</span>
+           <span class="n">xmin</span><span class="o">=</span><span class="mf">0.5787</span><span class="p">,</span><span class="n">xmax</span><span class="o">=</span><span class="mf">0.579</span><span class="p">,</span> <span class="c1"># set these based on the inspection of the Kipp above</span>
+           <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">inferno_r</span><span class="p">,</span><span class="n">num_labels</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+          <span class="n">y1rng</span><span class="o">=</span><span class="p">[</span><span class="mf">1e-3</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">FileNotFoundError</span><span class="g g-Whitespace">                         </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">m</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">MESA</span><span class="p">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">p</span><span class="o">=</span><span class="n">mp</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">m</span><span class="o">.</span><span class="n">loadProfile</span><span class="p">(</span><span class="n">f</span><span class="o">=</span><span class="s1">&#39;LOGS/profile38.data&#39;</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">5</span> <span class="n">p</span><span class="o">.</span><span class="n">plotAbun</span><span class="p">(</span><span class="n">m</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">6</span>            <span class="n">xmin</span><span class="o">=</span><span class="mf">0.5787</span><span class="p">,</span><span class="n">xmax</span><span class="o">=</span><span class="mf">0.579</span><span class="p">,</span> <span class="c1"># set these based on the inspection of the Kipp above</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span>            <span class="n">cmap</span><span class="o">=</span><span class="n">plt</span><span class="o">.</span><span class="n">cm</span><span class="o">.</span><span class="n">inferno_r</span><span class="p">,</span><span class="n">num_labels</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span>
+<span class="g g-Whitespace">      </span><span class="mi">8</span>           <span class="n">y1rng</span><span class="o">=</span><span class="p">[</span><span class="mf">1e-3</span><span class="p">,</span><span class="mi">1</span><span class="p">])</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/mesaPlot/file_reader.py:743,</span> in <span class="ni">MESA.loadProfile</span><span class="nt">(self, f, num, prof, mode, silent, cache, cols, use_pickle, reload_pickle)</span>
+<span class="g g-Whitespace">    </span><span class="mi">730</span> <span class="k">def</span> <span class="nf">loadProfile</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">731</span>     <span class="bp">self</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">732</span>     <span class="n">f</span><span class="o">=</span><span class="s2">&quot;&quot;</span><span class="p">,</span>
+   <span class="p">(</span><span class="o">...</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">740</span>     <span class="n">reload_pickle</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">741</span> <span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">742</span>     <span class="k">if</span> <span class="n">num</span> <span class="ow">is</span> <span class="kc">None</span> <span class="ow">and</span> <span class="n">prof</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">743</span>         <span class="bp">self</span><span class="o">.</span><span class="n">_readProfile</span><span class="p">(</span><span class="n">f</span><span class="p">)</span>  <span class="c1"># f is a filename</span>
+<span class="g g-Whitespace">    </span><span class="mi">744</span>         <span class="k">return</span>
+<span class="g g-Whitespace">    </span><span class="mi">746</span>     <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">f</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/mesaPlot/file_reader.py:901,</span> in <span class="ni">MESA._readProfile</span><span class="nt">(self, filename, cache, cols, use_pickle, reload_pickle, silent)</span>
+<span class="g g-Whitespace">    </span><span class="mi">899</span> <span class="k">else</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">900</span>     <span class="n">x</span> <span class="o">=</span> <span class="n">data</span><span class="p">()</span>
+<span class="ne">--&gt; </span><span class="mi">901</span>     <span class="n">x</span><span class="o">.</span><span class="n">loadFile</span><span class="p">(</span>
+<span class="g g-Whitespace">    </span><span class="mi">902</span>         <span class="n">filename</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">903</span>         <span class="n">cols</span><span class="o">=</span><span class="n">cols</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">904</span>         <span class="n">use_pickle</span><span class="o">=</span><span class="n">use_pickle</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">905</span>         <span class="n">reload_pickle</span><span class="o">=</span><span class="n">reload_pickle</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">906</span>         <span class="n">silent</span><span class="o">=</span><span class="n">silent</span><span class="p">,</span>
+<span class="g g-Whitespace">    </span><span class="mi">907</span>     <span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">908</span>     <span class="k">if</span> <span class="n">cache</span><span class="p">:</span>
+<span class="g g-Whitespace">    </span><span class="mi">909</span>         <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_cache_prof_name</span><span class="p">)</span> <span class="o">==</span> <span class="bp">self</span><span class="o">.</span><span class="n">cache_limit</span><span class="p">:</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/mesaPlot/file_reader.py:246,</span> in <span class="ni">data.loadFile</span><span class="nt">(self, filename, max_num_lines, cols, final_lines, _dbg, use_pickle, reload_pickle, silent, is_mod)</span>
+<span class="g g-Whitespace">    </span><span class="mi">243</span>         <span class="k">return</span>
+<span class="g g-Whitespace">    </span><span class="mi">245</span> <span class="c1"># Not using pickle</span>
+<span class="ne">--&gt; </span><span class="mi">246</span> <span class="bp">self</span><span class="o">.</span><span class="n">_loadFile</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">max_num_lines</span><span class="p">,</span> <span class="n">cols</span><span class="p">,</span> <span class="n">final_lines</span><span class="p">)</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/mesaPlot/file_reader.py:291,</span> in <span class="ni">data._loadFile</span><span class="nt">(self, filename, max_num_lines, cols, final_lines)</span>
+<span class="g g-Whitespace">    </span><span class="mi">289</span> <span class="k">def</span> <span class="nf">_loadFile</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">filename</span><span class="p">,</span> <span class="n">max_num_lines</span><span class="o">=-</span><span class="mi">1</span><span class="p">,</span> <span class="n">cols</span><span class="o">=</span><span class="p">[],</span> <span class="n">final_lines</span><span class="o">=-</span><span class="mi">1</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">290</span>     <span class="k">if</span> <span class="ow">not</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">exists</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+<span class="ne">--&gt; </span><span class="mi">291</span>         <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="s2">&quot;No file &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; found&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">293</span>     <span class="n">head</span> <span class="o">=</span> <span class="n">pandas</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">filename</span><span class="p">,</span> <span class="n">sep</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\s+&#39;</span><span class="p">,</span> <span class="n">header</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">nrows</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">295</span>     <span class="k">if</span> <span class="n">max_num_lines</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+
+<span class="ne">FileNotFoundError</span>: No file LOGS/profile38.data found
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id4">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>What does the presence of the c13 pocket imply about the observational characteristics of the AGB star?</p></li>
+</ol>
+<blockquote>
+<div><p>In low mass AGB stars, partial mixing of protons and c12 mix and c13 produced during the first step of the CNO. Followed by the c13 alpha capture reaction produce the neutron excess needed for the s-process reactions to occur eventually mix the s-process materials to the surface.</p>
+</div></blockquote>
+</section>
+</section>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            name: "python3",
+            path: "./assignments/sols"
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+                </article>
+              
+
+              
+              
+              
+              
+                <footer class="prev-next-footer d-print-none">
+                  
+<div class="prev-next-area">
+</div>
+                </footer>
+              
+            </div>
+            
+            
+              
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#the-tp-agb-phase">The TP-AGB Phase</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-thermally-pulsing-agb-star">a. - Thermally Pulsing AGB Star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-identifying-structure-of-tp-agb-stars">b - Identifying Structure of TP-AGB Stars</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-the-c13-pocket">c. - the c13 pocket</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+  </nav></div>
+
+</div></div>
+              
+            
+          </div>
+          <footer class="bd-footer-content">
+            
+<div class="bd-footer-content__inner container">
+  
+  <div class="footer-item">
+    
+<p class="component-author">
+By Carl E. Fields
+</p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+
+  <p class="copyright">
+    
+      © Copyright 2025.
+      <br/>
+    
+  </p>
+
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+  <div class="footer-item">
+    
+  </div>
+  
+</div>
+          </footer>
+        
+
+      </main>
+    </div>
+  </div>
+  
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+
+  <footer class="bd-footer">
+  </footer>
+  </body>
+</html>
