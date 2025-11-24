@@ -89,6 +89,7 @@ parts:
         - file: assignments/hw1
         - file: assignments/hw2
         - file: assignments/hw3
+        - file: assignments/hw4
     - file: assignments/project
       sections:
         - file: assignments/projects

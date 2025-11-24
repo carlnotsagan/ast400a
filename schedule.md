@@ -90,7 +90,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 11 Nov | Veterans Day - no classes                            |  Draft Proposal Due to Referees, End of Day                      |
+| 11 Nov | Veterans Day - **No Class**                            |  Draft Proposal Due to Referees, End of Day                      |
 | 13 Nov | Guest Lecture: PhD Candidate, [Maria Mutz](https://w3.physics.arizona.edu/person/maria-mutz) Topic: Neutron Stars |  [ICA 20](assignments/ica20.ipynb), Not for Credit                                                                 |
 
 ## Week 13
@@ -104,8 +104,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 25 Nov | Student Presentations                                |                                                                  |
-| 27 Nov | Optional Class (Open Office Hours)                   |   Draft [Proposal Feedback](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_reports.html) Due to D2L and via Email End of Day    |
+| 25 Nov | Student Presentations                                |  [HW 4](assignments/hw4.md), Due: **Before class, Dec. 9, 2025**                                                                |
+| 27 Nov | Thanksgiving recess - **No Class**                   |   Draft [Proposal Feedback](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_reports.html) Due to D2L and via Email End of Day    |
 
 ## Week 15
 
@@ -118,6 +118,6 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 9 Dec  | Student Presentations                                |                                                                  |
+| 9 Dec  | Student Presentations                                | [HW 4](assignments/hw4.md), Due to D2L, End of Day               |
 |        |                                                      |                                                                  |
 
