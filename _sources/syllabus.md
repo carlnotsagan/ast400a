@@ -1,6 +1,6 @@
 # Syllabus
 
-## ASTR 400A: Theoretical Astrophysics - Fall 2025
+## ASTR 400A: Theoretical Astrophysics - Fall 2026
 _The theory of stellar structure and evolution, star formation, and planet formation._
 
 
@@ -20,7 +20,7 @@ tentative list of topics covered by student presentations.
 
 # Where and when
 
-Steward Observatory Room **204** (SO 204), Tuesday and Thursday 12:30pm-1:45pm.
+Steward Observatory Room **204** (SO 204), Tuesday and Thursday 11:00am-12:15pm.
 
 # Instructor
 
@@ -31,12 +31,12 @@ Steward Observatory Room **204** (SO 204), Tuesday and Thursday 12:30pm-1:45pm.
 -   Office hours: by appointment via email or the following [link](https://outlook.office.com/bookwithme/user/833d4a6f20774482afc3f8650b401684@arizona.edu/meetingtype/TDuAWBI7FUGjb949-MyYHw2?anonymous&ismsaljsauthenabled&ep=mLinkFromTile) that works most of the time
 -   Communication also available as part of the Slack workspace [link](https://join.slack.com/t/astr400afall2-vud3452/shared_invite/zt-3bxxe8zgg-MphbdLItnLtZviWzj0ZXqg).
 
-## Teaching Assistant [Mahdi Naseri](https://astro.arizona.edu/person/mahdi-naseri)
+## Teaching Assistant [Brian Hsu](https://brianjjhsu.com/)
 
 - Office: SO 341 
-- Email: [mahdinaseri@arizona.edu](mailto::mahdinaseri@arizona.edu)
-- Office hours: 1 hour/weekly, **Mondays 1p-2pm** and by appointment in [Parker Library](https://plso.arizona.edu/).
-- Communication also available as part of the Slack workspace and help channel.
+- Email: [bhsu@arizona.edu](mailto::bhsu@arizona.edu)
+- Office hours: 1 hour/weekly, **Tuesdays, 3pm-4pm** and by appointment in [Parker Library](https://plso.arizona.edu/).
+- Communication also available as part of the Slack workspace and #help channel.
 
 
 # Expected learning outcomes
@@ -77,17 +77,13 @@ covered in this course, although order and presentation vary. You can
 use any textbook you like or already have. I recommend and will mostly
 follow these:
 
--   [Prof. Onno Pols notes](https://www.astro.ru.nl/~onnop/). These
+- [An introduction to modern astrophysics](https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1fhhvct/alma991035534659703843), Carroll, Bradley W.; Ostlie, Dale A.; c2007
+
+-   (Optional) [Prof. Onno Pols notes](https://www.astro.ru.nl/~onnop/). These
     lecture notes are freely available, accessible, and thorough, making
     them an excellent starting point. I strongly suggest downloading a
     copy for yourself early in the course.
 -   (Optional) [An Introduction to Stellar Astrophysics, 2nd Edition, Francis LeBlanc](https://www.wiley.com/en-us/An+Introduction+to+Stellar+Astrophysics%2C+2nd+Edition-p-9781394251797)
--   (Optional) [Kippenhahn, Weigert, & Weiss
-    2012](https://link.springer.com/book/10.1007/978-3-642-30304-3).
-    This is a classic textbook that you may continue to consult even as
-    a seasoned researcher with emphasis on the physical processes in
-    stars. If you are an enrolled student and have troubles accessing
-    this book, please come talk to me.
 -   (Optional) [Stellar Interiors : Physical Principles, Structure, and Evolution
 , Available Online](https://arizona-ua.primo.exlibrisgroup.com/permalink/01UA_INST/1ffcblk/alma991048844104203843)
 
