@@ -20,7 +20,10 @@ tentative list of topics covered by student presentations.
 
 # Where and when
 
-Steward Observatory Room **204** (SO 204), Tuesday and Thursday 11:00am-12:15pm.
+**In-Person**: Steward Observatory Room **204** (SO 204), Tuesday and Thursday 11:00am-12:15pm.
+
+**Online**: _Should you be able to attend in person there will also be a [zoom link](https://arizona.zoom.us/j/86126017130). The passcode is the room number, no caps, no spaces._ 
+
 
 # Instructor
 
@@ -33,7 +36,6 @@ Steward Observatory Room **204** (SO 204), Tuesday and Thursday 11:00am-12:15pm.
 
 ## Teaching Assistant [Brian Hsu](https://brianjjhsu.com/)
 
-- Office: SO 341 
 - Email: [bhsu@arizona.edu](mailto::bhsu@arizona.edu)
 - Office hours: 1 hour/weekly, **Tuesdays, 3pm-4pm** and by appointment in [Parker Library](https://plso.arizona.edu/).
 - Communication also available as part of the Slack workspace and #help channel.
