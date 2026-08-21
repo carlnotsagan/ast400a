@@ -1,7 +1,7 @@
-# ASTR 400A: Theoretical Astrophysics, Fall 2025, University of Arizona, Steward Observatory
+# ASTR 400A: Theoretical Astrophysics, Fall 2026, University of Arizona, Steward Observatory
 
 
-Online course website for [ASTR 400A: Theoretical Astrophysics](https://catalog.arizona.edu/courses/0088341) - Fall 2025 taught by [@carlnotsagan](https://carlnotsagan.github.io/) at University of Arizona, Department of Astronomy and Steward Observatory. 
+Online course website for [ASTR 400A: Theoretical Astrophysics](https://catalog.arizona.edu/courses/0088341) - Fall 2026 taught by [@carlnotsagan](https://carlnotsagan.github.io/) at University of Arizona, Department of Astronomy and Steward Observatory. 
 
 This website will serve as a homepage for course materials including lectures, schedules, additional learning materials, assignments, and various examples. 
 
