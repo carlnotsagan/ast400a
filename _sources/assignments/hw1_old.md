@@ -1,8 +1,8 @@
 # Homework 1
 
-_AST400A - Theoretical Astrophysics - Fall 2026, Steward Observatory_
+_AST400A - Theoretical Astrophysics - Fall 2025, Steward Observatory_
 
-**TBD**
+**Due Thur. Sept. 18, 12:30p (before class)**
 
 -
 
