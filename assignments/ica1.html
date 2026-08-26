@@ -207,6 +207,7 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_0.html">Intro &amp; orders of magnitude</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_1.html">An Overview of Stellar Evolution</a></li>
 </ul>
 </details></li>
 </ul>
@@ -456,8 +457,16 @@ document.write(`
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#a-color-magnitude-diagrams">a. - Color magnitude diagrams</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#b-hr-diagram">b. -  HR Diagram</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#a-color-magnitude-diagrams">a. - Color magnitude diagrams</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#b-hr-diagram">b. -  HR Diagram</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
 </ul>
 
             </nav>
@@ -472,17 +481,16 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-1">
 <h1>In-Class Assignment 1<a class="headerlink" href="#in-class-assignment-1" title="Permalink to this heading">#</a></h1>
-<p><em>Thursday, August 28, 2025</em></p>
+<p><em>Thursday, August 27, 2026</em></p>
 <section id="color-magnitude-diagrams-and-hertzsprungrussell-diagram">
 <h2>Color magnitude diagrams and Hertzsprung–Russell diagram<a class="headerlink" href="#color-magnitude-diagrams-and-hertzsprungrussell-diagram" title="Permalink to this heading">#</a></h2>
-<p><strong>Work in groups of 2</strong></p>
+<p><strong>Work in groups of 3/4</strong></p>
 <section id="learning-objectives">
 <h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>develop skills using jupyter notebooks for data analysis</p></li>
 <li><p>build color-magnitude diagrams using Gaia data</p></li>
 <li><p>be able to describe and annotate stellar populations</p></li>
-<li><p>compare observational data to theoretical isochrones</p></li>
 <li><p>produce theoretical HR diagrams</p></li>
 <li><p>be able to label theoritcal HR diagrams</p></li>
 </ul>
@@ -508,9 +516,11 @@ document.write(`
 </section>
 <section class="tex2jax_ignore mathjax_ignore" id="a-color-magnitude-diagrams">
 <h1>a. - Color magnitude diagrams<a class="headerlink" href="#a-color-magnitude-diagrams" title="Permalink to this heading">#</a></h1>
+<section id="individually-with-the-person-next-to-you">
+<h2><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h2>
 <p>Download the following model files locally. These data were produced using an ADQL from the Gaia Archive <a class="reference external" href="https://gea.esac.esa.int/archive/">here</a>.</p>
 <ul class="simple">
-<li><p>Gaia DR3 Data of <a class="reference external" href="https://en.wikipedia.org/wiki/Messier_3">M3</a>: Download <a class="reference download internal" download="" href="../_downloads/f7bc75eb5bc2b0430f9fc3a3ee72b992/m3-result.csv"><span class="xref download myst">here</span></a>.</p></li>
+<li><p>Gaia DR3 Data of <a class="reference external" href="https://en.wikipedia.org/wiki/Messier_3">M3</a>: Download <a class="reference internal" href="#data/week1/m3-result.csv"><span class="xref myst">here</span></a>.</p></li>
 </ul>
 <ol class="arabic simple">
 <li><p>Load the data using pandas as a CSV.</p></li>
@@ -520,10 +530,11 @@ document.write(`
 <li><p>Plot the data to create a CMD scatterplot of the color <span class="math notranslate nohighlight">\(G_{BP}-G_{RP}\)</span> bands on the x-axis and <span class="math notranslate nohighlight">\(G\)</span> absolute magnitude on the y-axis.</p></li>
 </ol>
 <blockquote>
-<div><p>Hint: be sure to invert the y-axis</p>
+<div><p>Hint: be sure to invert the y-axis
+Hint: <span class="math notranslate nohighlight">\(G_{BP}\)</span> is listed as <code class="docutils literal notranslate"><span class="pre">phot_bp_mean_mag</span></code> in the table, the other data are labeled similarly.</p>
 </div></blockquote>
 <ol class="arabic simple" start="3">
-<li><p>Label <strong>three</strong> evolution epochs from our discussion in lecture: MS, RGB, HB, etc.</p></li>
+<li><p>Label <strong>one</strong> evolution epochs from our discussion in lecture: MS, RGB, HB, etc.</p></li>
 </ol>
 <blockquote>
 <div><p>Hint: set axis limits to help zoom in on the data
@@ -533,6 +544,8 @@ Hint: you can reduce the marker size with scatter plots using <code class="docut
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1. load the data here</span>
 <span class="c1"># you can see which column names are available by calling `mydata.columns` for example</span>
+<span class="c1">#lmc = pd.read_csv(&#39;./data/FILE_NAME.csv&#39;)</span>
+<span class="c1">#lmc.columns</span>
 </pre></div>
 </div>
 </div>
@@ -540,21 +553,56 @@ Hint: you can reduce the marker size with scatter plots using <code class="docut
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load cmd data here</span>
-<span class="c1"># get column variables for plotting here</span>
+<span class="c1">#gmag = lmc[&#39;FILL_IN&#39;]</span>
+<span class="c1">#bpmag = lmc[&#39;phot_bp_&#39;]</span>
+<span class="c1">#rpmag = lmc[&#39;FILL_IN]</span>
+<span class="c1"># load cmd data here</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># save your final plot</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#plt.scatter(X_axis_var,Y_axis_var,s=0.1,color=&#39;cornflowerblue&#39;)</span>
+<span class="c1">#plt.gca().invert_yaxis() # magnitudes!</span>
+<span class="c1">#plt.xlim(-1,3)</span>
+<span class="c1">#plt.ylim(21,12)</span>
+<span class="c1">#plt.ylabel(&#39;gmag&#39;)</span>
+<span class="c1">#plt.xlabel(&#39;Bp-Rp&#39;)</span>
+<span class="c1">#plt.title(&#39;Gaia DR3 CMD of Messier 3 (M3) Globular Cluster&#39;)</span>
+<span class="c1"># save your final plot</span>
 </pre></div>
 </div>
 </div>
 </div>
 </section>
+<section id="with-your-larger-group-try-to-answer-the-following">
+<h2><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#with-your-larger-group-try-to-answer-the-following" title="Permalink to this heading">#</a></h2>
+<p>Using these plots answer the following:</p>
+<blockquote>
+<div><p>Can you identify the main-sequence? If so, where is it?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response here.
+</pre></div>
+</div>
+<blockquote>
+<div><p>Can you identify any other evolutionary phases in the CMD?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response here.
+</pre></div>
+</div>
+<blockquote>
+<div><p>Where would the Sun lie on this CMD?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response here.
+</pre></div>
+</div>
+</section>
+</section>
 <section class="tex2jax_ignore mathjax_ignore" id="b-hr-diagram">
 <h1>b. -  HR Diagram<a class="headerlink" href="#b-hr-diagram" title="Permalink to this heading">#</a></h1>
+<section id="id1">
+<h2><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h2>
 <p>Download the following data locally.</p>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(1 M_\odot\)</span>: <a class="reference download internal" download="" href="../_downloads/37ec98734aaf9904d6cfe1bcb1f724b7/M1_default_trimmed_history.data"><span class="xref download myst">M1_default_trimmed_history.data</span></a></p></li>
@@ -566,32 +614,60 @@ Hint: you can reduce the marker size with scatter plots using <code class="docut
 <ol class="arabic simple">
 <li><p>Load the MESA data using pandas.</p></li>
 <li><p>Plot and label the axis for a HR diagram with each stellar model on the same plot.</p></li>
-<li><p>Next, plotting only the 1m HR diagram, label the approximate location of the main sequence?</p></li>
+<li><p>Label the MS for one of the stellar models.</p></li>
 </ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load data and see which variables are available</span>
+<span class="c1">#mesa_1m = pd.read_csv(&#39;./data/FILE_NAME.data&#39;,sep=r&#39;\s+&#39;,header=4) # sep syntax is a MESA specific thing!</span>
+<span class="c1">#mesa_1m.columns</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># load additional files here</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#mesa_8m = pd.read_csv(&#39;./data/M8_file&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#mesa_15m = pd.read_csv(&#39;./data/M15_file.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1"># load additional files here</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># set variables for HR diagram </span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#mesa_1m_log_Teff = mesa_1m[&#39;log_XXXXXX&#39;][40:1000]</span>
+<span class="c1">#mesa_1m_log_L = mesa_1m[&#39;log_YYYYYYYY&#39;][40:1000]</span>
+
+<span class="c1">#mesa_8m_log_Teff = mesa_8m[&#39;log_XXXXXX&#39;][20:1500]</span>
+<span class="c1">#mesa_8m_log_L = mesa_8m[&#39;log_YYYYYYYY&#39;][20:1500]</span>
+
+<span class="c1">#mesa_15m_log_Teff = mesa_15m[&#39;log_XXXXXX&#39;][20:500]</span>
+<span class="c1">#mesa_15m_log_L = mesa_15m[&#39;log_YYYYYYYY&#39;][20:500]</span>
+
+<span class="c1"># set variables for HR diagram - as identified above !</span>
+
+<span class="c1">## note: we are _slicing_ the arrays to chop off some early noisy data </span>
+<span class="c1">## and late evolutionary data to focus on the PMS and MS</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># make sure to set your limit appropriately!</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#plt.plot(X,Y,label=&#39;$1M_{\odot}$&#39;,color=&#39;pink&#39;)</span>
+<span class="c1">#plt.plot(8m_X,8M_Y,label=&#39;$8M_{\odot}$&#39;,color=&#39;mediumseagreen&#39;)</span>
+<span class="c1">#anddd plot 15m here</span>
+<span class="c1">#plt.gca().invert_xaxis()</span>
+
+<span class="c1">#plt.ylabel(&#39;logL ($L_{\odot}$)&#39;)</span>
+<span class="c1">#plt.xlabel(&#39;logTeff (K)&#39;)</span>
+<span class="c1">#plt.legend()</span>
+<span class="c1">#plt.title(&#39;HRD of 3 MESA models on the MS&#39;)</span>
+<span class="c1">#plt.annotate(&#39;MS&#39;, xy=(some x value, 0), xytext=(some x value, 0), # y-value already set to logL=0 = solar :)</span>
+<span class="c1">#            arrowprops=dict(facecolor=&#39;goldenrod&#39;, shrink=0.05),</span>
+<span class="c1">#            )</span>
+<span class="c1"># make sure to set your limit appropriately!</span>
 <span class="c1"># especially the x axis. </span>
 <span class="c1"># plot your HR diagram here</span>
 <span class="c1"># save your final plot</span>
@@ -599,14 +675,29 @@ Hint: you can reduce the marker size with scatter plots using <code class="docut
 </div>
 </div>
 </div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># part b3 here</span>
-<span class="c1"># save your final plot</span>
+</section>
+<section id="id2">
+<h2><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h2>
+<p>Using these plots answer the following:</p>
+<blockquote>
+<div><p>Can you identify where the MS is for the three models? If so how?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response here. 
 </pre></div>
 </div>
+<blockquote>
+<div><p>In general, what trend is observed for stars as they reach the MS at larger initial mass?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response here. 
+</pre></div>
 </div>
+<blockquote>
+<div><p>What is happening to the right of the MS??</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response here. 
+</pre></div>
 </div>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -680,8 +771,16 @@ Hint: you can reduce the marker size with scatter plots using <code class="docut
 </li>
 </ul>
 </li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#a-color-magnitude-diagrams">a. - Color magnitude diagrams</a></li>
-<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#b-hr-diagram">b. -  HR Diagram</a></li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#a-color-magnitude-diagrams">a. - Color magnitude diagrams</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#b-hr-diagram">b. -  HR Diagram</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
 </ul>
 
   </nav></div>
