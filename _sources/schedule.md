@@ -17,7 +17,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 1 Sep  | Mechanical and thermal equilibrium                   | [ICA 2] |
+| 1 Sep  | Mechanical and thermal equilibrium                   | [ICA 2](assignments/ica2.ipynb), Due: End of day, Sep 1, 2026 |
 | 3 Sep  | Equations of State I                                 | [ICA 3] |
 
 ## Week 3
