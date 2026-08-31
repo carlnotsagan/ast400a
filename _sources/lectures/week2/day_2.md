@@ -1,7 +1,7 @@
 # Mechanical and thermal equilibrium
 -
 
-## September, 2, 2025
+## September, 1, 2026
 
 
 Slides are viewable [HTML](day_2.html).
