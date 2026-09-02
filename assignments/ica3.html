@@ -65,6 +65,8 @@
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Homeworks" href="hws.html" />
+    <link rel="prev" title="In-Class Assignment 2" href="ica2.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,8 +128,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -207,18 +207,29 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_0.html">Intro &amp; orders of magnitude</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_1.html">An Overview of Stellar Evolution</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_2.html">Mechanical and thermal equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_3.html">Equations of State I</a></li>
 </ul>
 </details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="pca1.html">PCA 1</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="icas.html">In-Class Assignments</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="ica1.html">In-Class Assignment 1</a></li>
 
+
+<li class="toctree-l2"><a class="reference internal" href="ica2.html">In-Class Assignment 2</a></li>
+
+
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 3</a></li>
 
 </ul>
 </details></li>
@@ -449,14 +460,37 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">In-Class Assignment 3</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exploring-equation-of-state-regimes-and-pressure-sources">Exploring Equation of State Regimes and Pressure Sources</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eos-regimes">EOS regimes</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#degeneracy-vs-ideal-gas">Degeneracy vs. Ideal gas</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-vs-radiation">Ideal gas vs. radiation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-the-boundaries">a. Plotting the boundaries</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-plotting-the-boundaries-mesa">b. Plotting the boundaries + MESA</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-stellar-density-profile">c. Stellar density profile</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#electron-degeneracy-vs-ideal-gas-boundary">Electron degeneracy vs. Ideal gas Boundary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-vs-radiation-dominated-boundary">Ideal gas vs. radiation-dominated boundary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#crystallization-regime">Crystallization Regime</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#a-describing-the-various-equation-of-state-regimes-using-a-t-rho-diagram">a. - Describing the various Equation of State Regimes using a <span class="math notranslate nohighlight">\(T-\rho\)</span> Diagram</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plotting">Plotting</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#labeling">Labeling</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-plotting-mesa-history-data-and-eos-regimes">b. Plotting MESA History data and EOS regimes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-or-reuse"><strong>Download or reuse</strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#copy">Copy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#load-the-mesa-history-time-evolution-properties-of-quantities-as-opposed-to-profiles">Load the MESA history (time evolution properties of quantities, as opposed to <em>profiles</em>)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-and-label">Plot and Label</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
             </nav>
         </div>
     </div>
@@ -469,15 +503,23 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-3">
 <h1>In-Class Assignment 3<a class="headerlink" href="#in-class-assignment-3" title="Permalink to this heading">#</a></h1>
+<p><em>Thursday, September 3, 2026</em></p>
+<p><em>How to use this notebook:</em></p>
+<p><strong>Locally</strong>: Hover over the download symbol then to the <code class="docutils literal notranslate"><span class="pre">ipynb</span></code> option then <strong>right-click</strong> to <em>Save Link As</em> to download the file. You can then open the notebook using <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span> <span class="pre">ica3.ipynb</span></code> in your terminal.</p>
+<p><strong>Remote</strong>: You can open the notebook on Colab by hovering over the rocket symbol then select launch to colab. In doing so, any data needed for the plots can be click and dragged to the online workbook. By default, the file will go to <code class="docutils literal notranslate"><span class="pre">/content/</span></code> or <code class="docutils literal notranslate"><span class="pre">/content/sample_data</span></code></p>
 <p><strong>Credit: These exercises follow from work by Mike Zingale’s computational lectures.</strong></p>
-<p><strong>Work in groups of 2</strong></p>
+<hr class="docutils" />
+<section id="exploring-equation-of-state-regimes-and-pressure-sources">
+<h2>Exploring Equation of State Regimes and Pressure Sources<a class="headerlink" href="#exploring-equation-of-state-regimes-and-pressure-sources" title="Permalink to this heading">#</a></h2>
+<p><strong>Work in groups of 3/4</strong></p>
+</section>
 <section id="learning-objectives">
 <h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>explore EOS regimes</p></li>
 <li><p>label various EOS regimes</p></li>
 <li><p>plot stellar models on EOS regimes</p></li>
-<li><p>compare density profiles esimtates to stellar models</p></li>
+<li><p>compare various pressure contriutions on the main-sequence</p></li>
 </ul>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
@@ -518,6 +560,7 @@ dominate.</p>
 <p>and <span class="math notranslate nohighlight">\(\mu\)</span> such that</p>
 <div class="math notranslate nohighlight">
 \[\frac{1}{\mu} = \frac{1}{\mu_e} + \frac{1}{\mu_I}\]</div>
+<p>We will equate the pressure to compute EOS boundaries and label them.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">mu_e</span> <span class="o">=</span> <span class="mi">2</span>
@@ -531,8 +574,8 @@ dominate.</p>
 </div>
 </div>
 </section>
-<section id="degeneracy-vs-ideal-gas">
-<h2>Degeneracy vs. Ideal gas<a class="headerlink" href="#degeneracy-vs-ideal-gas" title="Permalink to this heading">#</a></h2>
+<section id="electron-degeneracy-vs-ideal-gas-boundary">
+<h2>Electron degeneracy vs. Ideal gas Boundary<a class="headerlink" href="#electron-degeneracy-vs-ideal-gas-boundary" title="Permalink to this heading">#</a></h2>
 <p>We find the (dimensionless) Fermi momentum (<span class="math notranslate nohighlight">\(x_F = p_F / (mc)\)</span>) via</p>
 <div class="math notranslate nohighlight">
 \[n_e = \frac{\rho}{\mu_e m_u} = \int_0^{x_F} x^2 dx\]</div>
@@ -549,7 +592,7 @@ dominate.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Fermi momentum constant (from number density integral)</span>
-<span class="n">B</span> <span class="o">=</span> <span class="c1"># </span>
+<span class="n">B</span> <span class="o">=</span> <span class="p">(</span><span class="mf">8.0</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">/</span><span class="mf">3.0</span><span class="p">)</span><span class="o">*</span><span class="n">m_u</span><span class="o">*</span><span class="p">(</span><span class="n">m_e</span><span class="o">*</span><span class="n">c</span><span class="o">/</span><span class="n">h</span><span class="p">)</span><span class="o">**</span><span class="mi">3</span>
 
 <span class="k">def</span> <span class="nf">deg_ideal</span><span class="p">(</span><span class="n">rho</span><span class="p">,</span> <span class="n">mu_e</span><span class="o">=</span><span class="mf">2.0</span><span class="p">):</span>
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;temperature on the line separating degeneracy and ideal gas as a function</span>
@@ -565,18 +608,10 @@ dominate.</p>
 </pre></div>
 </div>
 </div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span>  <span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-    <span class="n">B</span> <span class="o">=</span> <span class="c1">#</span>
-        <span class="o">^</span>
-<span class="ne">SyntaxError</span>: invalid syntax
-</pre></div>
-</div>
-</div>
 </div>
 </section>
-<section id="ideal-gas-vs-radiation">
-<h2>Ideal gas vs. radiation<a class="headerlink" href="#ideal-gas-vs-radiation" title="Permalink to this heading">#</a></h2>
+<section id="ideal-gas-vs-radiation-dominated-boundary">
+<h2>Ideal gas vs. radiation-dominated boundary<a class="headerlink" href="#ideal-gas-vs-radiation-dominated-boundary" title="Permalink to this heading">#</a></h2>
 <p>A simple way to determine whether an ideal case or radiation dominates is to set their energy densities equal.
 At the temperatures where we expect this to occur, we will assume that the electrons are not degenerate,
 so we will use the full <span class="math notranslate nohighlight">\(\mu\)</span> for the composition in the ideal gas instead of <span class="math notranslate nohighlight">\(\mu_I\)</span>.</p>
@@ -590,12 +625,15 @@ so we will use the full <span class="math notranslate nohighlight">\(\mu\)</span
 <span class="w">    </span><span class="sd">&quot;&quot;&quot;temperature on the line separating radiation and ideal gas as a function </span>
 <span class="sd">of rho&quot;&quot;&quot;</span>
 
-    <span class="c1"># T = complete here</span>
+    <span class="n">T</span> <span class="o">=</span> <span class="p">((</span><span class="mi">3</span> <span class="o">*</span> <span class="n">k</span> <span class="o">/</span> <span class="p">(</span><span class="n">m_u</span> <span class="o">*</span> <span class="n">a</span><span class="p">))</span> <span class="o">*</span> <span class="p">(</span><span class="n">rho</span> <span class="o">/</span> <span class="n">mu</span><span class="p">))</span><span class="o">**</span><span class="p">(</span><span class="mf">1.</span><span class="o">/</span><span class="mf">3.</span><span class="p">)</span>
     <span class="k">return</span> <span class="n">T</span>
 </pre></div>
 </div>
 </div>
 </div>
+</section>
+<section id="crystallization-regime">
+<h2>Crystallization Regime<a class="headerlink" href="#crystallization-regime" title="Permalink to this heading">#</a></h2>
 <p>Finally, at low temperatures and high densities, the ions can crystalize.  The comparison where is the thermal energy to the Coulomb energy:</p>
 <div class="math notranslate nohighlight">
 \[\Gamma = \frac{kT}{Z^2 e^2 / a}\]</div>
@@ -617,59 +655,141 @@ so we will use the full <span class="math notranslate nohighlight">\(\mu\)</span
 </div>
 </div>
 </section>
-<section id="a-plotting-the-boundaries">
-<h2>a. Plotting the boundaries<a class="headerlink" href="#a-plotting-the-boundaries" title="Permalink to this heading">#</a></h2>
-<p>Download the following model files (or reuse them from last time!):</p>
-<ul class="simple">
-<li><p><span class="math notranslate nohighlight">\(1 M_\odot\)</span> history data <a class="reference download internal" download="" href="../_downloads/37ec98734aaf9904d6cfe1bcb1f724b7/M1_default_trimmed_history.data"><span class="xref download myst">M1_default_trimmed_history.data</span></a></p></li>
-<li><p><span class="math notranslate nohighlight">\(1 M_\odot\)</span> - main sequence profile data <a class="reference download internal" download="" href="../_downloads/1db8be2af3a201848afe3c268232e999/M1_default_profile8.data"><span class="xref download myst">M1_default_profile8.data</span></a></p>
+</section>
+<section class="tex2jax_ignore mathjax_ignore" id="a-describing-the-various-equation-of-state-regimes-using-a-t-rho-diagram">
+<h1>a. - Describing the various Equation of State Regimes using a <span class="math notranslate nohighlight">\(T-\rho\)</span> Diagram<a class="headerlink" href="#a-describing-the-various-equation-of-state-regimes-using-a-t-rho-diagram" title="Permalink to this heading">#</a></h1>
+<section id="individually-with-the-person-next-to-you">
+<h2><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h2>
+<section id="plotting">
+<h3>Plotting<a class="headerlink" href="#plotting" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>Plot and label the three lines defined above. Label the <em>radiation dominated</em>, <em>ideal gas</em>, the electron degenerate regime (including a line denoting the density from non-relativistic to relativistic regimes), and lastly, label the crystallization regime.</p></li>
+<li><p>Plot the <strong>radiation-dominated vs. ideal gas-dominated</strong> region <span class="math notranslate nohighlight">\(T\)</span> boundary as a function of density <span class="math notranslate nohighlight">\(\rho\)</span>.</p></li>
+<li><p>Plot the <strong>electron degenerate-dominated vs. ideal gas-dominated</strong> region <span class="math notranslate nohighlight">\(T\)</span> boundary as a function of density <span class="math notranslate nohighlight">\(\rho\)</span>.</p></li>
+<li><p>Plot the <strong>crystallization</strong> region <span class="math notranslate nohighlight">\(T\)</span> boundary as a function of density <span class="math notranslate nohighlight">\(\rho\)</span>.</p></li>
 </ol>
-</li>
-</ul>
+</section>
+<section id="labeling">
+<h3>Labeling<a class="headerlink" href="#labeling" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="4">
+<li><p>Label the <strong>radiation-dominated region</strong> <em>and</em> also label that region with the equation for the pressure <span class="math notranslate nohighlight">\(P_{\rm{rad}}\)</span> in that region.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: we have not discussed it yet in detail yet but Eqn. 3.44 in <a class="reference external" href="https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf">Pols, Chapter 3</a> will help.</p>
+</div></blockquote>
+<ol class="arabic simple" start="5">
+<li><p>Label the <strong>ideal gas-dominated region</strong> <em>and</em> also label that region with the equation for the pressure <span class="math notranslate nohighlight">\(P_{\rm{ideal}}\)</span> in that region.</p></li>
+<li><p>Label the <strong>electron degenerate gas-dominated region</strong> <em>and</em> also label that region with the equation for the pressure <span class="math notranslate nohighlight">\(P_{\rm{e},classical}\)</span> in that region.</p></li>
+</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#rho = np.logspace(-5, 10, 2000)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># create an array of densities over which we will plot</span>
+<span class="n">rho</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2000</span><span class="p">)</span>
 
-<span class="c1">#fig = plt.figure()</span>
-<span class="c1">#ax = fig.add_subplot(111)</span>
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">)</span>
 
-<span class="c1">#ax.plot(rho,##</span>
+<span class="c1"># plot the three boundary lines here</span>
+<span class="c1">#ax.plot(rho, FUNC1(rho))</span>
+<span class="c1">#ax.plot(rho, FUNC2(rho))</span>
+<span class="c1">#ax.plot(rho, FUNC3(rho))</span>
 
-<span class="c1"># annotate NR vs ER degeneracy line here</span>
-<span class="c1">#ax.vlines(*</span>
+<span class="c1"># label / annotate here</span>
+<span class="c1">#ax.text(1.e-2, 1.e9, &quot;BLANK\ndominates&quot;, horizontalalignment=&quot;center&quot;)</span>
+<span class="c1">#ax.text(1.e-2, 4e8, r&quot;$P_{\rm{BLANK}}=$&quot;, horizontalalignment=&quot;center&quot;)</span>
 
 
-<span class="c1">#ax.text(1.e-2, 1.e9, </span>
+<span class="c1">#ax.text(1.e-3, 1.e5, &quot;BLANK dominates&quot;, horizontalalignment=&quot;center&quot;)</span>
+<span class="c1">#ax.text(1.e-3, 4.e4, r&quot;$P_{\rm{BLANK}}$&quot;, horizontalalignment=&quot;center&quot;)</span>
 
-<span class="c1"># label the location of the Sun here</span>
-<span class="c1">#ax.text(150,#)</span>
+<span class="c1">#ax.text(1.e3, 1.e5, &quot;BLANK&quot;, horizontalalignment=&quot;center&quot;)</span>
+<span class="c1">#ax.text(5.e4, 5.e6, r&quot;$P_{BLANK}$&quot;, horizontalalignment=&quot;center&quot;)</span>
 
-<span class="c1">#ax.set_xscale(&quot;log&quot;)</span>
-<span class="c1">#ax.set_yscale(&quot;log&quot;)</span>
 
-<span class="c1">#ax.set_xlabel(r&quot;$\rho$ (g/cc)&quot;)</span>
-<span class="c1">#ax.set_ylabel(&quot;$T$ (K)&quot;)</span>
-<span class="c1">#ax.grid(ls=&quot;:&quot;)</span>
+<span class="c1">#ax.text(3.e5, 1.e3, &quot;$BLANK dominates&quot;, horizontalalignment=&quot;center&quot;)</span>
+
+
+<span class="c1">#plt.title(r&#39;(Mostly) Classic description of various stellar equation of state regimes&#39;)</span>
+
+
+<span class="c1"># label the Sun on this diagram using the central density temperatures of the Sun</span>
+<span class="c1"># solar cheat sheet lives here :https://solar-center.stanford.edu/vitalstats.html</span>
+<span class="c1">#ax.text(rhoc_sun, tc_sun, &quot;⊙&quot;,color=&#39;orange&#39;,fontsize=22)</span>
+
+
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xscale</span><span class="p">(</span><span class="s2">&quot;log&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yscale</span><span class="p">(</span><span class="s2">&quot;log&quot;</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$\rho~ (\rm</span><span class="si">{g}</span><span class="s2"> \ \rm</span><span class="si">{cm}</span><span class="s2">^{-3}$)&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;$T$ (K)&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">ls</span><span class="o">=</span><span class="s2">&quot;:&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </div>
+<div class="cell_output docutils container">
+<img alt="../_images/88c944623ee0b83b471843e39f33349fa12d3f759b7271cd7b99d0fdc52a3f6d.png" src="../_images/88c944623ee0b83b471843e39f33349fa12d3f759b7271cd7b99d0fdc52a3f6d.png" />
+</div>
 </div>
 </section>
-<section id="b-plotting-the-boundaries-mesa">
-<h2>b. Plotting the boundaries + MESA<a class="headerlink" href="#b-plotting-the-boundaries-mesa" title="Permalink to this heading">#</a></h2>
-<p>Here, produce the same plot but overlay the results of the 1M MESA stellar model history data from ICA1.</p>
-<ol class="arabic simple">
-<li><p>load the MESA data using pandas,</p></li>
-<li><p>copy the above labelled plot below and plot the 1Msun MESA model on the same plot</p></li>
-</ol>
+</section>
+<section id="with-your-larger-group-try-to-answer-the-following">
+<h2><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#with-your-larger-group-try-to-answer-the-following" title="Permalink to this heading">#</a></h2>
+<p>Using the above plot, answer the following:</p>
 <blockquote>
-<div><p>Descirbe in a few sentences to trajectory of the 1M stellar model in the diagram.</p>
+<div><p>Which EOS best describes the central conditions of the Sun?</p>
 </div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>Will the Sun always obey the ideal gas law in the center? Or, will a different description become necessary at later times?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>Will the same equation of state be the same throughout the entire star for a star like the Sun on the main sequence? What about for more massive stars?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&gt; Hint: See Figure 3.4 of (Pols)[https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf]
+
+Your groups thoughtful response.
+</pre></div>
+</div>
+</section>
+<section id="b-plotting-mesa-history-data-and-eos-regimes">
+<h2>b. Plotting MESA History data and EOS regimes<a class="headerlink" href="#b-plotting-mesa-history-data-and-eos-regimes" title="Permalink to this heading">#</a></h2>
+<section id="id1">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<section id="download-or-reuse">
+<h4><strong>Download or reuse</strong><a class="headerlink" href="#download-or-reuse" title="Permalink to this heading">#</a></h4>
+<p>The model files are again:</p>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(1 M_\odot\)</span>: <a class="reference download internal" download="" href="../_downloads/37ec98734aaf9904d6cfe1bcb1f724b7/M1_default_trimmed_history.data"><span class="xref download myst">M1_default_trimmed_history.data</span></a></p></li>
+<li><p><span class="math notranslate nohighlight">\(15 M_\odot\)</span>: <a class="reference download internal" download="" href="../_downloads/599b80e6e5d01fd45e6596eef76ccf7b/M15_aprox21_trimmed_history.data"><span class="xref download myst">M15_aprox21_trimmed_history.data</span></a></p></li>
+</ul>
+</section>
+<section id="copy">
+<h4>Copy<a class="headerlink" href="#copy" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple">
+<li><p>Copy the completed and labeled plot from a. and use here below. We will add to this plot.</p></li>
+</ol>
+</section>
+<section id="load-the-mesa-history-time-evolution-properties-of-quantities-as-opposed-to-profiles">
+<h4>Load the MESA history (time evolution properties of quantities, as opposed to <em>profiles</em>)<a class="headerlink" href="#load-the-mesa-history-time-evolution-properties-of-quantities-as-opposed-to-profiles" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple" start="2">
+<li><p>load the MESA data using pandas</p></li>
+<li><p>load the log central temperature and log central density history data for both models</p></li>
+</ol>
+</section>
+<section id="plot-and-label">
+<h4>Plot and Label<a class="headerlink" href="#plot-and-label" title="Permalink to this heading">#</a></h4>
+<ol class="arabic simple" start="4">
+<li><p>Plot and label the <span class="math notranslate nohighlight">\(1M_{\odot}\)</span> and <span class="math notranslate nohighlight">\(15M_{\odot}\)</span> models.</p></li>
+</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#one_m_sun_history = pd.read_csv(&#39;data/M1_default_trimmed_history.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="c1">#one_m_sun = pd.read_csv(&#39;/path/to/data/file&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#fifteen_m_sun = pd.read_csv(&#39;/path/to/data/&#39;,sep=r&#39;\s+&#39;,header=4)</span>
 <span class="c1">#one_m_sun.columns</span>
 </pre></div>
 </div>
@@ -677,75 +797,99 @@ so we will use the full <span class="math notranslate nohighlight">\(\mu\)</span
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain density and temperature data here</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># import T_center and Rho_center history data</span>
+<span class="c1">#one_m_sun_rho = one_m_sun[&#39;log_center_VAR&#39;]</span>
+<span class="c1">#one_m_sun_T= one_m_sun[&#39;log_center_VAR&#39;]</span>
+
+<span class="c1">#fifteen_m_sun_rho = fifteen_m_sun[&#39;log_center_VAR&#39;]</span>
+<span class="c1">#fifteen_m_sun_T= fifteen_m_sun[&#39;log_center_VAR&#39;]</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># combined plot here</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># create an array of densities over which we will plot</span>
+<span class="n">rho</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">logspace</span><span class="p">(</span><span class="o">-</span><span class="mi">5</span><span class="p">,</span> <span class="mi">10</span><span class="p">,</span> <span class="mi">2000</span><span class="p">)</span>
+
+<span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">)</span>
+
+<span class="c1"># plot the three boundary lines here</span>
+<span class="c1">#ax.plot(rho, FUNC1(rho))</span>
+<span class="c1">#ax.plot(rho, FUNC2(rho))</span>
+<span class="c1">#ax.plot(rho, FUNC3(rho))</span>
+
+<span class="c1"># now, add mesa data here for Tc, Rhoc</span>
+<span class="c1">#ax.plot(10**(one_m_sun_DENSITY),10**(one_m_sun_TC),label=&#39;1$M_{\odot}$&#39;,color=&#39;lightseagreen&#39;,ls=&#39;-.&#39;)</span>
+<span class="c1">#ax.plot(10**(fifteen_m_sun_DENSITY),10**(fifteen_m_sun_TC),label=&#39;15$M_{\odot}$&#39;,color=&#39;dodgerblue&#39;,ls=&#39;-.&#39;)</span>
+
+<span class="c1"># label / annotate here</span>
+<span class="c1">#ax.text(1.e-2, 1.e9, &quot;BLANK\ndominates&quot;, horizontalalignment=&quot;center&quot;)</span>
+<span class="c1">#ax.text(1.e-2, 4e8, r&quot;$P_{\rm{BLANK}}=$&quot;, horizontalalignment=&quot;center&quot;)</span>
+
+
+<span class="c1">#ax.text(1.e-3, 1.e5, &quot;BLANK dominates&quot;, horizontalalignment=&quot;center&quot;)</span>
+<span class="c1">#ax.text(1.e-3, 4.e4, r&quot;$P_{\rm{BLANK}}$&quot;, horizontalalignment=&quot;center&quot;)</span>
+
+<span class="c1">#ax.text(1.e3, 1.e5, &quot;BLANK&quot;, horizontalalignment=&quot;center&quot;)</span>
+<span class="c1">#ax.text(5.e4, 5.e6, r&quot;$P_{BLANK}$&quot;, horizontalalignment=&quot;center&quot;)</span>
+
+
+<span class="c1">#ax.text(3.e5, 1.e3, &quot;$BLANK dominates&quot;, horizontalalignment=&quot;center&quot;)</span>
+
+
+<span class="c1">#plt.title(r&#39;(Mostly) Classic description of various stellar equation of state regimes&#39;)</span>
+
+
+<span class="c1"># label the Sun on this diagram using the central density temperatures of the Sun</span>
+<span class="c1"># solar cheat sheet lives here :https://solar-center.stanford.edu/vitalstats.html</span>
+<span class="c1">#ax.text(rhoc_sun, tc_sun, &quot;⊙&quot;,color=&#39;orange&#39;,fontsize=22)</span>
+
+
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xscale</span><span class="p">(</span><span class="s2">&quot;log&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yscale</span><span class="p">(</span><span class="s2">&quot;log&quot;</span><span class="p">)</span>
+
+<span class="n">ax</span><span class="o">.</span><span class="n">set_xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s2">&quot;$\rho~ (\rm</span><span class="si">{g}</span><span class="s2"> \ \rm</span><span class="si">{cm}</span><span class="s2">^{-3}$)&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_ylabel</span><span class="p">(</span><span class="s2">&quot;$T$ (K)&quot;</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="n">ls</span><span class="o">=</span><span class="s2">&quot;:&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/88c944623ee0b83b471843e39f33349fa12d3f759b7271cd7b99d0fdc52a3f6d.png" src="../_images/88c944623ee0b83b471843e39f33349fa12d3f759b7271cd7b99d0fdc52a3f6d.png" />
 </div>
 </div>
 </section>
-<section id="c-stellar-density-profile">
-<h2>c. Stellar density profile<a class="headerlink" href="#c-stellar-density-profile" title="Permalink to this heading">#</a></h2>
-<p>In ICA2, we made an a stellar density profile of the form:</p>
-<div class="math notranslate nohighlight">
-\[\rho(r) = \rho_c \left [ 1 - \left (\frac{r}{R_\star} \right )^3 \right ]\]</div>
-<p>where <span class="math notranslate nohighlight">\(\rho_c\)</span> is the central density.</p>
-<p>Below we will test if this profile is an appropriate for a 1 solar mass model on the main-sequence.</p>
-<ol class="arabic simple">
-<li><p>load the MESA <strong>profile</strong> data using pandas <code class="docutils literal notranslate"><span class="pre">M1_default_profile8.data</span></code> this is the stellar structure profile on the main-sequence</p></li>
-<li><p>next, produce an equation density profile above using the central density from the profile data as well as the max radius for <span class="math notranslate nohighlight">\(\rho_c\)</span> and <span class="math notranslate nohighlight">\(R_\star\)</span>.</p></li>
-<li><p>Plot both on the same plot then answer the following below.</p></li>
-</ol>
+</section>
+<section id="id2">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p>Using the above plot, answer the following:</p>
 <blockquote>
-<div><p>Descirbe in a few sentences if the analytical profile is appropriate for this stellar model?</p>
+<div><p>Which EOS best describes the central conditions of the two stellar models for the low <span class="math notranslate nohighlight">\(T\)</span>, <span class="math notranslate nohighlight">\(\rho\)</span> evolutionary phases?</p>
 </div></blockquote>
-<blockquote>
-<div><p>Hint: Such analytical or polytropic EOS can be great approximations for stellar structure but typically not for the <em>entire</em> star except for in the cases of fully convective or white dwarf stars - not a star on the MS!</p>
-</div></blockquote>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#load `M1_default_profile8.data` profile data here with pandas</span>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
 </pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># set the radius and density variables here, we only have log rho so youll need to convert!</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># compute max / central density here and Rstar or maximum radius here</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># use these above rho_central and Rstar values to define our rho(r) profile from the analytical equation</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># finally, plot both on the same plot</span>
-</pre></div>
-</div>
-</div>
 </div>
 <blockquote>
-<div><p>Descirbe in a few sentences if the analytical profile is appropriate for this stellar model?</p>
+<div><p>Which EOS regime do they eventually transition to and why might this be?</p>
 </div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>When in a particular regime, can the star have pressure contributions from other regions?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+<blockquote>
+<div><p>The two stellar tracks behave differently in the electron degenerate regime, namely, the 1M model eventually vertically. Why might this be? Recall our equation for <span class="math notranslate nohighlight">\(P_{e,classical}\)</span> has a dependence on <span class="math notranslate nohighlight">\(\rho\)</span>.</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your groups thoughtful response.
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -779,6 +923,24 @@ so we will use the full <span class="math notranslate nohighlight">\(\mu\)</span
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="ica2.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">In-Class Assignment 2</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="hws.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Homeworks</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -795,14 +957,37 @@ so we will use the full <span class="math notranslate nohighlight">\(\mu\)</span
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#">In-Class Assignment 3</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#exploring-equation-of-state-regimes-and-pressure-sources">Exploring Equation of State Regimes and Pressure Sources</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eos-regimes">EOS regimes</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#degeneracy-vs-ideal-gas">Degeneracy vs. Ideal gas</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-vs-radiation">Ideal gas vs. radiation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-the-boundaries">a. Plotting the boundaries</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-plotting-the-boundaries-mesa">b. Plotting the boundaries + MESA</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-stellar-density-profile">c. Stellar density profile</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#electron-degeneracy-vs-ideal-gas-boundary">Electron degeneracy vs. Ideal gas Boundary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#ideal-gas-vs-radiation-dominated-boundary">Ideal gas vs. radiation-dominated boundary</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#crystallization-regime">Crystallization Regime</a></li>
 </ul>
+</li>
+<li class="toc-h1 nav-item toc-entry"><a class="reference internal nav-link" href="#a-describing-the-various-equation-of-state-regimes-using-a-t-rho-diagram">a. - Describing the various Equation of State Regimes using a <span class="math notranslate nohighlight">\(T-\rho\)</span> Diagram</a><ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plotting">Plotting</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#labeling">Labeling</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-plotting-mesa-history-data-and-eos-regimes">b. Plotting MESA History data and EOS regimes</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-or-reuse"><strong>Download or reuse</strong></a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#copy">Copy</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#load-the-mesa-history-time-evolution-properties-of-quantities-as-opposed-to-profiles">Load the MESA history (time evolution properties of quantities, as opposed to <em>profiles</em>)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-and-label">Plot and Label</a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
   </nav></div>
 
 </div></div>
