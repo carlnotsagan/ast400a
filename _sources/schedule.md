@@ -90,7 +90,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 10 Nov | Veterans Day - **No Class**                          |  Draft Proposal Due to Referees TBD                     |
+| 10 Nov | Veterans Day - **No Class**                          |  [(Draft) Final Project](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html) Due to D2L and referees, **Nov. 9.**, 2026 End of day                    |
 | 12 Nov | Neutron Stars                                        |  [ICA 20] Not for Credit                                            |
 
 ## Week 13
@@ -104,20 +104,20 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 24 Nov | Student Presentations                                |  [HW 4],                                                               |
-| 26 Nov | Thanksgiving recess - **No Class**                   |   Draft [Proposal Feedback](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_reports.html) TBD   |
+| 24 Nov | Student Presentations                                |  [HW 4], [Final Project Feedback](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_reports.html),  Due to D2L and referees, **Nov. 23.**, 2026 End of day                                                             |
+| 26 Nov | Thanksgiving recess - **No Class**                   |      |
 
 ## Week 15
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 1 Dec  | Student Presentations                                |                                                                  |
-| 3 Dec  | Student Presentations                                |  [Final Project Report] TBD                     |
+| 3 Dec  | Student Presentations                                |                                                                  |
 
 ## Week 16
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 8 Dec  | Student Presentations                                | [HW 4]              |
+| 8 Dec  | Student Presentations                                | [HW 4], [Final Project Report](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html), Due to D2L, End of day                 |
 |        |                                                      |                                                                  |
 

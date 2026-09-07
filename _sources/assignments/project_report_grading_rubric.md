@@ -1,7 +1,7 @@
 # Grading Scheme - Literature review project
 
 
-Due Thursday, Dec. 4, 2025 | **Total 16 points (16% of Final Grade)**
+Due Thursday, Dec. 7, 2026 | **Total 16 points (16% of Final Grade)**
 
 **Project Report (3-5 pages, single column)**
 

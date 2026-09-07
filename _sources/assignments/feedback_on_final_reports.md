@@ -1,16 +1,16 @@
 # Guidelines for Feedback on Final Reports
 -
 
-**All project report drafts are due to referees by Nov. 11, 2025, end of day**
+**All project report drafts are due to referees by Nov. 9, 2026, end of day**
 
 **Instructions for the Author:**
 Before this date, select two other people in your presentation day. They will be your referees. By the deadline, have a draft, (roughly 1-3 pages by now, depending on figures etc.) and email this draft to your referees. 
 
 ---
 
-## Due Nov. 27, 2025, end of day
+## Due Nov. 23, 2026, end of day
 
-**Total (4% of your final grade)**
+**Total (8% (4% each review) of your final grade)**
 
 **Instructions for the Referee:**
 

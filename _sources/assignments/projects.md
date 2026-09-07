@@ -21,21 +21,23 @@ much time on in class, and at the same we can all learn from each other!
 
 > It is **strongly** encouraged that the written summary be prepared using `LaTeX` via tools such as Overleaf, MacTeX, or other and exported as a final PDF. AAS Journals also provide templates examples [here](https://journals.aas.org/aastex-package-for-manuscript-preparation/). PDF produced using Microsoft Word will also be accepted. 
 
-The **oral presentation is 10min+5min questions**. 
+The **oral presentation is 7min+3min questions**. 
 
 ## Timeline
 
--   **November 11, 2025, end of day**: submission of draft manuscript to
+-   **November 9, 2026, end of day**: submission of Draft Manuscript to D2L _and_ to two
     peer-referees via email
--   **November 27, 2025, end of day**: referees submit feedback to D2L and author
--   **December 4, 2025, end of day**: submission of final manuscript to D2L
+-   **November 17, 2026, end of day**: submission of Final Presentation to D2L
+-   **_Rolling_: November 17, 2026 to December 8, 2026**: submission of presentation feedback/QA to D2L and presenter
+-   **November 23, 2026, end of day**: referees submit feedback to D2L and author(s) via email
+-   **December 8, 2026, end of day**: submission of final manuscript to D2L
     
     
 
-All files should be exchanged **in pdf** format, via email copying the
-instructor. To make sure that your peers have time to read, provide
+All files should be exchanged **in pdf** format, via email copying the TA. 
+To make sure that your peers have time to read, provide
 feedback, and incorporate that feedback, please adhere strictly to this
-timeline. Any deviations need to be agreed upon by all parties.
+timeline. 
 
 ## Procedure to assign projects
 
@@ -122,9 +124,11 @@ grading.
 
 The breakdown of the project/presentation grade is as follows (in % of final grade):
 
--   12% for the oral presentation and 8% for presentation feedback/QA
--   16% for the written report 
--   4% from how you provide feedback to others on their draft final reports
+-   **(4%)** [draft of final project report](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html)
+-   **8%** for the [oral presentation](https://carlnotsagan.github.io/ast400a/assignments/project_presentation_grading_rubric.html)
+-   **(4% each, two total)** [feedback to others on their draft final reports](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_reports.html)
+-   **4%** for [presentation feedback/QA](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_presentations.html)
+-   **16%** for the [final written report](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html) 
 
 
 **N.B.**: Regardless of the quantitative weight of each portion towards

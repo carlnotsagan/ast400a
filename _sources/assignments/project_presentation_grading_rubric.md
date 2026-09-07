@@ -1,24 +1,26 @@
 # Grading Scheme - Literature review presentation
 
 
-Due Thursday, Nov. 18, 2025 | **Total 12 points (12% of Final Grade)**
+Due Thursday, Nov. 17, 2026 | **Total 8 points (8% of Final Grade)**
 
-**Project Presentation (10 minutes long, slide number varies)**
+**Project Presentation (7 minutes long, slide number varies)**
 
-**Total: (12 points)**
+**Total: (8 points)**
 
-Prepare a 10 minute oral presentation using _Keynote_, _Powerpoint_, _Google Slides_, or similar presentation tool describing the astrophysical phenomena explored, its relevance to the topics in this class, and optionally any key results this topic has had recently. 
+Prepare a **7 minute oral presentation** using _Keynote_, _Powerpoint_, _Google Slides_, or similar presentation tool describing the astrophysical phenomena explored, its relevance to the topics in this class, and optionally any key results this topic has had recently. 
 
 The goal of these presentations are to describe the astrophysical phenomena to the layperson, connect it to the relevant topics explored in this class (e.g. like the topics explored in the lecture or sub-chapter titles), and also provide any interesting and recent progress in this area of astronomy. 
+
+Upload final presentation as PDF to D2L by the due date and be prepared to present during final weeks. Slots TBD.
 
 
 **Project Presentation Feedback to Peers**
 
-**Total (8 points) (8% of Final Grade)**
+**Total (4 points) (4% of Final Grade)**
 
 See details on the [_Guidelines for this feedback here_](https://carlnotsagan.github.io/ast400a/assignments/feedback_on_final_presentations.html). 
 
-Rolling Deadline Due Tue. EoD, Dec. 9, 2025. 
+Rolling Deadline Due Tue. EoD, Dec. 8, 2026. 
 
 
 ## Grading of the Presentation
