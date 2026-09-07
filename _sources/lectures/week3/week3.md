@@ -1,7 +1,7 @@
 # Week 3
 -
 
-## Tuesday, September 9, 2025
+## Tuesday, September 8, 2025
 
 
 Slides are viewable [HTML](day_4.html). 
@@ -11,7 +11,7 @@ Right click to open in a new tab instead of downloading slides!
 ```
 
 
-## Thursday, September 11, 2025
+## Thursday, September 10, 2025
 
 Slides are viewable [HTML](day_5.html). 
 
