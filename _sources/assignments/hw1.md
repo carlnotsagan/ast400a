@@ -33,14 +33,13 @@ Relevant Chapters: [HKT](https://arizona-ua.primo.exlibrisgroup.com/permalink/01
 > _For this problem, you may solve by hand or using [SymPy](https://www.sympy.org/en/index.html). If using sympy, upload the PDF output of your notebook as part of the solution._
 5. **Total: (20 points)** - **(-G)ravity, is working against me.** - Calculate the total gravitational potential energy ($\Omega$) of a fictitious star with mass $M_\star$ and radius $R_\star$ that has a density profile $\rho( r) = \rho_{\rm{center}}(1 - r/ R_\star)$. Give your answer in terms of $M_\star$ and $R_\star$. 
 >_For this problem, you may solve by hand or using [SymPy](https://www.sympy.org/en/index.html). If using sympy, upload the PDF output of your notebook as part of the solution._
-6. **Total: (15 points)** - **Concepts of a _stable_ star** 
-> Conceptual questions from [Pols Chapter 2](https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf). Respond in a sentence or two. 
+6. **Total: (15 points)** - **Concepts of a _stable_ star** - Conceptual questions from [Pols Chapter 2](https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf). Respond in a sentence or two. 
 
     * (**a**) - Most stars are in thermal equilibrium. What is compensating for the energy loss? **(5 points)**
     * (**b**) - What happens to a star in thermal equilibrium (and in HSE) if the energy production by nuclear reactions in a star drops (slowly enough to maintain hydrostatic equilibrium)? **(5 points)**
     * (**c**) - Why does this have a stabilizing effect? On what time scale does the change take place? **(5 points)**
-7. **Total: (15 points)** - **Who's That Gas?** 
-> Conceptual questions from [Pols Chapter 3](https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf). Respond in a sentence or two. 
+
+7. **Total: (15 points)** - **Who's That Gas?** - Conceptual questions from [Pols Chapter 3](https://www.astro.ru.nl/~onnop/education/stev_utrecht_notes/chapter1-4.pdf). Respond in a sentence or two. 
 
     * (**a**) - What do we mean by _local thermodynamic equilibrium_ (LTE)? Why is this a good assumption for stellar interiors? What is the difference between LTE and thermal equilibrium (as treated in Ch. 2)? **(5 points)**
     * (**b**) - In what type of stars does degeneracy become important? Is it important in main-sequence stars?Is it more important in high mass or low mass MS stars? **(5 points)**
