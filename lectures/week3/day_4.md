@@ -1,7 +1,7 @@
 # Equations of State II
 -
 
-## September, 9, 2025
+## September, 8, 2026
 
 
 Slides are viewable [HTML](day_4.html).

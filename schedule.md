@@ -9,22 +9,22 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 25 Aug | Intro & orders of magnitude                          |                                                                  |
-| 27 Aug | An Overview of Stellar Evolution                     | [ICA 1](assignments/ica1.ipynb), Due: End of day, August 27, 2026|
+| 25 Aug | [Intro & orders of magnitude](lectures/week1/day_0.html)  |                                                                  |
+| 27 Aug | [An Overview of Stellar Evolution](lectures/week1/day_1.html)| [ICA 1](assignments/ica1.ipynb), Due: End of day, August 27, 2026|
         
 
 ## Week 2
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 1 Sep  | Mechanical and thermal equilibrium                   | [ICA 2](assignments/ica2.ipynb), Due: End of day, Sep 1, 2026 |
-| 3 Sep  | Equations of State I                                 | [ICA 3](assignments/ica3.ipynb), Due: End of day, Sep 3, 2026 |
+| 1 Sep  | [Mechanical and thermal equilibrium](lectures/week2/day_2.html)  | [ICA 2](assignments/ica2.ipynb), Due: End of day, Sep 1, 2026 |
+| 3 Sep  | [Equations of State I](lectures/week2/day_3.html)    | [ICA 3](assignments/ica3.ipynb), Due: End of day, Sep 3, 2026 |
 
 ## Week 3
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 8 Sep  | Equations of State II                                | [ICA 4]; [HW 1] Due: TBD         |
+| 8 Sep  | [Equations of State II](lectures/week3/day_4.html)    | [ICA 4](assignments/ica4.ipynb) Due: End of day, Sep 8, 2026; [HW1](assignments/hw1.ipynb) Due: Before class, Sept. 17, 2026         |
 | 10 Sep | Polytropic stellar models                            | [ICA 5],  Not for credit                 |
 
 
