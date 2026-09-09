@@ -1,7 +1,7 @@
 # Polytropic stellar models
 -
 
-## September, 11, 2025
+## September, 10, 2026
 
 
 Slides are viewable [HTML](day_5.html).

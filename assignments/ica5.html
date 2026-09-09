@@ -65,6 +65,8 @@
     <link rel="shortcut icon" href="https://github.com/carlnotsagan/carlnotsagan.github.io/blob/master/images/bg.jpg"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Homeworks" href="hws.html" />
+    <link rel="prev" title="In-Class Assignment 4" href="ica4.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -126,8 +128,6 @@
     <div class="bd-container__inner bd-page-width">
       
       
-      
-        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -207,19 +207,37 @@
 <ul class="nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week1/week1.html">Week 1</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_0.html">Intro &amp; orders of magnitude</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week1/day_1.html">An Overview of Stellar Evolution</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week2/week2.html">Week 2</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_2.html">Mechanical and thermal equilibrium</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week2/day_3.html">Equations of State I</a></li>
+</ul>
+</details></li>
+<li class="toctree-l1 has-children"><a class="reference internal" href="../lectures/week3/week3.html">Week 3</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week3/day_4.html">Equations of State II</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../lectures/week3/day_5.html">Polytropic stellar models</a></li>
 </ul>
 </details></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Assignments</span></p>
-<ul class="nav bd-sidenav">
+<ul class="current nav bd-sidenav">
 <li class="toctree-l1 has-children"><a class="reference internal" href="pcas.html">Pre-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
 <li class="toctree-l2"><a class="reference internal" href="pca1.html">PCA 1</a></li>
 </ul>
 </details></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="icas.html">In-Class Assignments</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
+<li class="toctree-l1 current active has-children"><a class="reference internal" href="icas.html">In-Class Assignments</a><details open="open"><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul class="current">
 <li class="toctree-l2"><a class="reference internal" href="ica1.html">In-Class Assignment 1</a></li>
 
 
+<li class="toctree-l2"><a class="reference internal" href="ica2.html">In-Class Assignment 2</a></li>
+
+
+<li class="toctree-l2"><a class="reference internal" href="ica3.html">In-Class Assignment 3</a></li>
+
+<li class="toctree-l2"><a class="reference internal" href="ica4.html">In-Class Assignment 4</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 5</a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -449,13 +467,37 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-polytropes-to-mesa-models">Comparing Polytropes to MESA models</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-polytropes-to-mesa-models-interpreting-mesa-data-with-tulips">Comparing Polytropes to MESA models, Interpreting MESA data with TULIPS</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation">Implementation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-an-n-1-polytrope">a. Plotting an <span class="math notranslate nohighlight">\(n=1\)</span> Polytrope</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model">b. Using Polytrope to determine the degeneracy regine of a WD MESA model</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-comparing-polytropes-to-a-co-wd-mesa-model">a. Comparing Polytropes to a CO WD MESA model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download"><strong>Download</strong></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#run-the-follow-cells-that-will">Run the follow cells that will:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot">Plot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-comparing-polytropes-to-brown-dwarf-mesa-models">b. Comparing Polytropes to Brown Dwarf MESA models</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>Download</strong></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Run the follow cells that will:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Plot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-visualizing-stellar-structure-with-tulips">c. Visualizing Stellar Structure with Tulips</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-if-you-have-not-already">Download (if you have not already)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -469,21 +511,57 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-5">
 <h1>In-Class Assignment 5<a class="headerlink" href="#in-class-assignment-5" title="Permalink to this heading">#</a></h1>
+<p><em>Thursday, September 10, 2026</em></p>
+<p><em>How to use this notebook:</em></p>
+<p><strong>Locally</strong>: Hover over the download symbol then to the <code class="docutils literal notranslate"><span class="pre">ipynb</span></code> option then <strong>right-click</strong> to <em>Save Link As</em> to download the file. You can then open the notebook using <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span> <span class="pre">ica5.ipynb</span></code> in your terminal.</p>
+<p><strong>Remote</strong>: You can open the notebook on Colab by hovering over the rocket symbol then select launch to colab. In doing so, any data needed for the plots can be click and dragged to the online workbook. By default, the file will go to <code class="docutils literal notranslate"><span class="pre">/content/</span></code> or <code class="docutils literal notranslate"><span class="pre">/content/sample_data</span></code></p>
 <p><strong>Credit: <a class="reference external" href="https://github.com/zingale">Mike Zingale</a></strong> for the Polytrope Routines and Notes.</p>
-<section id="comparing-polytropes-to-mesa-models">
-<h2>Comparing Polytropes to MESA models<a class="headerlink" href="#comparing-polytropes-to-mesa-models" title="Permalink to this heading">#</a></h2>
+<hr class="docutils" />
+<section id="comparing-polytropes-to-mesa-models-interpreting-mesa-data-with-tulips">
+<h2>Comparing Polytropes to MESA models, Interpreting MESA data with TULIPS<a class="headerlink" href="#comparing-polytropes-to-mesa-models-interpreting-mesa-data-with-tulips" title="Permalink to this heading">#</a></h2>
 <section id="learning-objectives">
 <h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
-<li><p>explore the relationship between lane-emden solutions and physical variables</p></li>
-<li><p>identify physics informed polytrope profiles for models of massive stars and white dwarfs</p></li>
+<li><p>Determine which polytrope model best fits a MESA WD model and interpret those results</p></li>
+<li><p>Explore situations where Polytrope models can be utilized</p></li>
+<li><p>Familiarize with plotting tool TULIPS for visualizing time-evolution MESA data</p></li>
 </ul>
 </section>
 </section>
 <section id="implementation">
 <h2>Implementation<a class="headerlink" href="#implementation" title="Permalink to this heading">#</a></h2>
 <p>This is our main class that does the integration.  We initialize it with the polytopic index, and then it will integrate the system for us.  We can then plot it or get
-the parameters <span class="math notranslate nohighlight">\(\xi_1\)</span> and <span class="math notranslate nohighlight">\(-\xi_1^2 d\theta/d\xi |_{\xi_1}\)</span></p>
+the parameters <span class="math notranslate nohighlight">\(\xi_1\)</span> and <span class="math notranslate nohighlight">\(-\xi_1^2 d\theta/d\xi |_{\xi_1}\)</span>.</p>
+<p>From the readings in HKT 7.1-7.2. We found some of the following relations:</p>
+<p>Equation 7.20-7.22:</p>
+<div class="math notranslate nohighlight">
+\[
+\Large
+\rho(r) = \rho_{\rm{c}}\theta^{n}(r) 
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\Large
+P(r) =  P_{\rm{c}} \theta^{1+n}(r)
+\]</div>
+<div class="math notranslate nohighlight">
+\[
+\Large
+P_{\rm{c}} =  K \rho^{1+1/n}_{\rm{c}} 
+\]</div>
+<p>and</p>
+<p>Equation 7.25:</p>
+<div class="math notranslate nohighlight">
+\[
+\Large
+r^{2}_{n} = \frac{(n+1)P_{c}}{4\pi G \rho^{2}_{c}}
+\]</div>
+<p>and</p>
+<div class="math notranslate nohighlight">
+\[
+\Large
+r = r_{n} \xi
+\]</div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
@@ -576,78 +654,44 @@ the parameters <span class="math notranslate nohighlight">\(\xi_1\)</span> and <
 </div>
 </div>
 </section>
-<section id="a-plotting-an-n-1-polytrope">
-<h2>a. Plotting an <span class="math notranslate nohighlight">\(n=1\)</span> Polytrope<a class="headerlink" href="#a-plotting-an-n-1-polytrope" title="Permalink to this heading">#</a></h2>
+<section id="a-comparing-polytropes-to-a-co-wd-mesa-model">
+<h2>a. Comparing Polytropes to a CO WD MESA model<a class="headerlink" href="#a-comparing-polytropes-to-a-co-wd-mesa-model" title="Permalink to this heading">#</a></h2>
+<section id="individually-with-the-person-next-to-you">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>Call the <code class="docutils literal notranslate"><span class="pre">Polytrope</span></code> <a class="reference external" href="https://docs.python.org/3/tutorial/classes.html">Class</a> and obtain the results.</p></li>
-<li><p>Plot results for <span class="math notranslate nohighlight">\(\theta_{n}(\xi)\)</span> (<span class="math notranslate nohighlight">\(\rho(r)/\rho_{\rm{c}}\)</span>) as a function of the dimensionless radial coordinate <span class="math notranslate nohighlight">\(\xi\)</span>.</p></li>
+<li><p>Call the <code class="docutils literal notranslate"><span class="pre">Polytrope</span></code> <a class="reference external" href="https://docs.python.org/3/tutorial/classes.html">Class</a> to compute the Polytrope solution for a range of indices.</p></li>
 </ol>
-<blockquote>
-<div><p>Hint: You can access the varible of the class by calling the class object followed by <code class="docutils literal notranslate"><span class="pre">.variable</span></code>. For obtaining <span class="math notranslate nohighlight">\(\xi\)</span> that would be <code class="docutils literal notranslate"><span class="pre">p.xi</span></code>.</p>
-</div></blockquote>
-<p>Plot the results of an <span class="math notranslate nohighlight">\(n=1\)</span> polytrope.</p>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1 result here</span>
-</pre></div>
-</div>
-</div>
-</div>
-<div class="cell docutils container">
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 2 result here</span>
-</pre></div>
-</div>
-</div>
-</div>
-<p>From the readings in HKT 7.1-7.2. We found some of the following relations:</p>
-<p>Equation 7.20-7.22:</p>
-<div class="math notranslate nohighlight">
-\[
-\Large
-\rho(r) = \rho_{\rm{c}}\theta^{n}(r) 
-\]</div>
-<div class="math notranslate nohighlight">
-\[
-\Large
-P(r) =  P_{\rm{c}} \theta^{1+n}(r)
-\]</div>
-<div class="math notranslate nohighlight">
-\[
-\Large
-P_{\rm{c}} =  K \rho^{1+1/n}_{\rm{c}} 
-\]</div>
-<p>and</p>
-<p>Equation 7.25:</p>
-<div class="math notranslate nohighlight">
-\[
-\Large
-r^{2}_{n} = \frac{(n+1)P_{c}}{4\pi G \rho^{2}_{c}}
-\]</div>
-<p>and</p>
-<div class="math notranslate nohighlight">
-\[
-\Large
-r = r_{n} \xi
-\]</div>
-</section>
-<section id="b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model">
-<h2>b. Using Polytrope to determine the degeneracy regine of a WD MESA model<a class="headerlink" href="#b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model" title="Permalink to this heading">#</a></h2>
 <p>Download the following model files locally. These data were produced using the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/make_co_wd.html"><code class="docutils literal notranslate"><span class="pre">make_co_wd</span></code></a> test suite.</p>
+<section id="download">
+<h4><strong>Download</strong><a class="headerlink" href="#download" title="Permalink to this heading">#</a></h4>
 <ul class="simple">
 <li><p><span class="math notranslate nohighlight">\(0.6 M_{\odot}\)</span> WD <em>profile</em> data: <a class="reference download internal" download="" href="../_downloads/8f9a53a7b5f28f46e50633b3f160a41a/co_wd_profile.data"><span class="xref download myst">co_wd_profile.data</span></a>;</p></li>
 </ul>
-<p>Then,</p>
+<blockquote>
+<div><p>Hint: You can access the varible of the class by calling the class object followed by <code class="docutils literal notranslate"><span class="pre">.variable</span></code>. For obtaining <span class="math notranslate nohighlight">\(\xi\)</span> that would be <code class="docutils literal notranslate"><span class="pre">p.xi</span></code>.</p>
+</div></blockquote>
+</section>
+</section>
+<section id="run-the-follow-cells-that-will">
+<h3>Run the follow cells that will:<a class="headerlink" href="#run-the-follow-cells-that-will" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>produce a polytrope of index <code class="docutils literal notranslate"><span class="pre">n</span></code> between 1 to 4.</p></li>
-<li><p>Load the MESA profile data for analysis.</p></li>
-<li><p>compute <span class="math notranslate nohighlight">\(P_{\rm{c}}\)</span> and <span class="math notranslate nohighlight">\(\rho_{\rm{c}}\)</span> using the central/max values from the MESA model.</p></li>
+<li><p>produce a Polytrope of index <code class="docutils literal notranslate"><span class="pre">n</span></code> for <code class="docutils literal notranslate"><span class="pre">n=0,1,/3/2,3</span></code>.</p></li>
+<li><p>From these instances we will compute <span class="math notranslate nohighlight">\(\xi=r/r_n\)</span>, <span class="math notranslate nohighlight">\(\theta(\xi)\)</span>, and our constant <span class="math notranslate nohighlight">\(\theta_n\)</span>.</p></li>
+<li><p>Next, we will load the data for the MESA profile analysis.</p></li>
+<li><p>compute <span class="math notranslate nohighlight">\(P_{\rm{c}}\)</span> and <span class="math notranslate nohighlight">\(\rho_{\rm{c}}\)</span> using the central/max values from the <code class="docutils literal notranslate"><span class="pre">co_wd_profile.data</span></code> MESA model first</p></li>
 <li><p>compute <code class="docutils literal notranslate"><span class="pre">r_n</span></code> using the central values from the MESA model</p></li>
-<li><p>use <code class="docutils literal notranslate"><span class="pre">r_n</span></code> to compute the physical radius (<span class="math notranslate nohighlight">\(r=r_n \xi\)</span>) of the polytrope</p></li>
+<li><p>use <code class="docutils literal notranslate"><span class="pre">r_n</span></code> to compute the physical radius (<span class="math notranslate nohighlight">\(r=r_n \xi\)</span>) of the polytrope!</p></li>
 <li><p>Use <span class="math notranslate nohighlight">\(\rho_{\rm{c}}\)</span> from the MESA data to compute the density (<span class="math notranslate nohighlight">\(\rho=\theta_{n}\rho_{\rm{c}}\)</span>)</p></li>
+</ol>
+<blockquote>
+<div><p>We have just computed polytropic profiles for four different indices, all normalized by the MESA WD model!</p>
+</div></blockquote>
+</section>
+<section id="plot">
+<h3>Plot<a class="headerlink" href="#plot" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="7">
 <li><p>Load the radius <span class="math notranslate nohighlight">\(r\)</span> and density <span class="math notranslate nohighlight">\(\rho\)</span> from the MESA data</p></li>
 <li><p>plot (and label) them on the same plot as the MESA model from 0 to <span class="math notranslate nohighlight">\(r\approx 1\times 10^9\)</span> cm.</p></li>
-<li><p>try different values of <span class="math notranslate nohighlight">\(n\)</span> to determine if the WD is in the <em>non-relativstic</em> or <em>relativistic</em> region.</p></li>
 <li><p>Describe in a few sentences your results.</p></li>
 </ol>
 <div class="cell docutils container">
@@ -657,6 +701,17 @@ r = r_{n} \xi
 <span class="n">G</span> <span class="o">=</span> <span class="mf">6.67e-8</span>
 <span class="n">msun</span> <span class="o">=</span> <span class="mf">2e33</span>    <span class="c1"># g</span>
 <span class="n">rsun</span> <span class="o">=</span> <span class="mf">6.96e10</span> <span class="c1"># cm</span>
+
+<span class="c1"># the n iindex we wish to consider</span>
+<span class="n">indices</span> <span class="o">=</span> <span class="p">[</span><span class="mi">0</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mf">3.</span><span class="o">/</span><span class="mf">2.</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span> <span class="c1"># n</span>
+
+<span class="c1"># an array holding the polytrope call for each index</span>
+<span class="n">p_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">Polytrope</span><span class="p">(</span><span class="n">n</span><span class="p">)</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">]</span>
+<span class="c1">#print(p_array)</span>
+
+<span class="n">xi_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">p_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">xi</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">))]</span>
+<span class="n">theta_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">p_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">.</span><span class="n">theta</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">))]</span>
+<span class="n">theta_n_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">theta_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">**</span><span class="n">indices</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">))]</span>
 </pre></div>
 </div>
 </div>
@@ -664,8 +719,11 @@ r = r_{n} \xi
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 2-3 results here</span>
-<span class="c1">#co_wd_profile = pd.read_csv(&#39;data/co_wd_profile.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
-<span class="c1">#co_wd_profile.columns</span>
+<span class="n">co_wd_profile</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/co_wd_profile.data&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\s+&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">co_wd_profile</span><span class="o">.</span><span class="n">columns</span>
+
+<span class="n">co_wd_rhoc</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">co_wd_profile</span><span class="p">[</span><span class="s1">&#39;logRho&#39;</span><span class="p">]))</span>
+<span class="n">co_wd_Pc</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">co_wd_profile</span><span class="p">[</span><span class="s1">&#39;logP&#39;</span><span class="p">]))</span>
 </pre></div>
 </div>
 </div>
@@ -673,13 +731,25 @@ r = r_{n} \xi
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 4-6 results here - compute r_n here HKT 7.25, given above for reference</span>
+<span class="n">r_n_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">co_wd_Pc</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mf">4.</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">G</span><span class="o">*</span><span class="n">co_wd_rhoc</span><span class="o">*</span><span class="n">co_wd_rhoc</span><span class="p">))</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">]</span>
+<span class="n">r_poly_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">xi_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">r_n_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">))]</span>
+<span class="n">rho_poly_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">theta_n_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">co_wd_rhoc</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">))]</span>
+
+<span class="c1"># 7 results here - it will be in units of Rsun so you will need to convert to cm !</span>
+<span class="n">co_wd_radius</span> <span class="o">=</span> <span class="n">co_wd_profile</span><span class="p">[</span><span class="s1">&#39;radius&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="n">rsun</span>
+<span class="n">co_wd_density</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="n">co_wd_profile</span><span class="p">[</span><span class="s1">&#39;logRho&#39;</span><span class="p">])</span>
 </pre></div>
 </div>
 </div>
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 7 results here - it will be in units of Rsun so you will need to convert to cm !</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+
+<span class="n">sns</span><span class="o">.</span><span class="n">set_palette</span><span class="p">(</span><span class="s2">&quot;mako&quot;</span><span class="p">,</span> <span class="n">n_colors</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+
+<span class="c1"># you can uncomment this is you have a retina display and are running locally</span>
+<span class="c1">#%config InlineBackend.figure_format=&#39;retina&#39;</span>
 </pre></div>
 </div>
 </div>
@@ -687,12 +757,254 @@ r = r_{n} \xi
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 8 results here - plot the converted polytrope data and the raw MESA data</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="sa">r</span><span class="s1">&#39;$n=0$&#39;</span><span class="p">,</span><span class="sa">r</span><span class="s1">&#39;$n=1$&#39;</span><span class="p">,</span><span class="sa">r</span><span class="s1">&#39;$n=3/2$&#39;</span><span class="p">,</span><span class="sa">r</span><span class="s1">&#39;$n=3$&#39;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">)):</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">r_poly_array</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">rho_poly_array</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">label</span><span class="o">=</span><span class="n">labels</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">lw</span><span class="o">=</span><span class="mf">1.5</span><span class="p">)</span>
+    
+<span class="c1">#plt.plot(co_wd_rad_var,co_wd_rho_var,label=r&#39;MESA 0.6 $M_{\odot}$ WD Model&#39;,lw=1,ls=&#39;-.&#39;,color=&#39;k&#39;)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">6e8</span><span class="p">)</span> <span class="c1"># 6,000 km</span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;Polytropic stellar structure profiles compared to MESA WD model&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">fancybox</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">loc</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rm</span><span class="si">{Radius}</span><span class="s1"> \  (\rm</span><span class="si">{cm}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rho \ (\rm{g \ cm}^{-3})$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/1c816d44bd740ab8ee5ed526adc58acbcf7b9dadf2a6a58754acd6f0b4a08951.png" src="../_images/1c816d44bd740ab8ee5ed526adc58acbcf7b9dadf2a6a58754acd6f0b4a08951.png" />
+</div>
+</div>
+</section>
+<section id="with-your-larger-group-try-to-answer-the-following">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#with-your-larger-group-try-to-answer-the-following" title="Permalink to this heading">#</a></h3>
+<p>Using the above plot, answer the following:</p>
+<blockquote>
+<div><p>Which polytropic index best fits the CO WD MESA model profile? Is this expected? Comment briefly on the shape of the <span class="math notranslate nohighlight">\(n=0\)</span> and <span class="math notranslate nohighlight">\(n=1\)</span> profiles.</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your thoughtful response goes here.
+</pre></div>
+</div>
+</section>
+</section>
+<section id="b-comparing-polytropes-to-brown-dwarf-mesa-models">
+<h2>b. Comparing Polytropes to Brown Dwarf MESA models<a class="headerlink" href="#b-comparing-polytropes-to-brown-dwarf-mesa-models" title="Permalink to this heading">#</a></h2>
+<section id="id1">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>Call the <code class="docutils literal notranslate"><span class="pre">Polytrope</span></code> <a class="reference external" href="https://docs.python.org/3/tutorial/classes.html">Class</a> to compute the Polytrope solution for a range of indices.</p></li>
+</ol>
+<p>Download the following model files locally. These data were produced using the <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/make_brown_dwarf.html"><code class="docutils literal notranslate"><span class="pre">make_brown_dwarf</span></code></a> test suite.</p>
+<section id="id2">
+<h4><strong>Download</strong><a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h4>
+<ul class="simple">
+<li><p><span class="math notranslate nohighlight">\(\sim31 M_{Jupiter}\)</span> Brown Dwarf <em>profile</em> data: <a class="reference download internal" download="" href="../_downloads/cec85c31c7f8812c46a934f71a87f38f/0p03Msun_1RJup_profile.data"><span class="xref download myst">0p03Msun_1RJup_profile.data</span></a>;</p></li>
+</ul>
+</section>
+</section>
+<section id="id3">
+<h3>Run the follow cells that will:<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple">
+<li><p>produce a Polytrope of index <code class="docutils literal notranslate"><span class="pre">n</span></code> for <code class="docutils literal notranslate"><span class="pre">n=0,1,/3/2,3</span></code>.</p></li>
+<li><p>From these instances we will compute <span class="math notranslate nohighlight">\(\xi=r/r_n\)</span>, <span class="math notranslate nohighlight">\(\theta(\xi)\)</span>, and our constant <span class="math notranslate nohighlight">\(\theta_n\)</span>.</p></li>
+<li><p>Next, we will load the data for the MESA profile analysis.</p></li>
+<li><p>compute <span class="math notranslate nohighlight">\(P_{\rm{c}}\)</span> and <span class="math notranslate nohighlight">\(\rho_{\rm{c}}\)</span> using the central/max values from the <code class="docutils literal notranslate"><span class="pre">0p03Msun_1RJup_profile.data</span></code> MESA model now</p></li>
+<li><p>compute <code class="docutils literal notranslate"><span class="pre">r_n</span></code> using the central values from the MESA model</p></li>
+<li><p>use <code class="docutils literal notranslate"><span class="pre">r_n</span></code> to compute the physical radius (<span class="math notranslate nohighlight">\(r=r_n \xi\)</span>) of the polytrope!</p></li>
+<li><p>Use <span class="math notranslate nohighlight">\(\rho_{\rm{c}}\)</span> from the MESA data to compute the density (<span class="math notranslate nohighlight">\(\rho=\theta_{n}\rho_{\rm{c}}\)</span>)</p></li>
+</ol>
+<blockquote>
+<div><p>We have just computed polytropic profiles for four different indices, all normalized by the MESA WD model!</p>
+</div></blockquote>
+</section>
+<section id="id4">
+<h3>Plot<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
+<ol class="arabic simple" start="7">
+<li><p>Load the radius <span class="math notranslate nohighlight">\(r\)</span> and density <span class="math notranslate nohighlight">\(\rho\)</span> from the MESA data</p></li>
+<li><p>plot (and label) them on the same plot as the MESA model from 0 to <span class="math notranslate nohighlight">\(r\approx 1\times 10^9\)</span> cm.</p></li>
+<li><p>Describe in a few sentences your results.</p></li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 2-3 results here</span>
+<span class="n">bd_profile</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s1">&#39;data/0p03Msun_1RJup_profile.data&#39;</span><span class="p">,</span><span class="n">sep</span><span class="o">=</span><span class="sa">r</span><span class="s1">&#39;\s+&#39;</span><span class="p">,</span><span class="n">header</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">bd_profile</span><span class="o">.</span><span class="n">columns</span>
+
+<span class="n">bd_rhoc</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">bd_profile</span><span class="p">[</span><span class="s1">&#39;logRho&#39;</span><span class="p">]))</span>
+<span class="n">bd_Pc</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="nb">max</span><span class="p">(</span><span class="n">bd_profile</span><span class="p">[</span><span class="s1">&#39;logP&#39;</span><span class="p">]))</span>
 </pre></div>
 </div>
 </div>
 </div>
-<p>Explain in words, which index you found to match best, what this states about the material, and why does the profile differ near the surface?</p>
-<p>c results here.</p>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 4-6 results here - compute r_n here HKT 7.25, given above for reference</span>
+<span class="n">r_n_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">sqrt</span><span class="p">((</span><span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">*</span><span class="p">(</span><span class="n">bd_Pc</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="mf">4.</span><span class="o">*</span><span class="n">np</span><span class="o">.</span><span class="n">pi</span><span class="o">*</span><span class="n">G</span><span class="o">*</span><span class="n">bd_rhoc</span><span class="o">*</span><span class="n">bd_rhoc</span><span class="p">))</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">indices</span><span class="p">]</span>
+<span class="n">r_poly_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">xi_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">*</span> <span class="n">r_n_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">))]</span>
+<span class="n">rho_poly_array</span> <span class="o">=</span> <span class="p">[</span><span class="n">theta_n_array</span><span class="p">[</span><span class="n">i</span><span class="p">]</span><span class="o">*</span><span class="n">bd_rhoc</span> <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">))]</span>
+
+<span class="c1"># 7 results here - it will be in units of Rsun so you will need to convert to cm !</span>
+<span class="n">bd_radius</span> <span class="o">=</span> <span class="n">bd_profile</span><span class="p">[</span><span class="s1">&#39;radius&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="n">rsun</span>
+<span class="n">bd_density</span> <span class="o">=</span> <span class="mi">10</span><span class="o">**</span><span class="p">(</span><span class="n">bd_profile</span><span class="p">[</span><span class="s1">&#39;logRho&#39;</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">set_palette</span><span class="p">(</span><span class="s2">&quot;rocket&quot;</span><span class="p">,</span> <span class="n">n_colors</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 8 results here - plot the converted polytrope data and the raw MESA data</span>
+
+<span class="n">labels</span> <span class="o">=</span> <span class="p">[</span><span class="sa">r</span><span class="s1">&#39;$n=0$&#39;</span><span class="p">,</span><span class="sa">r</span><span class="s1">&#39;$n=1$&#39;</span><span class="p">,</span><span class="sa">r</span><span class="s1">&#39;$n=3/2$&#39;</span><span class="p">,</span><span class="sa">r</span><span class="s1">&#39;$n=3$&#39;</span><span class="p">]</span>
+
+<span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">indices</span><span class="p">)):</span>
+    <span class="n">plt</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">r_poly_array</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">rho_poly_array</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">label</span><span class="o">=</span><span class="n">labels</span><span class="p">[</span><span class="n">i</span><span class="p">],</span><span class="n">lw</span><span class="o">=</span><span class="mf">1.5</span><span class="p">)</span>
+    
+<span class="c1">#plt.plot(bd_rad_var,bd_dens_var,label=r&#39;1 $M_{Jupiter}$ Brown Dwarf Model&#39;,lw=1,ls=&#39;-.&#39;,color=&#39;k&#39;)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">0</span><span class="p">,</span><span class="mf">1e10</span><span class="p">)</span> <span class="c1"># </span>
+
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;Polytropic stellar structure profiles compared to MESA BD model&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">fontsize</span><span class="o">=</span><span class="mi">10</span><span class="p">,</span><span class="n">fancybox</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">loc</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rm</span><span class="si">{Radius}</span><span class="s1"> \  (\rm</span><span class="si">{cm}</span><span class="s1">)$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="sa">r</span><span class="s1">&#39;$\rho \ (\rm{g \ cm}^{-3})$&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="../_images/5cc4d919563ee7c5c0d3d0c4b8f96a673e3ec4c4612646127a879a436d53ccb2.png" src="../_images/5cc4d919563ee7c5c0d3d0c4b8f96a673e3ec4c4612646127a879a436d53ccb2.png" />
+</div>
+</div>
+</section>
+<section id="id5">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id5" title="Permalink to this heading">#</a></h3>
+<p>Using the above plot, answer the following:</p>
+<blockquote>
+<div><p>Which polytropic index best fits the Brown Dwarf MESA model profile? Discuss briefly why this assumption might be valid for the WD and the Brown Dwarf.</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>&gt; hint: what is the specific heat for an ideal gas? denoted as $\gamma$ or $\Gamma$ in pols?
+
+Your response goes here. 
+</pre></div>
+</div>
+</section>
+</section>
+<section id="c-visualizing-stellar-structure-with-tulips">
+<h2>c. Visualizing Stellar Structure with Tulips<a class="headerlink" href="#c-visualizing-stellar-structure-with-tulips" title="Permalink to this heading">#</a></h2>
+<section id="id6">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id6" title="Permalink to this heading">#</a></h3>
+</section>
+<section id="download-if-you-have-not-already">
+<h3>Download (if you have not already)<a class="headerlink" href="#download-if-you-have-not-already" title="Permalink to this heading">#</a></h3>
+<p>This directory which contains a collection of <em>profile</em> data over the course of a <span class="math notranslate nohighlight">\(1M_{\odot}\)</span> model from the pre-main sequence to the formation of a CO white dwarf <a class="reference external" href="https://zenodo.org/records/5032250/files/1M_pre_ms_to_wd.tar.gz?download=1">here</a>.</p>
+<p>We will use the tool [<strong>TULIPS: A Tool for Understanding the Lives, Interiors, and Physics of Stars</strong>] (<a class="reference external" href="https://astro-tulips.readthedocs.io/en/latest/index.html">https://astro-tulips.readthedocs.io/en/latest/index.html</a>) to look at some MESA profile data.</p>
+<ol class="arabic simple">
+<li><p>Once the data are download, be sure to unzip them and place them in the correct location and set your path.</p></li>
+<li><p>Then, run the cells below to load the profile and history datasets.</p></li>
+</ol>
+<blockquote>
+<div><p>Note: this will not work as is, you will need to change the path from mine: <code class="docutils literal notranslate"><span class="pre">SINGLE_M11_DIR</span></code>;</p>
+</div></blockquote>
+<ol class="arabic simple" start="3">
+<li><p>Run the cell below after successfully loading the data to produce:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://astro-tulips.readthedocs.io/en/latest/energy_and_mixing_diagram.html">energy and mixing diagram</a></p></li>
+<li><p><a class="reference external" href="https://astro-tulips.readthedocs.io/en/latest/property_profile_diagram.html">property profile diagram</a> of the stellar profile data for <span class="math notranslate nohighlight">\(\eta\)</span>, the degeneracy parameter <span class="math notranslate nohighlight">\(\eta=(\mu-m_{e}c^2)/k_{\rm{B}}T\)</span>, <span class="math notranslate nohighlight">\(\eta \gg 1\)</span> for strong electron degeneracy.</p></li>
+</ul>
+</li>
+</ol>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># Interactive matplotlib plotting for jupyter lab</span>
+<span class="c1">#%matplotlib inline</span>
+
+<span class="c1"># or If you use jupyter notebook</span>
+<span class="o">%</span><span class="k">matplotlib</span> notebook
+
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">mesaPlot</span> <span class="k">as</span> <span class="nn">mp</span>
+<span class="kn">import</span> <span class="nn">tulips</span>
+
+<span class="c1"># Specify directory of MESA model</span>
+<span class="n">SINGLE_M11_DIR</span> <span class="o">=</span> <span class="s2">&quot;/Users/carlnotsagan/Downloads/1M_pre_ms_to_wd/LOGS_all&quot;</span>
+
+<span class="c1"># create mesa plot instance and pass DIR location to load data</span>
+<span class="n">m11</span> <span class="o">=</span> <span class="n">mp</span><span class="o">.</span><span class="n">MESA</span><span class="p">()</span>
+<span class="n">m11</span><span class="o">.</span><span class="n">loadHistory</span><span class="p">(</span><span class="n">f</span><span class="o">=</span><span class="n">SINGLE_M11_DIR</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># pass data to tulips to create our first plots !</span>
+<span class="c1">#tulips.energy_and_mixing(## pass out loaded profile data here, time_ind=(0,-1,2), cmin=-10, cmax=10, show_total_mass=True,</span>
+<span class="c1">#                         show_mix=True, show_mix_legend=True, fig_size=(8,6),</span>
+<span class="c1">#                         output_fname=&#39;energy_mixing_diagrams&#39;)</span>
+<span class="c1">#plt.show()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#from IPython.display import Video</span>
+
+<span class="c1">#Video(&quot;energy_mixing_diagrams.mp4&quot;, embed=False, width=700, height=600)</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#tulips.property_profile(##pass the data object here, time_ind=(0, -1), fps=5, cmin=-5,cmax=50,cmap=&#39;viridis&#39;,</span>
+<span class="c1">#                        property_name=&#39;eta&#39;, num_rings=100, output_fname=&#39;property_diagrams_eta&#39;)</span>
+<span class="c1">#plt.show()</span>
+</pre></div>
+</div>
+</div>
+</div>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#from IPython.display import Video</span>
+
+<span class="c1">#Video(&quot;property_diagrams_eta.mp4&quot;, embed=True, width=700, height=600)</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="id7">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id7" title="Permalink to this heading">#</a></h3>
+<p>Using the above plot, answer the following:</p>
+<blockquote>
+<div><p>Looking at the energy and mixing diagram: where and when is the star undergoing core H-burning, and is it convective?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your response here. 
+</pre></div>
+</div>
+<blockquote>
+<div><p>Looking at the energy and mixing diagram: when does the star becomes a white dwarf? What is the final mass? What could be happening in the intermediate phases?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your response here.
+</pre></div>
+</div>
+<blockquote>
+<div><p>Looking at the eta evolution when the star is about 0.7Msun remaining, at what mass coordinate can you identify the envelope and the CO core? After subsequent evolution what happens to most of the envelope and how can you tell?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>Your response here.
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -726,6 +1038,24 @@ r = r_{n} \xi
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="ica4.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">In-Class Assignment 4</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="hws.html"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Homeworks</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -742,13 +1072,37 @@ r = r_{n} \xi
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-polytropes-to-mesa-models">Comparing Polytropes to MESA models</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#comparing-polytropes-to-mesa-models-interpreting-mesa-data-with-tulips">Comparing Polytropes to MESA models, Interpreting MESA data with TULIPS</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#implementation">Implementation</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-plotting-an-n-1-polytrope">a. Plotting an <span class="math notranslate nohighlight">\(n=1\)</span> Polytrope</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-using-polytrope-to-determine-the-degeneracy-regine-of-a-wd-mesa-model">b. Using Polytrope to determine the degeneracy regine of a WD MESA model</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-comparing-polytropes-to-a-co-wd-mesa-model">a. Comparing Polytropes to a CO WD MESA model</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download"><strong>Download</strong></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#run-the-follow-cells-that-will">Run the follow cells that will:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot">Plot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-comparing-polytropes-to-brown-dwarf-mesa-models">b. Comparing Polytropes to Brown Dwarf MESA models</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a><ul class="nav section-nav flex-column">
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>Download</strong></a></li>
+</ul>
+</li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3">Run the follow cells that will:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id4">Plot</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id5"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-visualizing-stellar-structure-with-tulips">c. Visualizing Stellar Structure with Tulips</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id6"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#download-if-you-have-not-already">Download (if you have not already)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id7"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
