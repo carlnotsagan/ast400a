@@ -25,7 +25,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 8 Sep  | [Equations of State II](lectures/week3/day_4.html)    | [ICA 4](assignments/ica4.ipynb) Due: End of day, Sep 8, 2026; [HW1](assignments/hw1.md) Due: Before class, Sept. 17, 2026         |
-| 10 Sep | [Polytropic stellar models]((lectures/week3/day_5.html))                            | [ICA 5](assignments/ica5.ipynb)                 |
+| 10 Sep | [Polytropic stellar models](lectures/week3/day_5.html)                            | [ICA 5](assignments/ica5.ipynb)                 |
 
 
 ## Week 4
