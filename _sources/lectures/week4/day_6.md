@@ -1,7 +1,7 @@
 # Radiative energy transport & conduction
 -
 
-## September, 16, 2025
+## September, 15, 2026
 
 
 Slides are viewable [HTML](day_6.html).
