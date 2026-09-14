@@ -476,13 +476,19 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#result-here-in-words">3 result here in words</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">b. Locating the Non-Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-4-result-here-in-words">b 4 result here in words</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-defining-a-core-boundary-in-a-solar-like-star">c. Defining a Core-Boundary in a Solar-Like star</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">b. Locating the Non-Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-defining-a-core-boundary-in-a-solar-like-star">c. Defining a Core-Boundary in a Solar-Like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -496,6 +502,10 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-6">
 <h1>In-Class Assignment 6<a class="headerlink" href="#in-class-assignment-6" title="Permalink to this heading">#</a></h1>
+<p><em>Tuesday, September 15, 2026</em></p>
+<p><em>How to use this notebook:</em></p>
+<p><strong>Locally</strong>: Hover over the download symbol then to the <code class="docutils literal notranslate"><span class="pre">ipynb</span></code> option then <strong>right-click</strong> to <em>Save Link As</em> to download the file. You can then open the notebook using <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span> <span class="pre">ica5.ipynb</span></code> in your terminal.</p>
+<p><strong>Remote</strong>: You can open the notebook on Colab by hovering over the rocket symbol then select launch to colab. In doing so, any data needed for the plots can be click and dragged to the online workbook. By default, the file will go to <code class="docutils literal notranslate"><span class="pre">/content/</span></code> or <code class="docutils literal notranslate"><span class="pre">/content/sample_data</span></code></p>
 <section id="identifying-different-regimes-in-solar-like-stellar-model">
 <h2>Identifying Different Regimes in Solar-like Stellar Model<a class="headerlink" href="#identifying-different-regimes-in-solar-like-stellar-model" title="Permalink to this heading">#</a></h2>
 <section id="learning-objectives">
@@ -520,6 +530,8 @@ document.write(`
 </section>
 <section id="a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">
 <h2>a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star<a class="headerlink" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star" title="Permalink to this heading">#</a></h2>
+<section id="individually-with-the-person-next-to-you">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h3>
 <p>Download the following model files locally. These data were produced using the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite/1m_pre_ms_to_wd.html"><code class="docutils literal notranslate"><span class="pre">1m_pre_ms_to_wd</span></code></a> test suite.</p>
 <ul class="simple">
 <li><p><strong>New</strong> <span class="math notranslate nohighlight">\(1.0 M_{\odot}\)</span> Main-Sequence <em>profile</em> data: <a class="reference download internal" download="" href="../_downloads/54cdcd8866375f1d822bb16cc3e29dc0/1m_pre_ms_to_wd.data"><span class="xref download myst">1m_pre_ms_to_wd.data</span></a>;</p></li>
@@ -531,13 +543,10 @@ document.write(`
 <blockquote>
 <div><p>Hint: this value in the Sun is about 72% in <a class="reference external" href="https://iopscience.iop.org/article/10.3847/1538-4357/ad4355">Solar calibration models</a></p>
 </div></blockquote>
-<ol class="arabic simple" start="3">
-<li><p><strong>Describe</strong> in a few sentences the results of your plot and what could be happening in the region where radiation luminosity is non-dominant.</p></li>
-</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## load MESA data here</span>
-<span class="c1">#one_msun_ms_profile = pd.read_csv(&#39;data/1m_pre_ms_to_wd.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
+<span class="c1">#one_msun_ms_profile = pd.read_csv(&#39;data/1m_ms_profile.data&#39;,sep=r&#39;\s+&#39;,header=4)</span>
 <span class="c1">#one_msun_ms_profile.columns</span>
 </pre></div>
 </div>
@@ -553,10 +562,10 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain mesa variables here</span>
-<span class="c1">#one_msun_ms_radius_cm = one_msun_ms_profile[&#39;###</span>
-<span class="c1">#one_msun_ms_lum_cgs = one_msun_ms_profile[&#39;##</span>
-<span class="c1">#one_msun_ms_lum_rad_cgs = one_msun_ms_profile[&#39;###</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain mesa PROFILE variables here</span>
+<span class="c1">#one_msun_ms_radius_cm = one_msun_ms_profile[&#39;radius_cm&#39;]</span>
+<span class="c1">#one_msun_ms_lum_cgs = one_msun_ms_profile[&#39;lum_erg_s&#39;]</span>
+<span class="c1">#one_msun_ms_lum_rad_cgs = one_msun_ms_profile[&#39;lum_rad&#39;] * lsun_cgs</span>
 </pre></div>
 </div>
 </div>
@@ -564,18 +573,33 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">## 1-2 result here</span>
-<span class="c1">#plt.plot(##,label=r&#39;$L_{rad}/L$&#39;)</span>
-<span class="c1">#plt.axvline(###,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.plot(one_msun_ms_radius_cm/##,</span>
+<span class="c1">#         one_msun_ms_lum_rad_cgs/##,label=r&#39;$L_{rad}/L$&#39;)</span>
+<span class="c1">#plt.axvline(0.69,color=&#39;k&#39;)</span>
 <span class="c1">#plt.legend()</span>
-<span class="c1">#plt.xlabel(##)</span>
+<span class="c1">#plt.xlabel(r&#39;$r/R_{\odot}$&#39;)</span>
+<span class="c1">#plt.ylabel(r&#39;$l/l_{\rm{tot}}$&#39;)</span>
 </pre></div>
 </div>
 </div>
 </div>
 </section>
-<section id="result-here-in-words">
-<h2>3 result here in words<a class="headerlink" href="#result-here-in-words" title="Permalink to this heading">#</a></h2>
-<p><span class="math notranslate nohighlight">\(\ldots\)</span></p>
+<section id="with-your-larger-group-try-to-answer-the-following">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#with-your-larger-group-try-to-answer-the-following" title="Permalink to this heading">#</a></h3>
+<p>Using the above plot, answer the following:</p>
+<blockquote>
+<div><p><strong>Describe</strong> in a few sentences the results of your plot and what could be happening in the region where radiation luminosity is non-dominant.</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- Your thoughtful response. 
+</pre></div>
+</div>
+<blockquote>
+<div><p>What might change in this profile for a more massive, say 15 solar mass star on the main-sequence and why?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- Your thoughtful response. 
+</pre></div>
+</div>
+</section>
 </section>
 <section id="b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">
 <h2>b. Locating the Non-Diffusion Dominated Regime in a Solar-like star<a class="headerlink" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star" title="Permalink to this heading">#</a></h2>
@@ -596,14 +620,13 @@ document.write(`
 <blockquote>
 <div><p>Hint: From the terminal you can open mesa data using the command <code class="docutils literal notranslate"><span class="pre">less</span> <span class="pre">-S</span> <span class="pre">1m_ms_profile.data</span></code> then you can tab left and right to see which variables are available. <span class="math notranslate nohighlight">\(\kappa\)</span> is <code class="docutils literal notranslate"><span class="pre">opacity</span></code> in this case.</p>
 </div></blockquote>
-<ol class="arabic simple" start="4">
-<li><p><strong>Describe</strong> in a few words what this change in opacity might suggest to help or hurt the onset of convective energy transfer?</p></li>
-</ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># 1 result here - be sure to convert to CGS before computing the Flux!</span>
-<span class="c1">#one_msun_ms_lum_conv_cgs =##</span>
-<span class="c1">#one_msun_ms_flux = one_msun_ms_lum_cgs ##</span>
+<span class="c1">#one_msun_ms_lum_conv_cgs = one_msun_ms_profile[&#39;lum_conv&#39;] * lsun_cgs</span>
+<span class="c1">#one_msun_ms_flux = one_msun_ms_lum_cgs / (4 * np.pi * one_msun_ms_radius_cm**2)</span>
+<span class="c1">#one_msun_ms_flux_rad = one_msun_ms_lum_rad_cgs / (4 * np.pi * one_msun_ms_radius_cm**2)</span>
+<span class="c1">#one_msun_ms_flux_conv = one_msun_ms_lum_conv_cgs / (4 * np.pi * one_msun_ms_radius_cm**2)</span>
 </pre></div>
 </div>
 </div>
@@ -611,9 +634,11 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot the fluxes here </span>
-<span class="c1">#plt.plot(##,label=r&#39;$F_{rad}$&#39;)</span>
-<span class="c1">#plt.plot(##,label=r&#39;$F_{conv}$&#39;)</span>
-<span class="c1">#plt.axvline(##,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.plot(one_msun_ms_radius_cm/rsun_cgs,</span>
+<span class="c1">#         one_msun_ms_flux_rad/max(XX),label=r&#39;$F_{rad}$&#39;)</span>
+<span class="c1">#plt.plot(one_msun_ms_radius_cm/rsun_cgs,</span>
+<span class="c1">#         one_msun_ms_flux_conv/max(XX),label=r&#39;$F_{conv}$&#39;)</span>
+<span class="c1">#plt.axvline(0.70,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
 <span class="c1">#plt.legend()</span>
 </pre></div>
 </div>
@@ -621,8 +646,8 @@ document.write(`
 </div>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain opacity here</span>
-<span class="c1">#one_msun_ms_kappa =# </span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain `opacity` here</span>
+<span class="c1">#one_msun_ms_kappa = one_msun_ms_profile[&#39;##</span>
 </pre></div>
 </div>
 </div>
@@ -630,18 +655,27 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot kappa here </span>
-<span class="c1">#plt.plot(#,label=&#39;$\kappa$&#39;)</span>
-<span class="c1">#plt.ylim(#)</span>
-<span class="c1">#plt.axvline(##,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
-<span class="c1">#plt.axvline(##,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.plot(one_msun_ms_radius_cm/rsun_cgs,color=&#39;goldenrod&#39;,</span>
+<span class="c1">#         one_msun_ms_kappa,label=&#39;$\kappa$&#39;)</span>
+<span class="c1">#plt.ylim(0,30)</span>
+<span class="c1">#plt.ylabel(&#39;$\kappa$&#39;)</span>
+<span class="c1">#plt.xlabel(&#39;r/Rsun&#39;)</span>
+<span class="c1">#plt.axvline(0.70,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.axvline(0.24,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
 <span class="c1">#plt.legend()</span>
 </pre></div>
 </div>
 </div>
 </div>
-<section id="b-4-result-here-in-words">
-<h3>b 4 result here in words<a class="headerlink" href="#b-4-result-here-in-words" title="Permalink to this heading">#</a></h3>
-<p><span class="math notranslate nohighlight">\(\ldots\)</span></p>
+<section id="id1">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>Using the above plot, answer the following:</p>
+<blockquote>
+<div><p><strong>Describe</strong> in a few words what this change in opacity might suggest to help or hurt the onset of convective energy transfer?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- Your thoughtful response.
+</pre></div>
+</div>
 </section>
 </section>
 <section id="c-defining-a-core-boundary-in-a-solar-like-star">
@@ -653,7 +687,7 @@ document.write(`
 <p>Our goal is to add a few more things to this plot.</p>
 <ol class="arabic simple" start="2">
 <li><p>Plot the normalized nuclear energy generation as a function of radius (in units of Rsun) on the same plot and label.</p></li>
-<li><p>Then, use that to determine the approximate location where <span class="math notranslate nohighlight">\(\epsilon_{\rm{nuc,normalized}}\rightarrow0\)</span>, we will define this as the edge of the hydrogen burning core.</p></li>
+<li><p>Then, use that to determine the approximate location where <span class="math notranslate nohighlight">\(\epsilon_{\rm{nuc,normalized}}\rightarrow0\)</span> (<code class="docutils literal notranslate"><span class="pre">eps_nuc</span></code>), we will define this as the edge of the hydrogen burning core.</p></li>
 </ol>
 <blockquote>
 <div><p>Hint: In the sun, this is at about a <a class="reference external" href="https://en.wikipedia.org/wiki/Solar_core">fractional radius of 20%</a></p>
@@ -663,8 +697,8 @@ document.write(`
 </ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain eps nuc</span>
-<span class="c1">#one_msun_ms_eps_nuc = #</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># obtain `eps nuc`</span>
+<span class="c1">#one_msun_ms_eps_nuc = one_msun_ms_profile[&#39;#</span>
 </pre></div>
 </div>
 </div>
@@ -672,12 +706,20 @@ document.write(`
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># plot everything combined and annotated</span>
-<span class="c1">#plt.plot(#,label=r&#39;$F_{rad}$&#39;)</span>
-<span class="c1">#plt.plot(#,label=r&#39;$F_{conv}$&#39;)</span>
-<span class="c1">#plt.plot(#,label=r&#39;$\epsilon_{\rm{nuc}}$&#39;)</span>
-<span class="c1">#plt.axvline(#,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
-<span class="c1">#plt.axvline(#,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
-<span class="c1">#plt.annotate(&#39;core&#39;,xy=(#,#)) ## (x,y) data pair of the x and y variable</span>
+<span class="c1">#plt.plot(one_msun_ms_radius_cm/rsun_cgs,</span>
+<span class="c1">#         one_msun_ms_flux_rad/max(XX),label=r&#39;$F_{rad}$&#39;)</span>
+
+<span class="c1">#plt.plot(one_msun_ms_radius_cm/rsun_cgs,</span>
+<span class="c1">#         one_msun_ms_flux_conv/max(XX),label=r&#39;$F_{conv}$&#39;)</span>
+
+<span class="c1">#plt.plot(one_msun_ms_radius_cm/rsun_cgs,</span>
+<span class="c1">#         one_msun_ms_eps_nuc/max(XX),label=r&#39;$\epsilon_{\rm{nuc}}$&#39;)</span>
+
+<span class="c1">#plt.axvline(0.70,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.axvline(0.26,color=&#39;k&#39;,ls=&#39;--&#39;)</span>
+<span class="c1">#plt.annotate(&#39;core&#39;,xy=(Xcord_rad,0.1))</span>
+<span class="c1">#plt.annotate(&#39;radiative&#39;,xy=(Xcord_rad,0.1))</span>
+<span class="c1">#plt.annotate(&#39;convective&#39;,xy=(Xcord_rad,0.1))</span>
 <span class="c1">#plt.ylabel(&#39;Normalized Variable&#39;)</span>
 <span class="c1">#plt.xlabel(&#39;r/Rsun&#39;)</span>
 <span class="c1">#plt.legend()</span>
@@ -685,6 +727,16 @@ document.write(`
 </div>
 </div>
 </div>
+<section id="id2">
+<h3><strong>With your larger group, try to answer the following</strong>:<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p>Using the above plot, answer the following:</p>
+<blockquote>
+<div><p><strong>Describe</strong> in a few words how the opacity might impact the other <em>state</em> of energy transfer in the other regions?</p>
+</div></blockquote>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>- Your thoughtful response.
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -756,13 +808,19 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#result-here-in-words">3 result here in words</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">b. Locating the Non-Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#b-4-result-here-in-words">b 4 result here in words</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-locating-the-radiative-diffusion-dominated-regime-in-a-solar-like-star">a. Locating the Radiative Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-defining-a-core-boundary-in-a-solar-like-star">c. Defining a Core-Boundary in a Solar-Like star</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-locating-the-non-diffusion-dominated-regime-in-a-solar-like-star">b. Locating the Non-Diffusion Dominated Regime in a Solar-like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-defining-a-core-boundary-in-a-solar-like-star">c. Defining a Core-Boundary in a Solar-Like star</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>With your larger group, try to answer the following</strong>:</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
