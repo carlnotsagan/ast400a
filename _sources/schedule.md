@@ -33,7 +33,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 15 Sep | [Radiative energy transport & conduction](lectures/week4/day_6.html)              | [ICA 6](assignments/ica6.ipynb), Not for credit  |
-| 17 Sep | Opacities                                            | [ICA 7],  Not for credit                 |
+| 17 Sep | [Opacities]((lectures/week4/day_6.html) )                                            | [ICA 7](assignments/ica67ipynb),  Not for credit                 |
 
 
 ## Week 5

@@ -1,7 +1,7 @@
 # Opacities
 -
 
-## September, 18, 2025
+## September, 17, 2026
 
 
 Slides are viewable [HTML](day_7.html).
