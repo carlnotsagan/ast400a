@@ -33,15 +33,15 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 15 Sep | [Radiative energy transport & conduction](lectures/week4/day_6.html)              | [ICA 6](assignments/ica6.ipynb), Not for credit  |
-| 17 Sep | [Opacities](lectures/week4/day_7.html) )                                            | [ICA 7](assignments/ica67ipynb),  Not for credit                 |
+| 17 Sep | [Opacities](lectures/week4/day_7.html)                                            | [ICA 7](assignments/ica7.ipynb),  Not for credit                 |
 
 
 ## Week 5
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 22 Sep | Convection                                           | [ICA 8],  |
-| 24 Sep | Convection II                                        | HW1 Review In-Class?                                                      |
+| 22 Sep | [Convection](lectures/week5/day_8.html)              | HW1 Review, Corrections Due: End of day, Sep 25, 2026   |
+| 24 Sep | Convection II                                        | [ICA 8], Due: End of day, Sep 24, 2026                                                     |
 
 ## Week 6
 
@@ -69,13 +69,13 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 20 Oct | Late evolution of low- and intermediate-mass stars   |  [ICA 14]          |
-| 22 Oct | Pre-supernova evolution of massive stars             |  [ICA 15], Not for Credit               |
+| 22 Oct | Pre-supernova evolution of massive stars ([Brian](https://brianjjhsu.com/) Guest Lecture)            |  [ICA 15], Not for Credit               |
 
 ## Week 10
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 27 Oct | Core-Collapse and Thermonuclear Supernovae           |  [ICA 16],            |
+| 27 Oct | Core-Collapse and Thermonuclear Supernovae ([Brian](https://brianjjhsu.com/) Guest Lecture)          |  [ICA 16],            |
 | 29 Oct | Black holes and their mergers                        |  [ICA 17], Not for Credit               |
 
 ## Week 11

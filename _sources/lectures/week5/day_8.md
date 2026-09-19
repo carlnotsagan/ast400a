@@ -1,7 +1,7 @@
 # Convection
 -
 
-## September, 23, 2025
+## September, 22, 2026
 
 
 Slides are viewable [HTML](day_8.html).
