@@ -40,8 +40,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 22 Sep | [Convection](lectures/week5/day_8.html)              | HW1 Review, Corrections Due: End of day, Sep 25, 2026   |
-| 24 Sep | Convection II                                        | [ICA 8], Due: End of day, Sep 24, 2026                                                     |
+| 22 Sep | [Convection](lectures/week5/day_8.html)              | HW1 Review, Corrections **Now** Due: End of day, Oct. 1, 2026   |
+| 24 Sep | [Convection II](lectures/week5/day_9.html)           | [ICA 8](assignments/ica8.ipynb), Due: End of day, Sep 24, 2026                                                     |
 
 ## Week 6
 
