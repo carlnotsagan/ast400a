@@ -1,7 +1,7 @@
 # Stellar Energy Sources
 -
 
-## September, 30, 2025
+## September, 29, 2026
 
 
 Slides are viewable [HTML](day_10.html).
