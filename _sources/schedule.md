@@ -48,7 +48,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 29 Sep | [Stellar Energy Sources](lectures/week6/day_10.html) | [ICA 9](assignments/ica9.ipynb), Due: End of day, Sep 29, 2026   |
-| 1 Oct  | Stellar Energy Sources II                            | [ICA 10]             |
+| 1 Oct  | Stellar Energy Sources II                            | [ICA 10](assignments/ica10.ipynb), Due: End of day, Oct 1, 2026, [HW2](assignments/hw2.md) Due: End of day, Fri
+Oct 9, 2026              |
 
 ## Week 7
 
