@@ -454,28 +454,27 @@ document.write(`
 <p><strong>Total: (150 points)</strong></p>
 <p>–</p>
 <ol class="arabic simple">
-<li><p><strong>Total: (30 points)</strong> - <strong><span style="color:#762fef">My Favorite Photons</span></strong></p></li>
+<li><p><strong>Total: (30 points)</strong> - <strong><span style="color:#762fef">My Favorite Photons</span></strong></p>
+<ul class="simple">
+<li><p>(<strong>a</strong>) - Show that the <a class="reference external" href="https://en.wikipedia.org/wiki/Planck%27s_law">Planck</a> function  <span class="math notranslate nohighlight">\(
+\frac{dB_{\nu}}{dT} = \frac{2 k_{\rm{B}}^3 T^2}{h^2 c^2} \left [ \frac{x^4 e^x}{(e^x-1)^2} \right ]~.\)</span> (<strong>10 points</strong>)</p></li>
+<li><p>(<strong>b</strong>) - Compute the maximum of the bracketed term using derivatives. This will require a numerical solution. (<strong>10 points</strong>)</p></li>
+<li><p>(<strong>c</strong>) - Plug the maximum back into your variable substitution to compute the favored photon energy. In a few sentences compare your result to that from Pols 5.24 and what this suggests for the Rosseland mean opacity. (<strong>10 points</strong>)</p></li>
+</ul>
+</li>
 </ol>
 <blockquote>
-<div><p><em>For this problem, you may solve by using <a class="reference external" href="https://docs.sympy.org/latest/guides/solving/find-roots-polynomial.html">SymPy root solve</a> or similar tool.</em>
-* (<strong>a</strong>) - Show that the <a class="reference external" href="https://en.wikipedia.org/wiki/Planck%27s_law">Planck</a> function  <span class="math notranslate nohighlight">\(
-\frac{dB_{\nu}}{dT} = \frac{2 k_{\rm{B}}^3 T^2}{h^2 c^2} \left [ \frac{x^4 e^x}{(e^x-1)^2} \right ]~.\)</span> (<strong>10 points</strong>)</p>
+<div><p><em>For this problem, you may solve by using <a class="reference external" href="https://docs.sympy.org/latest/guides/solving/find-roots-polynomial.html">SymPy root solve</a> or similar tool.</em></p>
 </div></blockquote>
-<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>* (**b**) - Compute the maximum of the bracketed term using derivatives. This will require a numerical solution. (**10 points**)
-* (**c**) - Plug the maximum back into your variable substitution to compute the favored photon energy. In a few sentences compare your result to that from Pols 5.24 and what this suggests for the Rosseland mean opacity. (**10 points**)
-</pre></div>
-</div>
 <ol class="arabic simple" start="2">
 <li><p><strong>Total: (35 points)</strong> - <strong><span style="color:#a8a62b">On the Burning Away</span></strong> - Assume a star of radius <span class="math notranslate nohighlight">\(R_\star\)</span> having a density profile equal to
-<span class="math notranslate nohighlight">\(\rho( r)=\rho_{c} \left ( 1 - \frac{r}{R_\star} \right )\)</span> and a nuclear production rate per unit mass equal to <span class="math notranslate nohighlight">\(\epsilon( r) = \epsilon_{c} \left (1 - \frac{r}{0.2 R_\star} \right ) \ \  \textrm{for} \ r~\leq 0.2~R_\star\)</span> and <span class="math notranslate nohighlight">\(\epsilon( r) = 0 \ \  \textrm{for} \ r~\gt 0.2~R_\star~.\)</span></p></li>
-</ol>
-<blockquote>
-<div><p><em>For this problem, you may solve by hand or using <a class="reference external" href="https://www.sympy.org/en/index.html">SymPy</a>. If using sympy, upload the PDF output of your notebook as part of the solution.</em>
-* (<strong>a</strong>) - Compute the luminosity of the star at its surface in terms <span class="math notranslate nohighlight">\(R_\star\)</span>, <span class="math notranslate nohighlight">\(\rho_{c},\)</span> and <span class="math notranslate nohighlight">\(\epsilon_{c}\)</span> <strong>(15 points)</strong>
-* (<strong>b</strong>) - Plug in present day solar values, you can use HKT 9.2.3, and compute a numerical value for the luminosity. <strong>(10 points)</strong>
-* (<strong>c</strong>) - Compute the nuclear timescale for this star and compare it to the nuclear timescale of the Sun. <strong>(10 points)</strong></p>
-</div></blockquote>
-<ol class="arabic simple" start="3">
+<span class="math notranslate nohighlight">\(\rho( r)=\rho_{c} \left ( 1 - \frac{r}{R_\star} \right )\)</span> and a nuclear production rate per unit mass equal to <span class="math notranslate nohighlight">\(\epsilon( r) = \epsilon_{c} \left (1 - \frac{r}{0.2 R_\star} \right ) \ \  \textrm{for} \ r~\leq 0.2~R_\star\)</span> and <span class="math notranslate nohighlight">\(\epsilon( r) = 0 \ \  \textrm{for} \ r~\gt 0.2~R_\star~.\)</span></p>
+<ul class="simple">
+<li><p>(<strong>a</strong>) - Compute the luminosity of the star at its surface in terms <span class="math notranslate nohighlight">\(R_\star\)</span>, <span class="math notranslate nohighlight">\(\rho_{c},\)</span> and <span class="math notranslate nohighlight">\(\epsilon_{c}\)</span> <strong>(15 points)</strong></p></li>
+<li><p>(<strong>b</strong>) - Plug in present day solar values, you can use HKT 9.2.3, and compute a numerical value for the luminosity. <strong>(10 points)</strong></p></li>
+<li><p>(<strong>c</strong>) - Compute the nuclear timescale for this star and compare it to the nuclear timescale of the Sun. <strong>10 points)</strong></p></li>
+</ul>
+</li>
 <li><p><strong>Total: (15 points)</strong> - <strong><span style="color:#eda412">I’ve Got Sunshineee, On a Cloudy Day</span></strong> - Assume that 10 eV of energy per atom found in the Sun is emitted during some chemical reaction taking place. Also assume that the Sun is composed of pure hydrogen.</p>
 <ul class="simple">
 <li><p>(<strong>a</strong>) - Calculate the total energy emitted by this chemical process (<span class="math notranslate nohighlight">\(E_{\rm{chem}}\)</span>). <strong>(5 points)</strong></p></li>
@@ -490,17 +489,29 @@ document.write(`
 <li><p>(<strong>c</strong>) - What is meant by the superadiabaticity of a convective region? How is it related to the convective energy flux (qualitatively)? Why is it very small in the interior of a star, but can be large near the surface? <strong>(5 points)</strong></p></li>
 </ul>
 </li>
-<li><p><strong>Total: (45 points)</strong> - <strong><span style="color:#009E60">Starz2therainbow</span></strong> - Produce a stellar model using <a class="reference external" href="http://user.astro.wisc.edu/~townsend/static.php?ref=mesa-web-submit"><code class="docutils literal notranslate"><span class="pre">MESA-Web</span></code></a> of initial mass between 0.5 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> to 30 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> with stopping condition to central <span class="math notranslate nohighlight">\(^{1}\rm{H}\)</span> mass fraction lower limit of <span class="math notranslate nohighlight">\(10^{-6}\)</span>.</p></li>
+<li><p><strong>Total: (45 points)</strong> - <strong><span style="color:#009E60">Starz2therainbow</span></strong> - Produce a stellar model using <a class="reference external" href="http://user.astro.wisc.edu/~townsend/static.php?ref=mesa-web-submit"><code class="docutils literal notranslate"><span class="pre">MESA-Web</span></code></a> of initial mass between 0.5 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> to 30 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> with stopping condition to central <span class="math notranslate nohighlight">\(^{1}\rm{H}\)</span> mass fraction lower limit of <span class="math notranslate nohighlight">\(10^{-6}\)</span>.</p>
+<ul class="simple">
+<li><p>(<strong>a</strong>) - <strong>Produce</strong> a <a class="reference external" href="https://docs.mesastar.org/en/latest/using_mesa/output.html#"><em>profile</em></a> plot of <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> and <span class="math notranslate nohighlight">\(\nabla_{\rm{rad}}\)</span> as a function of mass (<span class="math notranslate nohighlight">\(m/M_{\odot}\)</span>) or radius (<span class="math notranslate nohighlight">\(r/R_{\odot}\)</span>) during the main-sequence (or elsewhere if using a <code class="docutils literal notranslate"><span class="pre">test_suite</span></code>) and <em>label</em> where the star is <strong>convective</strong> and <strong>radiative</strong>. <strong>(10 points)</strong></p>
+<ul>
+<li><p>(<strong>a1</strong>) - <strong>Describe</strong> how you determined where the star was <strong>convective</strong> and <strong>radiative</strong>. <strong>(5 points)</strong></p></li>
+</ul>
+</li>
+<li><p>(<strong>b</strong>) - <strong>Produce</strong> a time-evolution plot of the luminosity of the <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> burning categories and determine which is the dominant burning category for your model.  <strong>(10 points)</strong></p>
+<ul>
+<li><p>(<strong>b1</strong>) - <strong>Describe</strong> when the particular category dominates the burning and why. <strong>(5 points)</strong></p></li>
+</ul>
+</li>
+<li><p>(<strong>c</strong>) - <strong>Produce</strong> a central <span class="math notranslate nohighlight">\(T-\rho\)</span> plot using the history data from your model and use it to describe the <strong>dominant source of opacity in the core</strong>, and in the <strong>envelope (below the surface)</strong>. <strong>(10 points)</strong></p>
+<ul>
+<li><p>(<strong>c1</strong>) - <strong>Describe</strong> how the dominant opacity sources were determined. <strong>(5 points)</strong></p></li>
+</ul>
+</li>
+</ul>
+</li>
 </ol>
 <blockquote>
 <div><p><strong>Note</strong>: If you have issues for your choice of mass, change to a lower initial mass, the defaults are set for a 1 <span class="math notranslate nohighlight">\(M_{\odot}\)</span> model to evolve to a white dwarf.
-<strong>Extra Credit</strong>: If you download and install MESA (instructions <a class="reference external" href="https://docs.mesastar.org/en/latest/installation.html">here</a>) to your laptop or on UA HPC (account creation info <a class="reference external" href="https://hpcdocs.hpc.arizona.edu/registration_and_access/account_creation/#overview">here</a>) then produce a model using one of the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite.html"><em>Test Suites</em></a> you can earn 25 points extra credit.
-* (<strong>a</strong>) - <strong>Produce</strong> a <a class="reference external" href="https://docs.mesastar.org/en/latest/using_mesa/output.html#"><em>profile</em></a> plot of <span class="math notranslate nohighlight">\(\nabla_{\rm{ad}}\)</span> and <span class="math notranslate nohighlight">\(\nabla_{\rm{rad}}\)</span> as a function of mass (<span class="math notranslate nohighlight">\(m/M_{\odot}\)</span>) or radius (<span class="math notranslate nohighlight">\(r/R_{\odot}\)</span>) during the main-sequence (or elsewhere if using a <code class="docutils literal notranslate"><span class="pre">test_suite</span></code>) and <em>label</em> where the star is <strong>convective</strong> and <strong>radiative</strong>. <strong>(10 points)</strong>
-* (<strong>a1</strong>) - <strong>Describe</strong> how you determined where the star was <strong>convective</strong> and <strong>radiative</strong>. <strong>(5 points)</strong>
-* (<strong>b</strong>) - <strong>Produce</strong> a time-evolution plot of the luminosity of the <code class="docutils literal notranslate"><span class="pre">pp</span></code> and <code class="docutils literal notranslate"><span class="pre">cno</span></code> burning categories and determine which is the dominant burning category for your model.  <strong>(10 points)</strong>
-* (<strong>b1</strong>) - <strong>Describe</strong> when the particular category dominates the burning and why. <strong>(5 points)</strong>
-* (<strong>c</strong>) - <strong>Produce</strong> a central <span class="math notranslate nohighlight">\(T-\rho\)</span> plot using the history data from your model and use it to describe the <strong>dominant source of opacity in the core</strong>, and in the <strong>envelope (below the surface)</strong>. <strong>(10 points)</strong>
-* (<strong>c1</strong>) - <strong>Describe</strong> how the dominant opacity sources were determined. <strong>(5 points)</strong></p>
+<strong>Extra Credit</strong>: If you download and install MESA (instructions <a class="reference external" href="https://docs.mesastar.org/en/latest/installation.html">here</a>) to your laptop or on UA HPC (account creation info <a class="reference external" href="https://hpcdocs.hpc.arizona.edu/registration_and_access/account_creation/#overview">here</a>) then produce a model using one of the MESA <a class="reference external" href="https://docs.mesastar.org/en/latest/test_suite.html"><em>Test Suites</em></a> you can earn 25 points extra credit.</p>
 </div></blockquote>
 </section>
 
