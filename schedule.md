@@ -48,14 +48,13 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 29 Sep | [Stellar Energy Sources](lectures/week6/day_10.html) | [ICA 9](assignments/ica9.ipynb), Due: End of day, Sep 29, 2026   |
-| 1 Oct  | Stellar Energy Sources II                            | [ICA 10](assignments/ica10.ipynb), Due: End of day, Oct 1, 2026, [HW2](assignments/hw2.md) Due: End of day, Fri
-Oct 9, 2026              |
+| 1 Oct  | [Stellar Energy Sources II](lectures/week6/day_11.html) | [ICA 10](assignments/ica10.ipynb), Due: Oct 1, 2026, [HW2](assignments/hw2.md) Due:, Fri Oct 9, 2026 |
 
 ## Week 7
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 6 Oct  | Stellar atmospheres and outer boundary conditions    | [ICA 11],  Not for credit               |
+| 6 Oct  | [Stellar atmospheres and outer boundary conditions](lectures/week7/day_12.html)    | [ICA 11](assignments/ica11.ipynb),  Not for credit     |
 | 8 Oct  | Star formation and pre-main sequence evolution       | [ICA 12], |
 
 ## Week 8

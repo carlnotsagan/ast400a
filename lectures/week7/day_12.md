@@ -1,7 +1,7 @@
 # Stellar Atmospheres
 -
 
-## October, 7, 2025
+## October, 6, 2026
 
 
 Slides are viewable [HTML](day_12.html).
