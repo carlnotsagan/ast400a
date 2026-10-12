@@ -61,8 +61,8 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 13 Oct | ZAMS and Evolution on the Main-Sequence              | [ICA 13], Not for Credit                |
-| 15 Oct | Post-MS Evolution through Helium Burning             | HW2 Review In Class        |
+| 13 Oct | [ZAMS and Evolution on the Main-Sequence](lectures/week8/day_14.html) | [ICA 13](assignments/ica13.ipynb),  Not for credit                |
+| 15 Oct | Post-MS Evolution through Helium Burning             | HW2 Review, Corrections Due: End of day, Oct. 19, 2026         |
 
 ## Week 9
 
