@@ -1,7 +1,7 @@
 # Evolution On The Main-Sequence
 -
 
-## October, 14, 2025
+## October, 13, 2026
 
 
 Slides are viewable [HTML](day_14.html).

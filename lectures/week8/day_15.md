@@ -1,7 +1,7 @@
 # Post-Main Sequence Evolution through Helium Burning
 -
 
-## October, 16, 2025
+## October, 15, 2026
 
 
 Slides are viewable [HTML](day_15.html).
