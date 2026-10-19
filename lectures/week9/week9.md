@@ -1,7 +1,7 @@
 # Week 9
 -
 
-## Tuesday, October 21, 2025
+## Tuesday, October 20, 2026
 
 
 Slides are viewable [HTML](day_16.html). 
@@ -11,7 +11,7 @@ Right click to open in a new tab instead of downloading slides!
 ```
 
 
-## Thursday, October 23, 2025
+## Thursday, October 22, 2026
 
 Slides are viewable [HTML](day_17.html). 
 
