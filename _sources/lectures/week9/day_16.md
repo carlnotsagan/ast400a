@@ -1,7 +1,7 @@
 # Late evolution of low- and intermediate-mass stars
 -
 
-## October, 21, 2025
+## October, 20, 2026
 
 
 Slides are viewable [HTML](day_16.html).

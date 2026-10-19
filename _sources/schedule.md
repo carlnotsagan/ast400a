@@ -68,7 +68,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 20 Oct | Late evolution of low- and intermediate-mass stars   |  [ICA 14]          |
+| 20 Oct | [Late evolution of low- and intermediate-mass stars](lectures/week9/day_16.html)   |  [ICA 14](assignments/ica14.ipynb) End of day, Oct. 20, 2026         |
 | 22 Oct | Pre-supernova evolution of massive stars ([Brian](https://brianjjhsu.com/) Guest Lecture)            |  [ICA 15], Not for Credit               |
 
 ## Week 10
