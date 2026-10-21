@@ -44,7 +44,7 @@ parts:
     - file: lectures/week9/week9
       sections:
         - file: lectures/week9/day_16
-        - file: lectures/week9/day_17_gl_hsu
+        - file: lectures/week9/day_17
   - caption: Assignments
     maxdepth: 1
     chapters:
