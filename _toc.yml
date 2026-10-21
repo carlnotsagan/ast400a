@@ -67,7 +67,7 @@ parts:
         - file: assignments/ica12
         - file: assignments/ica13
         - file: assignments/ica14
-        - file: assignments/ica15_gl_hsu
+        - file: assignments/ica15
     - file: assignments/hws
       sections:
         - file: assignments/hw1
