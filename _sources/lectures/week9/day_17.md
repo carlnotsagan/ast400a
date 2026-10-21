@@ -4,7 +4,7 @@
 ## October, 22, 2026
 
 
-Slides are viewable [HTML](day_17_gl_hsu.html).
+Slides are viewable [HTML](day_17.html).
 
 
 ```{note}
