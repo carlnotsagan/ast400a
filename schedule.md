@@ -75,7 +75,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 27 Oct | Core-Collapse and Thermonuclear Supernovae ([Brian](https://brianjjhsu.com/) Guest Lecture)          |  [ICA 16],            |
+| 27 Oct | Core-Collapse and Thermonuclear Supernovae ([Brian](https://brianjjhsu.com/) Guest Lecture)          |  [ICA 16], [HW3](assignments/hw3.md) Due:, Fri. Nov 6, 2026           |
 | 29 Oct | Black holes and their mergers                        |  [ICA 17], Not for Credit               |
 
 ## Week 11
@@ -90,7 +90,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 10 Nov | Veterans Day - **No Class**                          |  [(Draft) Final Project](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html) Due to D2L and referees, **Nov. 9.**, 2026 End of day                    |
+| 10 Nov | Topic TBD                         |  [(Draft) Final Project](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html) Due to D2L and referees, **Nov. 9.**, 2026 End of day                    |
 | 12 Nov | Neutron Stars                                        |  [ICA 20] Not for Credit                                            |
 
 ## Week 13

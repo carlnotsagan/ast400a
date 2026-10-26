@@ -43,7 +43,7 @@ $\rho( r)=\rho_{c} \left ( 1 - \frac{r}{R_\star} \right )$ and a nuclear product
 5. **Total: (45 points)** - **<span style="color:#009E60">Starz2therainbow</span>** - Produce a stellar model using [`MESA-Web`](http://user.astro.wisc.edu/~townsend/static.php?ref=mesa-web-submit) of initial mass between 0.5 $M_{\odot}$ to 30 $M_{\odot}$ with stopping condition to central $^{1}\rm{H}$ mass fraction lower limit of $10^{-6}$. 
     * (**a**) - **Produce** a [_profile_](https://docs.mesastar.org/en/latest/using_mesa/output.html#) plot of $\nabla_{\rm{ad}}$ and $\nabla_{\rm{rad}}$ as a function of mass ($m/M_{\odot}$) or radius ($r/R_{\odot}$) during the main-sequence (or elsewhere if using a `test_suite`) and _label_ where the star is **convective** and **radiative**. **(10 points)**
         * (**a1**) - **Describe** how you determined where the star was **convective** and **radiative**. **(5 points)**
-    * (**b**) - **Produce** a time-evolution plot of the luminosity of the `pp` and `cno` burning categories and determine which is the dominant burning category for your model.  **(10 points)**
+    * (**b**) - **Produce** a time-evolution plot of the nuclear energy generation rate of the `pp` and `cno` burning categories and determine which is the dominant burning category for your model.  **(10 points)**
         * (**b1**) - **Describe** when the particular category dominates the burning and why. **(5 points)**
     * (**c**) - **Produce** a central $T-\rho$ plot using the history data from your model and use it to describe the **dominant source of opacity in the core**, and in the **envelope (below the surface)**. **(10 points)**
         * (**c1**) - **Describe** how the dominant opacity sources were determined. **(5 points)**      
