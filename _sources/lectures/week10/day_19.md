@@ -1,7 +1,7 @@
 # Observational and Physical Classification of Supernovae + Black holes and their mergers
 
 
-## October, 30, 2025
+## October, 29, 2026
 
 
 Slides are viewable [HTML](day_19.html).

@@ -1,10 +1,10 @@
 # Core-Collapse and Thermonuclear Supernovae
 -
 
-## October, 28, 2025
+## October, 27, 2026
 
 
-Slides are viewable [HTML](day_18.html).
+Slides are viewable [PPT](ASTR400A_SN_20261027.pptx) and [PDF](ASTR400A_SN_20261027.pdf).
 
 
 ```{note}
