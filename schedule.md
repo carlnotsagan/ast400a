@@ -76,7 +76,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 27 Oct | [Core-Collapse and Thermonuclear Supernovae](lectures/week10/ASTR400A_SN_20261027.pdf) ([Brian](https://brianjjhsu.com/) Guest Lecture)         |  [ICA 16](assignments/ica16.ipynb), [HW3](assignments/hw3.md) Due:, Fri. Nov 6, 2026           |
-| 29 Oct | Black holes and their mergers                        |  [ICA 17], Not for Credit               |
+| 29 Oct | [Black holes and their mergers](lectures/week10/day_19.html)               |  [ICA 17](assignments/ica17.ipynb), Not for Credit               |
 
 ## Week 11
 
