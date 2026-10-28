@@ -521,22 +521,27 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-begin">To Begin</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-set-parameters-for-the-signal-we-want-to-explore">a. - Set parameters for the signal we want to explore</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-set-parameters-for-the-signal-we-want-to-explore"><strong>a. - Set parameters for the signal we want to explore</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-whiten-and-band-pass-the-data">b. - Whiten and band-pass the data</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-begin">To Begin</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#query-and-download-data">Query and download data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-the-raw-time-series-data">Plot the raw time-series data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-the-amplitude-spectral-density-asd">Plot the Amplitude Spectral Density (ASD)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-whiten-and-band-pass-the-data"><strong>b. - Whiten and band-pass the data</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-plot-a-q-transform-of-the-data">c. - Plot a q-transform of the data</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-plot-a-q-transform-of-the-data"><strong>c. - Plot a q-transform of the data</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>Individually/with the person next to you</strong>:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-helper-functions-for-d">Some helper functions for <code class="docutils literal notranslate"><span class="pre">d</span></code></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-convert-the-data-to-audio">d. - Convert the data to audio</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-convert-the-data-to-audio"><strong>d. - Convert the data to audio</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/with the person next to you</strong>:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#listening-to-the-whitened-bandpassed-strain-data-in-the-original-frequency-range">Listening to the Whitened-Bandpassed Strain Data in the original Frequency Range</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#listening-to-the-frequency-shifted-whitened-bandpassed-strain-data">Listening to the frequency shifted Whitened-Bandpassed Strain Data</a></li>
@@ -560,8 +565,7 @@ document.write(`
 <hr class="docutils" />
 <p><em>Thursday, October 29, 2026</em></p>
 <p><em>How to use this notebook:</em></p>
-<p><strong>Locally</strong>: Hover over the download symbol then to the <code class="docutils literal notranslate"><span class="pre">ipynb</span></code> option then <strong>right-click</strong> to <em>Save Link As</em> to download the file. You can then open the notebook using <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span> <span class="pre">ica17.ipynb</span></code> in your terminal.</p>
-<p><strong>Remote</strong>: You can open the notebook on Colab by hovering over the rocket symbol then select launch to colab. In doing so, any data needed for the plots can be click and dragged to the online workbook. By default, the file will go to <code class="docutils literal notranslate"><span class="pre">/content/</span></code> or <code class="docutils literal notranslate"><span class="pre">/content/sample_data</span></code></p>
+<p><strong>Remote</strong>: You can open the notebook on Colab by hovering over the rocket symbol then select launch to colab. In doing so, any data needed for the plots can be click and dragged to the online workbook.</p>
 <hr class="docutils" />
 <section id="in-class-assignment-17">
 <h2>In-Class Assignment 17<a class="headerlink" href="#in-class-assignment-17" title="Permalink to this heading">#</a></h2>
@@ -577,24 +581,60 @@ document.write(`
 </ul>
 </section>
 </section>
+<section id="a-set-parameters-for-the-signal-we-want-to-explore">
+<h2><strong>a. - Set parameters for the signal we want to explore</strong><a class="headerlink" href="#a-set-parameters-for-the-signal-we-want-to-explore" title="Permalink to this heading">#</a></h2>
+<section id="individually-with-the-person-next-to-you">
+<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h3>
+<p>The two first parameters we need to set are:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://gwosc.org/gps">GPS time</a> of the data of interest (<a class="reference external" href="https://www.google.com/search?q=What+is+gps+time">Learn more</a>)</p></li>
+<li><p>Detector could be H1 (LIGO Hanford), L1 (LIGO Livingston), or V1 (Virgo)</p></li>
+</ul>
+<p>Example GPS times for different events are:</p>
+<p>You might try some of these examples times in the H1 detector:</p>
+<pre>
+t0 = 1126259462.4    # -- GW150914
+t0 = 1187008882.4    # -- GW170817
+t0 = 933200215       # -- Loud hardware injection
+t0 = 1132401286.33   # -- Koi Fish Glitch
+</pre>
+<ol class="arabic simple">
+<li><p>Choose and set a GPS time</p></li>
+<li><p>Choose a detector</p></li>
+<li><p>Round the GPS time to integer then query for the GW strain (<span class="math notranslate nohighlight">\(\Delta L/L\)</span>) using the integer GPS time, and the detector using <a class="reference external" href="https://gwpy.github.io/docs/stable/timeseries/opendata/#timeseries-fetch-open-data"><code class="docutils literal notranslate"><span class="pre">TimeSeries.fetch_open_data</span></code></a> from center to <span class="math notranslate nohighlight">\(\pm\)</span> 16 seconds.</p></li>
+<li><p>Plot the resulting strain as a function of time.</p></li>
+</ol>
+<blockquote>
+<div><p>Hint: You can call our <code class="docutils literal notranslate"><span class="pre">TimeSeries</span></code> object <code class="docutils literal notranslate"><span class="pre">strain</span></code> and use the <code class="docutils literal notranslate"><span class="pre">.plot()</span></code> object to use GWpy to plot.</p>
+</div></blockquote>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># -- Set a GPS time:</span>
+<span class="n">t0</span> <span class="o">=</span> <span class="mf">1126259462.4</span>    <span class="c1"># -- GW150914</span>
+
+<span class="c1">#-- Choose detector as H1, L1, or V1</span>
+<span class="n">detector</span> <span class="o">=</span> <span class="s1">&#39;H1&#39;</span>
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+</section>
 <section id="to-begin">
 <h2>To Begin<a class="headerlink" href="#to-begin" title="Permalink to this heading">#</a></h2>
 <p>Load some imports including <a class="reference external" href="https://gwpy.github.io/">GWpy</a> - a python package for gravitational-wave astrophysics.</p>
 <p>We will be utilizing the <code class="docutils literal notranslate"><span class="pre">TimeSeries</span></code> tools described in <a class="reference external" href="https://gwpy.github.io/docs/stable/timeseries/">Documentation</a>.</p>
+<p>Some packages may be missing on some platforms so we try to install them (you may see error messages when running on Google Colab but installation usually works).
+If you experience problems, please <a class="reference external" href="https://github.com/gwosc-tutorial/quickview/issues">report an issue</a>.</p>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">requests</span><span class="o">,</span> <span class="nn">os</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="o">%</span><span class="k">config</span> InlineBackend.figure_format = &#39;retina&#39;
-
-<span class="k">try</span><span class="p">:</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="k">try</span><span class="p">:</span>
     <span class="kn">from</span> <span class="nn">gwpy.timeseries</span> <span class="kn">import</span> <span class="n">TimeSeries</span>
 <span class="k">except</span><span class="p">:</span>
-    <span class="o">!</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;gwpy==3.0.9&quot;</span>
-    <span class="o">!</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;matplotlib==3.7.3&quot;</span>
-    <span class="o">!</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;astropy==6.1.4&quot;</span>
+    <span class="o">!</span><span class="w"> </span>pip<span class="w"> </span>install<span class="w"> </span>-q<span class="w"> </span><span class="s2">&quot;gwpy==3.0.13&quot;</span>
     <span class="kn">from</span> <span class="nn">gwpy.timeseries</span> <span class="kn">import</span> <span class="n">TimeSeries</span>
+
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 </pre></div>
 </div>
 </div>
@@ -611,10 +651,10 @@ document.write(`
 <span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
 
 <span class="ne">ImportError</span><span class="g g-Whitespace">                               </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">7</span>
-<span class="g g-Whitespace">      </span><span class="mi">6</span> <span class="k">try</span><span class="p">:</span>
-<span class="ne">----&gt; </span><span class="mi">7</span>     <span class="kn">from</span> <span class="nn">gwpy.timeseries</span> <span class="kn">import</span> <span class="n">TimeSeries</span>
-<span class="g g-Whitespace">      </span><span class="mi">8</span> <span class="k">except</span><span class="p">:</span>
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="k">try</span><span class="p">:</span>
+<span class="ne">----&gt; </span><span class="mi">2</span>     <span class="kn">from</span> <span class="nn">gwpy.timeseries</span> <span class="kn">import</span> <span class="n">TimeSeries</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="k">except</span><span class="p">:</span>
 
 <span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">anaconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.11</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">gwpy</span><span class="o">/</span><span class="n">timeseries</span><span class="o">/</span><span class="fm">__init__</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">23</span>
 <span class="g g-Whitespace">     </span><span class="mi">22</span> <span class="kn">from</span> <span class="nn">.core</span> <span class="kn">import</span> <span class="p">(</span><span class="n">TimeSeriesBase</span><span class="p">,</span> <span class="n">TimeSeriesBaseDict</span><span class="p">,</span> <span class="n">TimeSeriesBaseList</span><span class="p">)</span>
@@ -652,10 +692,11 @@ document.write(`
 <span class="n">During</span> <span class="n">handling</span> <span class="n">of</span> <span class="n">the</span> <span class="n">above</span> <span class="n">exception</span><span class="p">,</span> <span class="n">another</span> <span class="n">exception</span> <span class="n">occurred</span><span class="p">:</span>
 
 <span class="ne">ImportError</span><span class="g g-Whitespace">                               </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="n">line</span> <span class="mi">12</span>
-<span class="g g-Whitespace">     </span><span class="mi">10</span> <span class="n">get_ipython</span><span class="p">()</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39; pip install -q &quot;matplotlib==3.7.3&quot;&#39;</span><span class="p">)</span>
-<span class="g g-Whitespace">     </span><span class="mi">11</span> <span class="n">get_ipython</span><span class="p">()</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39; pip install -q &quot;astropy==6.1.4&quot;&#39;</span><span class="p">)</span>
-<span class="ne">---&gt; </span><span class="mi">12</span> <span class="kn">from</span> <span class="nn">gwpy.timeseries</span> <span class="kn">import</span> <span class="n">TimeSeries</span>
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">5</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="k">except</span><span class="p">:</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span>     <span class="n">get_ipython</span><span class="p">()</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s1">&#39; pip install -q &quot;gwpy==3.0.13&quot;&#39;</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">5</span>     <span class="kn">from</span> <span class="nn">gwpy.timeseries</span> <span class="kn">import</span> <span class="n">TimeSeries</span>
+<span class="g g-Whitespace">      </span><span class="mi">7</span> <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 
 <span class="n">File</span> <span class="o">/</span><span class="n">opt</span><span class="o">/</span><span class="n">anaconda3</span><span class="o">/</span><span class="n">lib</span><span class="o">/</span><span class="n">python3</span><span class="mf">.11</span><span class="o">/</span><span class="n">site</span><span class="o">-</span><span class="n">packages</span><span class="o">/</span><span class="n">gwpy</span><span class="o">/</span><span class="n">timeseries</span><span class="o">/</span><span class="fm">__init__</span><span class="o">.</span><span class="n">py</span><span class="p">:</span><span class="mi">23</span>
 <span class="g g-Whitespace">     </span><span class="mi">19</span><span class="w"> </span><span class="sd">&quot;&quot;&quot;Create, manipulate, read, and write time-series data</span>
@@ -694,48 +735,75 @@ document.write(`
 </div>
 </div>
 </div>
-</section>
-<section id="a-set-parameters-for-the-signal-we-want-to-explore">
-<h2>a. - Set parameters for the signal we want to explore<a class="headerlink" href="#a-set-parameters-for-the-signal-we-want-to-explore" title="Permalink to this heading">#</a></h2>
-<section id="individually-with-the-person-next-to-you">
-<h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#individually-with-the-person-next-to-you" title="Permalink to this heading">#</a></h3>
-<p>The two first parameters we need to set are:</p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://gwosc.org/gps">GPS time</a> of the data of interest (<a class="reference external" href="https://www.google.com/search?q=What+is+gps+time">Learn more</a>)</p></li>
-<li><p>Detector could be H1 (LIGO Hanford), L1 (LIGO Livingston), or V1 (Virgo)</p></li>
-</ul>
-<p>Example GPS times for different events are:</p>
-<p>You might try some of these examples times in the H1 detector:</p>
-<pre>
-t0 = 1126259462.4    # -- GW150914
-t0 = 1187008882.4    # -- GW170817
-t0 = 933200215       # -- Loud hardware injection
-t0 = 1132401286.33   # -- Koi Fish Glitch
-</pre>
-<ol class="arabic simple">
-<li><p>Choose and set a GPS time</p></li>
-<li><p>Choose a detector</p></li>
-<li><p>Round the GPS time to integer then query for the GW strain (<span class="math notranslate nohighlight">\(\Delta L/L\)</span>) using the integer GPS time, and the detector using <a class="reference external" href="https://gwpy.github.io/docs/stable/timeseries/opendata/#timeseries-fetch-open-data"><code class="docutils literal notranslate"><span class="pre">TimeSeries.fetch_open_data</span></code></a> from center to <span class="math notranslate nohighlight">\(\pm\)</span> 16 seconds.</p></li>
-<li><p>Plot the resulting strain as a function of time.</p></li>
-</ol>
-<blockquote>
-<div><p>Hint: You can call our <code class="docutils literal notranslate"><span class="pre">TimeSeries</span></code> object <code class="docutils literal notranslate"><span class="pre">strain</span></code> and use the <code class="docutils literal notranslate"><span class="pre">.plot()</span></code> object to use GWpy to plot.</p>
-</div></blockquote>
+<section id="query-and-download-data">
+<h3>Query and download data<a class="headerlink" href="#query-and-download-data" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># -- Set a GPS time:</span>
-<span class="c1">#t0 = #</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">center</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">t0</span><span class="p">)</span>  <span class="c1">#-- Round GPS time to nearest second</span>
+<span class="n">strain</span> <span class="o">=</span> <span class="n">TimeSeries</span><span class="o">.</span><span class="n">fetch_open_data</span><span class="p">(</span><span class="n">detector</span><span class="p">,</span> <span class="n">center</span><span class="o">-</span><span class="mi">16</span><span class="p">,</span> <span class="n">center</span><span class="o">+</span><span class="mi">16</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">3</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">center</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">t0</span><span class="p">)</span>  <span class="c1">#-- Round GPS time to nearest second</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">strain</span> <span class="o">=</span> <span class="n">TimeSeries</span><span class="o">.</span><span class="n">fetch_open_data</span><span class="p">(</span><span class="n">detector</span><span class="p">,</span> <span class="n">center</span><span class="o">-</span><span class="mi">16</span><span class="p">,</span> <span class="n">center</span><span class="o">+</span><span class="mi">16</span><span class="p">)</span>
 
-<span class="c1">#-- Choose detector as H1, L1, or V1 as string</span>
-<span class="c1">#detector = </span>
+<span class="ne">NameError</span>: name &#39;TimeSeries&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="plot-the-raw-time-series-data">
+<h3>Plot the raw time-series data<a class="headerlink" href="#plot-the-raw-time-series-data" title="Permalink to this heading">#</a></h3>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">fig1</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">4</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">fig1</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
 
-<span class="c1"># -- Turn on interactive plotting</span>
-<span class="c1">#plt.ion()</span>
+<span class="ne">NameError</span>: name &#39;strain&#39; is not defined
+</pre></div>
+</div>
+</div>
+</div>
+</section>
+<section id="plot-the-amplitude-spectral-density-asd">
+<h3>Plot the Amplitude Spectral Density (ASD)<a class="headerlink" href="#plot-the-amplitude-spectral-density-asd" title="Permalink to this heading">#</a></h3>
+<p>The amplitude spectral density is one way to visualize the frequency-domain content of a time series signal.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://gwpy.github.io/docs/stable/signal/">ASDs in the gwpy documentation</a></p></li>
+<li><p><a class="reference external" href="https://en.wikipedia.org/wiki/Spectral_density">ASDs in Wikipedia</a></p></li>
+<li><p><a class="reference external" href="https://labcit.ligo.caltech.edu/~jkanner/gwosc/intro-course/">ASDs in the Frequency Domain Data video</a></p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># -- Plot ASD</span>
+<span class="n">fig2</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">asd</span><span class="p">(</span><span class="n">fftlength</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">2000</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mf">1e-24</span><span class="p">,</span> <span class="mf">1e-19</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">5</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># -- Plot ASD</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">fig2</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">asd</span><span class="p">(</span><span class="n">fftlength</span><span class="o">=</span><span class="mi">8</span><span class="p">)</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">2000</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">plt</span><span class="o">.</span><span class="n">ylim</span><span class="p">(</span><span class="mf">1e-24</span><span class="p">,</span> <span class="mf">1e-19</span><span class="p">)</span>
 
-<span class="c1">#center = int(t0)  #-- Round GPS time to nearest second</span>
-<span class="c1">#strain = TimeSeries.fetch_open_data(##,##,##)</span>
-
-<span class="c1">#fig1 = strain.</span>
+<span class="ne">NameError</span>: name &#39;strain&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -743,7 +811,7 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 </section>
 </section>
 <section id="b-whiten-and-band-pass-the-data">
-<h2>b. - Whiten and band-pass the data<a class="headerlink" href="#b-whiten-and-band-pass-the-data" title="Permalink to this heading">#</a></h2>
+<h2><strong>b. - Whiten and band-pass the data</strong><a class="headerlink" href="#b-whiten-and-band-pass-the-data" title="Permalink to this heading">#</a></h2>
 <ul class="simple">
 <li><p>Whitening is a process that re-weights a signal, so that all frequency bins have a nearly equal amount of noise.</p></li>
 <li><p>A band-pass filter uses both a low frequency cutoff and a high frequency cutoff, and only passes signals in the frequency band between these values.</p></li>
@@ -764,10 +832,23 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># -- Whiten and bandpass data</span>
-<span class="c1">#white_data = strain.#</span>
-<span class="c1">#bp_data = white_data.#</span>
-<span class="c1">#fig2 = bp_data.plot()#</span>
-<span class="c1">#plt.xlim(t0-0.2, t0+0.1)</span>
+<span class="n">white_data</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">whiten</span><span class="p">()</span>
+<span class="n">bp_data</span> <span class="o">=</span> <span class="n">white_data</span><span class="o">.</span><span class="n">bandpass</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">400</span><span class="p">)</span>
+<span class="n">fig3</span> <span class="o">=</span> <span class="n">bp_data</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlim</span><span class="p">(</span><span class="n">t0</span><span class="o">-</span><span class="mf">0.2</span><span class="p">,</span> <span class="n">t0</span><span class="o">+</span><span class="mf">0.1</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">6</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># -- Whiten and bandpass data</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">white_data</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">whiten</span><span class="p">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">bp_data</span> <span class="o">=</span> <span class="n">white_data</span><span class="o">.</span><span class="n">bandpass</span><span class="p">(</span><span class="mi">30</span><span class="p">,</span> <span class="mi">400</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">fig3</span> <span class="o">=</span> <span class="n">bp_data</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+
+<span class="ne">NameError</span>: name &#39;strain&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -779,36 +860,36 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <li><p>In a few words, describe what is being measured over time, what is meant by graviational wave strain?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>The change in the detector arm legths relative to the known length over time.</p>
 </div></blockquote>
 <ol class="arabic simple" start="2">
 <li><p>Binary Black Hole (BBH) mergers have distinct epochs corresponding to - inspiral, merger, and ringdown. Can we identify those parts of the signal in the above plot?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>From left to right - inspiral (long term), merger (very short), ringdown (less short, ringdown of BH formed).</p>
 </div></blockquote>
 <ol class="arabic simple" start="3">
 <li><p>Single massive stars can produce graviational wave signals during <em>core bounce</em> following iron core-collapse, how might we expect GWs from massive stars to differ?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>Only burst signals, no leading up inspiral signal that could be in LIGO bandpass and trigger detection.</p>
 </div></blockquote>
 <ol class="arabic simple" start="4">
 <li><p>Would BBH mergers or GWs from single, massive stars be easier to observe?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>Harder, less compact, less energetic GW bursts, need to be very nearby.</p>
 </div></blockquote>
 <ol class="arabic simple" start="5">
 <li><p>What is another merger scenario that would follow the signal behavior like in Question 1 for BBH?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>BNS systems.</p>
 </div></blockquote>
 </section>
 </section>
 <section id="c-plot-a-q-transform-of-the-data">
-<h2>c. - Plot a q-transform of the data<a class="headerlink" href="#c-plot-a-q-transform-of-the-data" title="Permalink to this heading">#</a></h2>
+<h2><strong>c. - Plot a q-transform of the data</strong><a class="headerlink" href="#c-plot-a-q-transform-of-the-data" title="Permalink to this heading">#</a></h2>
 <p>A Q-transform plot shows how a signal’s frequency changes with time.</p>
 <ul class="simple">
 <li><p>The x-axis shows time</p></li>
@@ -831,15 +912,27 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 </div></blockquote>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># c results here</span>
-<span class="c1">#dt = #  #-- Set width of q-transform plot, in seconds</span>
-<span class="c1">#hq = strain.q_transform(outseg=(##,##))</span>
-<span class="c1">#fig3 = hq.plot()</span>
-<span class="c1">#ax = fig3.gca()</span>
-<span class="c1">#ax.grid(False)</span>
-<span class="c1">#ax.set_yscale(&#39;log&#39;)</span>
-<span class="c1">#try: fig3.colorbar(label=&quot;Normalized energy&quot;)</span>
-<span class="c1">#except: pass</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">dt</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1">#-- Set width of q-transform plot, in seconds</span>
+<span class="n">hq</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">q_transform</span><span class="p">(</span><span class="n">outseg</span><span class="o">=</span><span class="p">(</span><span class="n">t0</span><span class="o">-</span><span class="n">dt</span><span class="p">,</span> <span class="n">t0</span><span class="o">+</span><span class="n">dt</span><span class="p">))</span>
+<span class="n">fig4</span> <span class="o">=</span> <span class="n">hq</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="n">ax</span> <span class="o">=</span> <span class="n">fig4</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">grid</span><span class="p">(</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">ax</span><span class="o">.</span><span class="n">set_yscale</span><span class="p">(</span><span class="s1">&#39;log&#39;</span><span class="p">)</span>
+<span class="k">try</span><span class="p">:</span> <span class="n">fig4</span><span class="o">.</span><span class="n">colorbar</span><span class="p">(</span><span class="n">label</span><span class="o">=</span><span class="s2">&quot;Normalized energy&quot;</span><span class="p">)</span>
+<span class="k">except</span><span class="p">:</span> <span class="k">pass</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">7</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="n">dt</span> <span class="o">=</span> <span class="mi">1</span>  <span class="c1">#-- Set width of q-transform plot, in seconds</span>
+<span class="ne">----&gt; </span><span class="mi">2</span> <span class="n">hq</span> <span class="o">=</span> <span class="n">strain</span><span class="o">.</span><span class="n">q_transform</span><span class="p">(</span><span class="n">outseg</span><span class="o">=</span><span class="p">(</span><span class="n">t0</span><span class="o">-</span><span class="n">dt</span><span class="p">,</span> <span class="n">t0</span><span class="o">+</span><span class="n">dt</span><span class="p">))</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">fig4</span> <span class="o">=</span> <span class="n">hq</span><span class="o">.</span><span class="n">plot</span><span class="p">()</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">ax</span> <span class="o">=</span> <span class="n">fig4</span><span class="o">.</span><span class="n">gca</span><span class="p">()</span>
+
+<span class="ne">NameError</span>: name &#39;strain&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -876,19 +969,20 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 </section>
 </section>
 <section id="d-convert-the-data-to-audio">
-<h2>d. - Convert the data to audio<a class="headerlink" href="#d-convert-the-data-to-audio" title="Permalink to this heading">#</a></h2>
+<h2><strong>d. - Convert the data to audio</strong><a class="headerlink" href="#d-convert-the-data-to-audio" title="Permalink to this heading">#</a></h2>
 <section id="id3">
 <h3><strong>Individually/with the person next to you</strong>:<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <ol class="arabic simple">
-<li><p>Define the time array of our final bandpassed and whitened strain data. We only want the data not the units (<code class="docutils literal notranslate"><span class="pre">.value</span></code>). Use <code class="docutils literal notranslate"><span class="pre">tevent</span> <span class="pre">=</span> <span class="pre">t0</span></code>. Compute the indices of interested and write the wav file for our data. Using a sampling fequency of 4096.</p></li>
+<li><p>Define the time array of our final bandpassed and whitened strain data. We only want the data not the units (<code class="docutils literal notranslate"><span class="pre">.value</span></code>). Use <code class="docutils literal notranslate"><span class="pre">tevent</span> <span class="pre">=</span> <span class="pre">t0</span></code>. Compute the indices of interested and write the wav file for our data.</p></li>
 <li><p>Listen to the data wav file.</p></li>
-<li><p>Finally, shift the data using the function line by 400 Hz, write the wav file of the shifted data.</p></li>
+<li><p>Finally, shift the data using the function line, write the wav file of the shifted data.</p></li>
 <li><p>Listen to the result.</p></li>
 </ol>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># make wav (sound) files from the whitened+BP data, +-2s around the event.</span>
 <span class="kn">import</span> <span class="nn">scipy</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
 <span class="kn">from</span> <span class="nn">scipy.io</span> <span class="kn">import</span> <span class="n">wavfile</span>
 <span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">Audio</span>
 </pre></div>
@@ -900,16 +994,28 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <h3>Listening to the Whitened-Bandpassed Strain Data in the original Frequency Range<a class="headerlink" href="#listening-to-the-whitened-bandpassed-strain-data-in-the-original-frequency-range" title="Permalink to this heading">#</a></h3>
 <div class="cell docutils container">
 <div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1">#time = bp_data.times</span>
-<span class="c1">#time = time.value</span>
-<span class="c1">#tevent = t0</span>
-<span class="c1">#fs = # sampling freq</span>
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="n">time</span> <span class="o">=</span> <span class="n">bp_data</span><span class="o">.</span><span class="n">times</span>
+<span class="n">time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">value</span>
+<span class="n">tevent</span> <span class="o">=</span> <span class="n">t0</span>
+<span class="n">fs</span> <span class="o">=</span> <span class="mi">4096</span> <span class="c1"># sampling freq</span>
 
 <span class="c1"># index into the strain time series for this time interval:</span>
-<span class="c1">#indxd = np.where((time &gt;= tevent-deltat_sound) &amp; (time &lt; tevent+deltat_sound))</span>
+<span class="n">indxd</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">where</span><span class="p">((</span><span class="n">time</span> <span class="o">&gt;=</span> <span class="n">tevent</span><span class="o">-</span><span class="n">deltat_sound</span><span class="p">)</span> <span class="o">&amp;</span> <span class="p">(</span><span class="n">time</span> <span class="o">&lt;</span> <span class="n">tevent</span><span class="o">+</span><span class="n">deltat_sound</span><span class="p">))</span>
 
 <span class="c1"># write the files:</span>
-<span class="c1">#write_wavfile(detector+&quot;_whitenbp.wav&quot;,int(fs), strain[indxd])</span>
+<span class="n">write_wavfile</span><span class="p">(</span><span class="n">detector</span><span class="o">+</span><span class="s2">&quot;_whitenbp.wav&quot;</span><span class="p">,</span><span class="nb">int</span><span class="p">(</span><span class="n">fs</span><span class="p">),</span> <span class="n">strain</span><span class="p">[</span><span class="n">indxd</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">10</span><span class="p">],</span> <span class="n">line</span> <span class="mi">1</span>
+<span class="ne">----&gt; </span><span class="mi">1</span> <span class="n">time</span> <span class="o">=</span> <span class="n">bp_data</span><span class="o">.</span><span class="n">times</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">time</span> <span class="o">=</span> <span class="n">time</span><span class="o">.</span><span class="n">value</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="n">tevent</span> <span class="o">=</span> <span class="n">t0</span>
+
+<span class="ne">NameError</span>: name &#39;bp_data&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -917,9 +1023,30 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># listen to the wav file here</span>
-<span class="c1">#fna = detector+&quot;_whitenbp.wav&quot;</span>
-<span class="c1">#print(fna)</span>
-<span class="c1">#Audio(fna)</span>
+<span class="n">fna</span> <span class="o">=</span> <span class="n">detector</span><span class="o">+</span><span class="s2">&quot;_whitenbp.wav&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+<span class="n">Audio</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>H1_whitenbp.wav
+</pre></div>
+</div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ValueError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">11</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">fna</span> <span class="o">=</span> <span class="n">detector</span><span class="o">+</span><span class="s2">&quot;_whitenbp.wav&quot;</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">Audio</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/IPython/lib/display.py:129,</span> in <span class="ni">Audio.__init__</span><span class="nt">(self, data, filename, url, embed, rate, autoplay, normalize, element_id)</span>
+<span class="g g-Whitespace">    </span><span class="mi">127</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="nb">bytes</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">128</span>     <span class="k">if</span> <span class="n">rate</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">129</span>         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;rate must be specified when data is a numpy array or list of audio samples.&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">130</span>     <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">Audio</span><span class="o">.</span><span class="n">_make_wav</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">rate</span><span class="p">,</span> <span class="n">normalize</span><span class="p">)</span>
+
+<span class="ne">ValueError</span>: rate must be specified when data is a numpy array or list of audio samples.
 </pre></div>
 </div>
 </div>
@@ -930,9 +1057,22 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># using our helper function, shift the data and make the new wav file</span>
-<span class="c1">#fshift = ##</span>
-<span class="c1">#strain_shifted = reqshift(bp_data,fshift=fshift,sample_rate=fs)</span>
-<span class="c1">#write_wavfile(detector+&quot;_whitenbp_shifted.wav&quot;,int(fs), strain_shifted[indxd])</span>
+<span class="n">fshift</span> <span class="o">=</span> <span class="mf">400.</span>
+<span class="n">strain_shifted</span> <span class="o">=</span> <span class="n">reqshift</span><span class="p">(</span><span class="n">bp_data</span><span class="p">,</span><span class="n">fshift</span><span class="o">=</span><span class="n">fshift</span><span class="p">,</span><span class="n">sample_rate</span><span class="o">=</span><span class="n">fs</span><span class="p">)</span>
+<span class="n">write_wavfile</span><span class="p">(</span><span class="n">detector</span><span class="o">+</span><span class="s2">&quot;_whitenbp_shifted.wav&quot;</span><span class="p">,</span><span class="nb">int</span><span class="p">(</span><span class="n">fs</span><span class="p">),</span> <span class="n">strain_shifted</span><span class="p">[</span><span class="n">indxd</span><span class="p">])</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">NameError</span><span class="g g-Whitespace">                                 </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">12</span><span class="p">],</span> <span class="n">line</span> <span class="mi">3</span>
+<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="c1"># using our helper function, shift the data and make the new wav file</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">fshift</span> <span class="o">=</span> <span class="mf">400.</span>
+<span class="ne">----&gt; </span><span class="mi">3</span> <span class="n">strain_shifted</span> <span class="o">=</span> <span class="n">reqshift</span><span class="p">(</span><span class="n">bp_data</span><span class="p">,</span><span class="n">fshift</span><span class="o">=</span><span class="n">fshift</span><span class="p">,</span><span class="n">sample_rate</span><span class="o">=</span><span class="n">fs</span><span class="p">)</span>
+<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">write_wavfile</span><span class="p">(</span><span class="n">detector</span><span class="o">+</span><span class="s2">&quot;_whitenbp_shifted.wav&quot;</span><span class="p">,</span><span class="nb">int</span><span class="p">(</span><span class="n">fs</span><span class="p">),</span> <span class="n">strain_shifted</span><span class="p">[</span><span class="n">indxd</span><span class="p">])</span>
+
+<span class="ne">NameError</span>: name &#39;bp_data&#39; is not defined
 </pre></div>
 </div>
 </div>
@@ -940,9 +1080,30 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <div class="cell docutils container">
 <div class="cell_input docutils container">
 <div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="c1"># listen to the wav file here</span>
-<span class="c1">#fna = detector+&quot;_whitenbp_shifted.wav&quot;</span>
-<span class="c1">#print(fna)</span>
-<span class="c1">#Audio(fna)</span>
+<span class="n">fna</span> <span class="o">=</span> <span class="n">detector</span><span class="o">+</span><span class="s2">&quot;_whitenbp_shifted.wav&quot;</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+<span class="n">Audio</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>H1_whitenbp_shifted.wav
+</pre></div>
+</div>
+<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
+<span class="ne">ValueError</span><span class="g g-Whitespace">                                </span>Traceback (most recent call last)
+<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">13</span><span class="p">],</span> <span class="n">line</span> <span class="mi">4</span>
+<span class="g g-Whitespace">      </span><span class="mi">2</span> <span class="n">fna</span> <span class="o">=</span> <span class="n">detector</span><span class="o">+</span><span class="s2">&quot;_whitenbp_shifted.wav&quot;</span>
+<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="nb">print</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+<span class="ne">----&gt; </span><span class="mi">4</span> <span class="n">Audio</span><span class="p">(</span><span class="n">fna</span><span class="p">)</span>
+
+<span class="nn">File /opt/anaconda3/lib/python3.11/site-packages/IPython/lib/display.py:129,</span> in <span class="ni">Audio.__init__</span><span class="nt">(self, data, filename, url, embed, rate, autoplay, normalize, element_id)</span>
+<span class="g g-Whitespace">    </span><span class="mi">127</span> <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span> <span class="ow">and</span> <span class="ow">not</span> <span class="nb">isinstance</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">data</span><span class="p">,</span> <span class="nb">bytes</span><span class="p">):</span>
+<span class="g g-Whitespace">    </span><span class="mi">128</span>     <span class="k">if</span> <span class="n">rate</span> <span class="ow">is</span> <span class="kc">None</span><span class="p">:</span>
+<span class="ne">--&gt; </span><span class="mi">129</span>         <span class="k">raise</span> <span class="ne">ValueError</span><span class="p">(</span><span class="s2">&quot;rate must be specified when data is a numpy array or list of audio samples.&quot;</span><span class="p">)</span>
+<span class="g g-Whitespace">    </span><span class="mi">130</span>     <span class="bp">self</span><span class="o">.</span><span class="n">data</span> <span class="o">=</span> <span class="n">Audio</span><span class="o">.</span><span class="n">_make_wav</span><span class="p">(</span><span class="n">data</span><span class="p">,</span> <span class="n">rate</span><span class="p">,</span> <span class="n">normalize</span><span class="p">)</span>
+
+<span class="ne">ValueError</span>: rate must be specified when data is a numpy array or list of audio samples.
 </pre></div>
 </div>
 </div>
@@ -954,19 +1115,19 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <li><p>Can you describe qualitatively what the frequency shifted sample sounded like?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>The chirp heard around the world.</p>
 </div></blockquote>
 <ol class="arabic simple" start="2">
 <li><p>This result shows that as the stars coalesce, their frequency increases over time. What might this suggest for sources near the LIGO bandwith?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>they can move outside the band prior to merger and avoid detection.</p>
 </div></blockquote>
 <ol class="arabic simple" start="3">
 <li><p>Stars that produce stellar mass BHs are rarer than those that produce neutron stars, yet, the majority of LIGO sources are BBH mergers. Why might that be?</p></li>
 </ol>
 <blockquote>
-<div><p>Respond here.</p>
+<div><p>Orbital decay of BBHs is more significant so inspiral times are shorter and coalesce more often.</p>
 </div></blockquote>
 </section>
 </section>
@@ -1041,22 +1202,27 @@ t0 = 1132401286.33   # -- Koi Fish Glitch
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-begin">To Begin</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-set-parameters-for-the-signal-we-want-to-explore">a. - Set parameters for the signal we want to explore</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#a-set-parameters-for-the-signal-we-want-to-explore"><strong>a. - Set parameters for the signal we want to explore</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#individually-with-the-person-next-to-you"><strong>Individually/with the person next to you</strong>:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-whiten-and-band-pass-the-data">b. - Whiten and band-pass the data</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-begin">To Begin</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#query-and-download-data">Query and download data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-the-raw-time-series-data">Plot the raw time-series data</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#plot-the-amplitude-spectral-density-asd">Plot the Amplitude Spectral Density (ASD)</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#b-whiten-and-band-pass-the-data"><strong>b. - Whiten and band-pass the data</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id1"><strong>Individually/with the person next to you</strong>:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#with-your-larger-group-try-to-answer-the-following"><strong>With your larger group, try to answer the following</strong>:</a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-plot-a-q-transform-of-the-data">c. - Plot a q-transform of the data</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#c-plot-a-q-transform-of-the-data"><strong>c. - Plot a q-transform of the data</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id2"><strong>Individually/with the person next to you</strong>:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#some-helper-functions-for-d">Some helper functions for <code class="docutils literal notranslate"><span class="pre">d</span></code></a></li>
 </ul>
 </li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-convert-the-data-to-audio">d. - Convert the data to audio</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#d-convert-the-data-to-audio"><strong>d. - Convert the data to audio</strong></a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#id3"><strong>Individually/with the person next to you</strong>:</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#listening-to-the-whitened-bandpassed-strain-data-in-the-original-frequency-range">Listening to the Whitened-Bandpassed Strain Data in the original Frequency Range</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#listening-to-the-frequency-shifted-whitened-bandpassed-strain-data">Listening to the frequency shifted Whitened-Bandpassed Strain Data</a></li>
