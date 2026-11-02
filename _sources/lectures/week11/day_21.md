@@ -1,7 +1,7 @@
 # Products of Binary Evolution II + Neutron Stars
 -
 
-## November, 6, 2025
+## November, 5, 2026
 
 
 Slides are viewable [HTML](day_21.html).

@@ -82,7 +82,7 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 3 Nov  | Products of Binary Evolution I                       |  [ICA 18], Not for Credit               |
+| 3 Nov  | [Products of Binary Evolution I](lectures/week11/day_20.html) |  [ICA 18](assignments/ica18.ipynb), Not for Credit               |
 | 5 Nov  | Products of Binary Evolution II  + Neutron Stars     |  [ICA 19]            |
 
 

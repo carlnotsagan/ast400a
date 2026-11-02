@@ -1,7 +1,7 @@
 # Products of Binary Evolution I
 -
 
-## November, 4, 2025
+## November, 3, 2026
 
 
 Slides are viewable [HTML](day_20.html).
