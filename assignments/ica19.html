@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>In-Class Assignment 19 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F26 &#34;001&#34;</title>
+    <title>ICA19 - X-ray Burst Timing of LMXRB 4U 1728-34 &#8212; Theoretical Astrophysics - ASTR &#34;400A&#34; F26 &#34;001&#34;</title>
   
   
   
@@ -291,7 +291,7 @@
 <li class="toctree-l2"><a class="reference internal" href="ica16.html">ICA16 - Estimating <span class="math notranslate nohighlight">\(H_0\)</span> from Type Ia Supernovae</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica17.html">ICA17 - Gravitational Waves from Compact Binary Systems</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ica18.html">ICA18 - Binary Star Systems and Phases of Mass Transfer</a></li>
-<li class="toctree-l2 current active"><a class="current reference internal" href="#">In-Class Assignment 19</a></li>
+<li class="toctree-l2 current active"><a class="current reference internal" href="#">ICA19 - X-ray Burst Timing of LMXRB <em>4U 1728-34</em></a></li>
 </ul>
 </details></li>
 <li class="toctree-l1 has-children"><a class="reference internal" href="hws.html">Homeworks</a><details><summary><span class="toctree-toggle" role="presentation"><i class="fa-solid fa-chevron-down"></i></span></summary><ul>
@@ -513,7 +513,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>In-Class Assignment 19</h1>
+    <h1>ICA19 - X-ray Burst Timing of LMXRB 4U 1728-34</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -523,7 +523,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-19">In-Class Assignment 19</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#x-ray-burst-timing">X-ray Burst Timing</a></li>
 </ul>
 </li>
@@ -548,15 +549,25 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="in-class-assignment-19">
-<h1>In-Class Assignment 19<a class="headerlink" href="#in-class-assignment-19" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="ica19-x-ray-burst-timing-of-lmxrb-4u-1728-34">
+<h1>ICA19 - X-ray Burst Timing of LMXRB <em>4U 1728-34</em><a class="headerlink" href="#ica19-x-ray-burst-timing-of-lmxrb-4u-1728-34" title="Permalink to this heading">#</a></h1>
+<p>Credit: <a class="reference external" href="https://zingale.github.io/">Mike Zingale</a>.</p>
+<hr class="docutils" />
+<p><em>Thursday, November 5, 2026</em></p>
+<p><em>How to use this notebook:</em></p>
+<p><strong>Locally</strong>: Hover over the download symbol then to the <code class="docutils literal notranslate"><span class="pre">ipynb</span></code> option then <strong>right-click</strong> to <em>Save Link As</em> to download the file. You can then open the notebook using <code class="docutils literal notranslate"><span class="pre">jupyter</span> <span class="pre">notebook</span> <span class="pre">ica18.ipynb</span></code> in your terminal.</p>
+<p><strong>Remote</strong>: You can open the notebook on Colab by hovering over the rocket symbol then select launch to colab. In doing so, any data needed for the plots can be click and dragged to the online workbook. By default, the file will go to <code class="docutils literal notranslate"><span class="pre">/content/</span></code> or <code class="docutils literal notranslate"><span class="pre">/content/sample_data</span></code></p>
+<hr class="docutils" />
+<section id="in-class-assignment-19">
+<h2>In-Class Assignment 19<a class="headerlink" href="#in-class-assignment-19" title="Permalink to this heading">#</a></h2>
 <section id="learning-objectives">
-<h2>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h2>
+<h3>Learning Objectives<a class="headerlink" href="#learning-objectives" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Methods to reduce and visualize XRB lightcurve data</p></li>
 <li><p>Application of FFT to astronomical data</p></li>
 <li><p>Deriving NS spin rates from XRB data</p></li>
 </ul>
+</section>
 <section id="x-ray-burst-timing">
 <h3>X-ray Burst Timing<a class="headerlink" href="#x-ray-burst-timing" title="Permalink to this heading">#</a></h3>
 <p>The <a class="reference external" href="https://en.wikipedia.org/wiki/Rossi_X-ray_Timing_Explorer">Rossi X-ray Timing Explorer</a> (RXTE) has very high time resolution and has been used to observe a large number of X-ray sources.  We’ll look at the data from the low-mass X-ray binary 4U 1728-34, this is an <a class="reference external" href="https://en.wikipedia.org/wiki/X-ray_burster">X-ray burst</a> system.</p>
@@ -864,7 +875,8 @@ This was identified as the rotation rate of the neutron star and the first signi
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a><ul class="nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#in-class-assignment-19">In-Class Assignment 19</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#learning-objectives">Learning Objectives</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#x-ray-burst-timing">X-ray Burst Timing</a></li>
 </ul>
 </li>
