@@ -1,10 +1,10 @@
-# Neutron Stars
+# Exoplanet Detection, Characterization, and Statistics
 -
 
-## November, 13, 2025
+## November, 10, 2026
 
 
-Slides are viewable [PDF](day_22.pdf).
+Slides are viewable [HTML](day_22.html).
 
 
 ```{note}
