@@ -83,15 +83,15 @@ All assignments are turned in using D2L as a PDF and/or Jupyter notebook.
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
 | 3 Nov  | [Products of Binary Evolution I](lectures/week11/day_20.html) |  [ICA 18](assignments/ica18.ipynb), Not for Credit               |
-| 5 Nov  | [Products of Binary Evolution II  + Neutron Stars](lectures/week11/day_21.html)  |  [ICA 19](assignments/ica19.ipynb), Not for Credit            |
+| 5 Nov  | [Products of Binary Evolution II  + Neutron Stars](lectures/week11/day_21.html)  |  [ICA 19](assignments/ica19.ipynb), EoD, Nov. 5, 2026           |
 
 
 ## Week 12
 
 | Day    | Topic                                                | Assignments                                                      |
 | ------ | ---------------------------------------------------- | ---------------------------------------------------------------- |
-| 10 Nov | Topic TBD                         |  [(Draft) Final Project](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html) Due to D2L and referees, **Nov. 9.**, 2026 End of day                    |
-| 12 Nov | Neutron Stars                                        |  [ICA 20] Not for Credit                                            |
+| 10 Nov | [Exoplanet Detection, Characterization, and Statistics](lectures/week12/day_22.html)                         |  [(Draft) Final Project](https://carlnotsagan.github.io/ast400a/assignments/project_report_grading_rubric.html) Due to D2L and referees, **Nov. 9.**, 2026 End of day  [ICA 20](assignments/ica20.ipynb), Not for Credit                   |
+| 12 Nov | HW3 Review                                        |  HW3 Corrections Due: Nov. 20, 2026                                           |
 
 ## Week 13
 
